@@ -297,49 +297,51 @@ a:hover { text-decoration: underline; }
 
 <script>
 const i18n = {
-  en: {
-    subtitle: 'AI Agent Roster',
-    searchPlaceholder: 'Search agents...',
-    resources: 'Resources',
-    agentsLabel: 'agents',
-    statAgents: 'AI Agents',
-    statDivisions: 'Divisions',
-    statCategories: 'Categories',
-    browseBy: 'Browse by Division',
-    hint: 'Select an agent from the sidebar or search above to view details.',
-    loading: 'Loading',
-    failedLoad: 'Failed to load agent',
-    readme: 'README',
-    contributing: 'CONTRIBUTING',
-    security: 'SECURITY',
-    license: 'LICENSE',
-    landingTitle: 'The Agency',
-    landingDesc: 'A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.',
-    prev: 'Previous',
-    next: 'Next'
-  },
-  ko: {
-    subtitle: 'AI 에이전트 명단',
-    searchPlaceholder: '에이전트 검색...',
-    resources: '리소스',
-    agentsLabel: '에이전트',
-    statAgents: 'AI 에이전트',
-    statDivisions: '부서',
-    statCategories: '카테고리',
-    browseBy: '부서별 탐색',
-    hint: '사이드바에서 에이전트를 선택하거나 검색하여 자세한 내용을 확인하세요.',
-    loading: '로딩 중',
-    failedLoad: '에이전트를 불러오지 못했습니다',
-    readme: 'README',
-    contributing: '기여 가이드',
-    security: '보안',
-    license: '라이선스',
-    landingTitle: '디 에이전시',
-    landingDesc: '완전한 AI 에이전시를 손끝에서 — 프론트엔드 마법사부터 Reddit 커뮤니티 닌자까지, 기발함을 주입하는 자부터 현실을 점검하는 자까지.',
-    prev: '이전',
-    next: '다음'
-  }
-};
+   en: {
+     subtitle: 'AI Agent Roster',
+     searchPlaceholder: 'Search agents...',
+     resources: 'Resources',
+     agentsLabel: 'agents',
+     statAgents: 'AI Agents',
+     statDivisions: 'Divisions',
+     statCategories: 'Categories',
+     browseBy: 'Browse by Division',
+     hint: 'Select an agent from the sidebar or search above to view details.',
+     loading: 'Loading',
+     failedLoad: 'Failed to load agent',
+     readme: 'README',
+     contributing: 'CONTRIBUTING',
+     security: 'SECURITY',
+     license: 'LICENSE',
+     landingTitle: 'The Agency',
+     landingDesc: 'A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.',
+     prev: 'Previous',
+     next: 'Next',
+     fallbackNotice: 'Showing English version (Korean translation not available)'
+   },
+   ko: {
+     subtitle: 'AI 에이전트 명단',
+     searchPlaceholder: '에이전트 검색...',
+     resources: '리소스',
+     agentsLabel: '에이전트',
+     statAgents: 'AI 에이전트',
+     statDivisions: '부서',
+     statCategories: '카테고리',
+     browseBy: '부서별 탐색',
+     hint: '사이드바에서 에이전트를 선택하거나 검색하여 자세한 내용을 확인하세요.',
+     loading: '로딩 중',
+     failedLoad: '에이전트를 불러오지 못했습니다',
+     readme: 'README',
+     contributing: '기여 가이드',
+     security: '보안',
+     license: '라이선스',
+     landingTitle: '디 에이전시',
+     landingDesc: '완전한 AI 에이전시를 손끝에서 — 프론트엔드 마법사부터 Reddit 커뮤니티 닌자까지, 기발함을 주입하는 자부터 현실을 점검하는 자까지.',
+     prev: '이전',
+     next: '다음',
+     fallbackNotice: '한국어 번역이 없어 영어로 표시됩니다'
+   }
+ };
 
 let lang = 'en';
 let agents = [];
@@ -521,18 +523,25 @@ async function selectAgent(slug) {
 
   const mdPath = agent.path.replace(/\.md$/, fileExt[lang]);
   let mdContent = '';
+  let isFallback = false;
   try {
     const res = await fetch(mdPath);
     if (!res.ok) throw new Error('Not found');
-    const md = await res.text();
+    const buffer = await res.arrayBuffer();
+    const decoder = new TextDecoder('utf-8');
+    const md = decoder.decode(buffer);
     if (md.trimStart().startsWith('<')) throw new Error('Not found');
     mdContent = md;
   } catch (e) {
+    // Fallback to English
     try {
       const enPath = agent.path;
       const res = await fetch(enPath);
       if (!res.ok) throw new Error('Not found');
-      mdContent = await res.text();
+      const buffer = await res.arrayBuffer();
+      const decoder = new TextDecoder('utf-8');
+      mdContent = decoder.decode(buffer);
+      isFallback = true;
     } catch (e2) {
       content.innerHTML = `<div class="error">${t('failedLoad')}: ${mdPath}</div>`;
       return;
@@ -544,6 +553,12 @@ async function selectAgent(slug) {
   document.title = `${agent.name} - The Agency`;
   addAgentNavButtons();
   
+  // Show fallback indicator if we're showing English in Korean mode
+  if (isFallback && lang === 'ko') {
+    const fallbackNotice = `<div class="fallback-notice">${t('fallbackNotice')}</div>`;
+    content.insertAdjacentHTML('afterbegin', fallbackNotice);
+  }
+
   if (scrollCache[slug]) {
     document.getElementById('sidebar').scrollTop = scrollCache[slug].sidebar;
     document.getElementById('content').scrollTop = scrollCache[slug].content;
@@ -591,8 +606,10 @@ function loadRootFile(path) {
 
   fetch(path).then(r => {
     if (!r.ok) throw new Error('Not found');
-    return r.text();
-  }).then(md => {
+    return r.arrayBuffer();
+  }).then(buffer => {
+    const decoder = new TextDecoder('utf-8');
+    const md = decoder.decode(buffer);
     if (md.trimStart().startsWith('<')) throw new Error('Not found');
     content.innerHTML = marked.parse(md);
     document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
