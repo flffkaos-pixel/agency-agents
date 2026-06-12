@@ -259,6 +259,10 @@ a:hover { text-decoration: underline; }
 .error { color: var(--accent-red); text-align: center; padding: 60px 0; }
 
 .mobile-toggle { display: none; background: none; border: 1px solid var(--border-color); color: var(--text-secondary); padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 18px; }
+.agent-nav { display: flex; justify-content: space-between; padding: 16px 0; border-bottom: 1px solid var(--border-color); margin-bottom: 24px; }
+.agent-nav button { background: var(--bg-tertiary); border: 1px solid var(--border-color); color: var(--text-secondary); padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; transition: all 0.15s; }
+.agent-nav button:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+.agent-nav-bottom { border-bottom: none; border-top: 1px solid var(--border-color); margin-top: 24px; margin-bottom: 0; }
 @media (max-width: 768px) {
   .mobile-toggle { display: block; }
   .sidebar { position: fixed; top: var(--header-height); left: 0; bottom: 0; z-index: 100; transform: translateX(-100%); transition: transform 0.3s ease; width: 300px; }
@@ -310,7 +314,9 @@ const i18n = {
     security: 'SECURITY',
     license: 'LICENSE',
     landingTitle: 'The Agency',
-    landingDesc: 'A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.'
+    landingDesc: 'A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.',
+    prev: 'Previous',
+    next: 'Next'
   },
   ko: {
     subtitle: 'AI 에이전트 명단',
@@ -329,7 +335,9 @@ const i18n = {
     security: '보안',
     license: '라이선스',
     landingTitle: '디 에이전시',
-    landingDesc: '완전한 AI 에이전시를 손끝에서 — 프론트엔드 마법사부터 Reddit 커뮤니티 닌자까지, 기발함을 주입하는 자부터 현실을 점검하는 자까지.'
+    landingDesc: '완전한 AI 에이전시를 손끝에서 — 프론트엔드 마법사부터 Reddit 커뮤니티 닌자까지, 기발함을 주입하는 자부터 현실을 점검하는 자까지.',
+    prev: '이전',
+    next: '다음'
   }
 };
 
@@ -337,6 +345,7 @@ let lang = 'en';
 let agents = [];
 let divisions = [];
 let currentSlug = null;
+const scrollCache = {};
 
 function t(key) { return i18n[lang][key] || key; }
 
@@ -488,44 +497,90 @@ function scrollToDivision(divId) {
 }
 
 async function selectAgent(slug) {
+  // Save scroll position for the currently viewed agent
+  if (currentSlug) {
+    scrollCache[currentSlug] = {
+      sidebar: document.getElementById('sidebar').scrollTop,
+      content: document.getElementById('content').scrollTop
+    };
+  }
+  
   currentSlug = slug;
   const content = document.getElementById('content');
   content.innerHTML = `<div class="loading">${t('loading')}</div>`;
 
   document.querySelectorAll('.agent-item').forEach(el => el.classList.remove('active'));
   const el = document.querySelector(`[data-slug="${slug}"]`);
-  if (el) el.classList.add('active');
+  if (el) {
+    el.classList.add('active');
+    el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
 
   const agent = agents.find(a => a.slug === slug);
   if (!agent) { content.innerHTML = `<div class="error">${t('failedLoad')}</div>`; return; }
 
   const mdPath = agent.path.replace(/\.md$/, fileExt[lang]);
+  let mdContent = '';
   try {
     const res = await fetch(mdPath);
     if (!res.ok) throw new Error('Not found');
     const md = await res.text();
     if (md.trimStart().startsWith('<')) throw new Error('Not found');
-    content.innerHTML = marked.parse(md);
-    document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
-    document.title = `${agent.name} - The Agency`;
+    mdContent = md;
   } catch (e) {
-    // Fallback to English
     try {
       const enPath = agent.path;
       const res = await fetch(enPath);
       if (!res.ok) throw new Error('Not found');
-      const md = await res.text();
-      content.innerHTML = marked.parse(md);
-      document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
+      mdContent = await res.text();
     } catch (e2) {
       content.innerHTML = `<div class="error">${t('failedLoad')}: ${mdPath}</div>`;
+      return;
     }
+  }
+
+  content.innerHTML = marked.parse(mdContent);
+  document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
+  document.title = `${agent.name} - The Agency`;
+  addAgentNavButtons();
+  
+  if (scrollCache[slug]) {
+    document.getElementById('sidebar').scrollTop = scrollCache[slug].sidebar;
+    document.getElementById('content').scrollTop = scrollCache[slug].content;
   }
 
   if (window.innerWidth <= 768) {
     document.getElementById('sidebar').classList.remove('open');
     document.getElementById('sidebarOverlay').classList.remove('show');
   }
+}
+
+function addAgentNavButtons() {
+  if (agents.length === 0) return;
+  const content = document.getElementById('content');
+  const navHTML = `<div class="agent-nav">
+    <button onclick="navigateToPrevAgent()">← ${t('prev')}</button>
+    <button onclick="navigateToNextAgent()">${t('next')} →</button>
+  </div>`;
+  content.insertAdjacentHTML('afterbegin', navHTML);
+  content.insertAdjacentHTML('beforeend', `<div class="agent-nav agent-nav-bottom">
+    <button onclick="navigateToPrevAgent()">← ${t('prev')}</button>
+    <button onclick="navigateToNextAgent()">${t('next')} →</button>
+  </div>`);
+}
+
+function navigateToNextAgent() {
+  if (!currentSlug || agents.length === 0) return;
+  const currentIndex = agents.findIndex(a => a.slug === currentSlug);
+  if (currentIndex < 0 || currentIndex >= agents.length - 1) return;
+  selectAgent(agents[currentIndex + 1].slug);
+}
+
+function navigateToPrevAgent() {
+  if (!currentSlug || agents.length === 0) return;
+  const currentIndex = agents.findIndex(a => a.slug === currentSlug);
+  if (currentIndex <= 0) return;
+  selectAgent(agents[currentIndex - 1].slug);
 }
 
 function loadRootFile(path) {
@@ -595,6 +650,17 @@ document.addEventListener('keydown', e => {
   if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
     e.preventDefault();
     document.getElementById('searchInput').focus();
+    return;
+  }
+  // Only handle J/K navigation when not typing in an input
+  const tag = e.target.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || e.target.isContentEditable) return;
+  if (e.key === 'j' || e.key === 'J') {
+    e.preventDefault();
+    navigateToNextAgent();
+  } else if (e.key === 'k' || e.key === 'K') {
+    e.preventDefault();
+    navigateToPrevAgent();
   }
 });
 
