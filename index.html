@@ -448,12 +448,12 @@ function renderSidebar() {
   let html = '';
 
   html += `<div class="sidebar-section">
-    <div class="sidebar-header" onclick="toggleDivision(this)">
+    <div class="sidebar-header collapsed" onclick="toggleDivision(this)">
       <span>📋</span>
       <span>Resources</span>
       <span class="arrow">▼</span>
     </div>
-    <div class="sidebar-items">
+    <div class="sidebar-items hidden">
       <div class="agent-item" onclick='loadRootFile("README.md")'>
         <span class="emoji">📖</span><span class="name">README</span>
       </div>
@@ -472,13 +472,13 @@ function renderSidebar() {
   divisions.forEach(d => {
     const divAgents = grouped[d.id] || [];
     html += `<div class="sidebar-section">
-      <div class="sidebar-header" data-div="${d.id}" onclick="toggleDivision(this)">
+      <div class="sidebar-header collapsed" data-div="${d.id}" onclick="toggleDivision(this)">
         <span>${d.emoji || getDivEmoji(d.id)}</span>
         <span>${d.name}</span>
         <span class="count">${d.count}</span>
         <span class="arrow">▼</span>
       </div>
-      <div class="sidebar-items" id="items-${d.id}">`;
+      <div class="sidebar-items hidden" id="items-${d.id}">`;
     divAgents.forEach(a => {
       html += `<div class="agent-item" data-slug="${a.slug}" onclick="selectAgent('${a.slug}', '${a.path}')">
         <span class="emoji">${a.emoji}</span>
