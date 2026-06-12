@@ -342,6 +342,9 @@ function t(key) { return i18n[lang][key] || key; }
 
 async function switchLang(newLang) {
   const prevSlug = currentSlug;
+  const openDivs = Array.from(document.querySelectorAll('.sidebar-header:not(.collapsed)'))
+    .map(el => el.dataset.div)
+    .filter(Boolean);
   lang = newLang;
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
   localStorage.setItem('agency-lang', lang);
@@ -349,6 +352,13 @@ async function switchLang(newLang) {
   document.getElementById('headerSubtitle').textContent = t('subtitle');
   document.getElementById('searchInput').placeholder = t('searchPlaceholder');
   await loadData();
+  openDivs.forEach(divId => {
+    const el = document.querySelector(`[data-div="${divId}"]`);
+    if (el) {
+      el.classList.remove('collapsed');
+      el.nextElementSibling.classList.remove('hidden');
+    }
+  });
   if (prevSlug) selectAgent(prevSlug);
   document.getElementById('searchInput').dispatchEvent(new Event('input'));
 }
