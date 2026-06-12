@@ -447,7 +447,6 @@ function renderSidebar() {
 
   let html = '';
 
-  // Resources section
   html += `<div class="sidebar-section">
     <div class="sidebar-header" onclick="toggleDivision(this)">
       <span>📋</span>
@@ -455,16 +454,16 @@ function renderSidebar() {
       <span class="arrow">▼</span>
     </div>
     <div class="sidebar-items">
-      <div class="agent-item" onclick='loadRootFile("README.md", "📖")'>
+      <div class="agent-item" onclick='loadRootFile("README.md")'>
         <span class="emoji">📖</span><span class="name">README</span>
       </div>
-      <div class="agent-item" onclick='loadRootFile("CONTRIBUTING.md", "🤝")'>
+      <div class="agent-item" onclick='loadRootFile("CONTRIBUTING.md")'>
         <span class="emoji">🤝</span><span class="name">CONTRIBUTING</span>
       </div>
-      <div class="agent-item" onclick='loadRootFile("SECURITY.md", "🔐")'>
+      <div class="agent-item" onclick='loadRootFile("SECURITY.md")'>
         <span class="emoji">🔐</span><span class="name">SECURITY</span>
       </div>
-      <div class="agent-item" onclick='loadRootFile("LICENSE", "⚖️")'>
+      <div class="agent-item" onclick='loadRootFile("LICENSE")'>
         <span class="emoji">⚖️</span><span class="name">LICENSE</span>
       </div>
     </div>
@@ -472,10 +471,9 @@ function renderSidebar() {
 
   divisions.forEach(d => {
     const divAgents = grouped[d.id] || [];
-    const divEmoji = getDivEmoji(d.id);
     html += `<div class="sidebar-section">
       <div class="sidebar-header" data-div="${d.id}" onclick="toggleDivision(this)">
-        <span>${divEmoji}</span>
+        <span>${d.emoji || getDivEmoji(d.id)}</span>
         <span>${d.name}</span>
         <span class="count">${d.count}</span>
         <span class="arrow">▼</span>
@@ -525,14 +523,10 @@ function expandAllDivisions() {
 function renderLanding() {
   const content = document.getElementById('content');
   currentSlug = null;
-  const divEmojis = ['engineering','design','paid-media','sales','marketing','product','project-management','testing','security','support','spatial-computing','specialized','academic','finance','game-development','gis'];
-  const divEmojiMap = {};
-  divEmojis.forEach(d => { divEmojiMap[d] = getDivEmoji(d); });
-
   let tiles = '';
   divisions.forEach(d => {
     tiles += `<div class="division-tile" onclick="scrollToDivision('${d.id}')">
-      <span class="emoji">${divEmojiMap[d.id] || '📁'}</span>
+      <span class="emoji">${d.emoji || getDivEmoji(d.id) || '📁'}</span>
       <span class="dname">${d.name}</span>
       <span class="dcount">${d.count} agents</span>
     </div>`;
@@ -594,7 +588,7 @@ async function selectAgent(slug, path) {
   }
 }
 
-function loadRootFile(path, emoji) {
+function loadRootFile(path) {
   const content = document.getElementById('content');
   content.innerHTML = '<div class="loading">Loading...</div>';
   currentSlug = null;
