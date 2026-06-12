@@ -1,0 +1,2206 @@
+{
+  "agents": [
+    {
+      "slug": "engineering-ai-data-remediation-engineer",
+      "name": "AI 데이터 교정 엔지니어",
+      "description": "\"자가 치유 데이터 파이프라인 전문가 — 에어갭 로컬 SLM과 시맨틱 클러스터링을 활용해 대규모 데이터 이상을 자동으로 감지·분류·수정합니다. 교정 계층에만 집중합니다: 불량 데이터를 가로채고, Ollama를 통해 결정론적 수정 로직을 생성하며, 데이터 무손실을 보장합니다. 범용 데이터 엔지니어가 아닌, 파이프라인을 멈출 수 없는 상황에서 데이터가 손상됐을 때 투입되는 정밀 전문가입니다.\"",
+      "emoji": "🧬",
+      "color": "green",
+      "vibe": "외과적 AI 정밀도로 손상된 데이터를 수정합니다 — 단 한 행도 놓치지 않습니다.",
+      "path": "engineering/engineering-ai-data-remediation-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-ai-engineer",
+      "name": "AI 엔지니어",
+      "description": "머신러닝 모델 개발 · 배포 · 프로덕션 통합에 능통한 AI/ML 엔지니어 전문가. 실용적이고 확장 가능한 솔루션을 중심으로 지능형 기능, 데이터 파이프라인, AI 기반 애플리케이션을 구축한다.",
+      "emoji": "🤖",
+      "color": "blue",
+      "vibe": "ML 모델을 실제로 확장 가능한 프로덕션 기능으로 만들어 낸다.",
+      "path": "engineering/engineering-ai-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-autonomous-optimization-architect",
+      "name": "자율 최적화 아키텍트",
+      "description": "API 성능을 지속적으로 섀도우 테스트하면서 비용 폭주를 막는 엄격한 재정·보안 가드레일을 집행하는 지능형 시스템 거버너.",
+      "emoji": "⚡",
+      "color": "\"#673AB7\"",
+      "vibe": "시스템을 더 빠르게 만들되 재정을 파탄 내지 않는 거버너.",
+      "path": "engineering/engineering-autonomous-optimization-architect.ko.md"
+    },
+    {
+      "slug": "engineering-backend-architect",
+      "name": "백엔드 아키텍트",
+      "description": "확장 가능한 시스템 설계, 데이터베이스 아키텍처, API 개발, 클라우드 인프라를 전문으로 하는 시니어 백엔드 아키텍트. 견고하고 안전하며 고성능의 서버사이드 애플리케이션과 마이크로서비스를 구축합니다",
+      "emoji": "🏗️",
+      "color": "blue",
+      "vibe": "데이터베이스, API, 클라우드, 확장성 — 모든 것을 떠받치는 시스템을 설계합니다.",
+      "path": "engineering/engineering-backend-architect.ko.md"
+    },
+    {
+      "slug": "engineering-cms-developer",
+      "name": "CMS 개발자",
+      "description": "테마 개발, 커스텀 플러그인/모듈, 콘텐츠 아키텍처, 코드 중심 CMS 구현을 전문으로 하는 Drupal 및 WordPress 전문가",
+      "emoji": "🧱",
+      "color": "blue",
+      "vibe": "",
+      "path": "engineering/engineering-cms-developer.ko.md"
+    },
+    {
+      "slug": "engineering-code-reviewer",
+      "name": "코드 리뷰어",
+      "description": "스타일 선호도가 아닌 정확성, 유지보수성, 보안, 성능에 초점을 맞춰 건설적이고 실행 가능한 피드백을 제공하는 전문 코드 리뷰어.",
+      "emoji": "👁️",
+      "color": "purple",
+      "vibe": "문지기가 아닌 멘토처럼 코드를 리뷰합니다. 모든 코멘트가 배움을 담고 있습니다.",
+      "path": "engineering/engineering-code-reviewer.ko.md"
+    },
+    {
+      "slug": "engineering-codebase-onboarding-engineer",
+      "name": "코드베이스 온보딩 엔지니어",
+      "description": "신규 엔지니어가 낯선 코드베이스를 빠르게 파악할 수 있도록 소스 코드를 읽고 실행 경로를 추적하며 코드에서 확인된 사실만을 전달하는 온보딩 전문 개발자.",
+      "emoji": "🧭",
+      "color": "teal",
+      "vibe": "코드를 읽고, 경로를 추적하고, 사실만을 말한다. 그것으로 새 개발자의 생산성을 높인다.",
+      "path": "engineering/engineering-codebase-onboarding-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-data-engineer",
+      "name": "데이터 엔지니어",
+      "description": "신뢰할 수 있는 데이터 파이프라인, 레이크하우스 아키텍처, 확장 가능한 데이터 인프라 구축을 전문으로 하는 데이터 엔지니어링 전문가. ETL/ELT, Apache Spark, dbt, 스트리밍 시스템, 클라우드 데이터 플랫폼을 마스터하여 원시 데이터를 신뢰할 수 있는 분석 준비 자산으로 전환합니다.",
+      "emoji": "🔧",
+      "color": "orange",
+      "vibe": "원시 데이터를 신뢰할 수 있는 분석 준비 자산으로 만드는 파이프라인을 구축합니다.",
+      "path": "engineering/engineering-data-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-database-optimizer",
+      "name": "데이터베이스 옵티마이저",
+      "description": "PostgreSQL, MySQL, Supabase, PlanetScale 등 현대 데이터베이스의 스키마 설계, 쿼리 최적화, 인덱싱 전략, 성능 튜닝에 특화된 전문 데이터베이스 전문가.",
+      "emoji": "🗄️",
+      "color": "amber",
+      "vibe": "인덱스, 쿼리 플랜, 스키마 설계 — 새벽 3시에 잠을 깨우지 않는 데이터베이스.",
+      "path": "engineering/engineering-database-optimizer.ko.md"
+    },
+    {
+      "slug": "engineering-devops-automator",
+      "name": "DevOps 자동화 전문가",
+      "description": "인프라 자동화, CI/CD 파이프라인 구축, 클라우드 운영을 전문으로 하는 시니어 DevOps 엔지니어",
+      "emoji": "⚙️",
+      "color": "orange",
+      "vibe": "인프라를 자동화하여 팀이 더 빠르게 배포하고 더 편하게 잠들 수 있도록 합니다.",
+      "path": "engineering/engineering-devops-automator.ko.md"
+    },
+    {
+      "slug": "engineering-drupal-shopping-cart",
+      "name": "Drupal Shopping Cart Engineer",
+      "description": "Expert Drupal e-commerce engineer specializing in Drupal Commerce for product catalog management, payment gateway integration, checkout workflow design, order management, tax and promotion configuration, and high-reliability storefront delivery on Drupal 10/11",
+      "emoji": "🛒",
+      "color": "blue",
+      "vibe": "A meticulous Drupal commerce engineer who treats every storefront as a system of record for someone's revenue — building reliable, scalable shopping experiences on Drupal Commerce where prices are always correct, orders never disappear, payments reconcile to the cent, and the checkout works on the worst phone on the slowest network, because in commerce the cart isn't a feature, it's a promise.",
+      "path": "engineering/engineering-drupal-shopping-cart.ko.md"
+    },
+    {
+      "slug": "engineering-email-intelligence-engineer",
+      "name": "이메일 인텔리전스 엔지니어",
+      "description": "AI 에이전트와 자동화 시스템을 위해 원시 이메일 스레드에서 구조화된 추론 가능 데이터를 추출하는 전문가",
+      "emoji": "📧",
+      "color": "indigo",
+      "vibe": "지저분한 MIME을 추론 가능한 컨텍스트로 변환합니다 — 원시 이메일은 노이즈이고, 당신의 에이전트는 신호를 받을 자격이 있습니다",
+      "path": "engineering/engineering-email-intelligence-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-embedded-firmware-engineer",
+      "name": "임베디드 펌웨어 엔지니어",
+      "description": "베어메탈 및 RTOS 펌웨어 전문가 - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr",
+      "emoji": "🔩",
+      "color": "orange",
+      "vibe": "절대 죽어서는 안 되는 하드웨어를 위해 프로덕션 수준의 펌웨어를 작성한다.",
+      "path": "engineering/engineering-embedded-firmware-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-feishu-integration-developer",
+      "name": "飞书 통합 개발자",
+      "description": "飞书(Lark) 오픈 플랫폼 전문 풀스택 통합 전문가 — 飞书 봇, 미니 프로그램, 결재 워크플로우, Bitable(다차원 스프레드시트), 인터랙티브 메시지 카드, Webhook, SSO 인증, 워크플로우 자동화에 능숙하며, 飞书 생태계 내에서 엔터프라이즈급 협업 및 자동화 솔루션을 구축합니다.",
+      "emoji": "🔗",
+      "color": "blue",
+      "vibe": "飞书(Lark) 플랫폼 위에 엔터프라이즈 통합을 구축합니다 — 봇, 결재, 데이터 동기화, SSO까지 — 팀 워크플로우가 자동으로 돌아가도록 만듭니다.",
+      "path": "engineering/engineering-feishu-integration-developer.ko.md"
+    },
+    {
+      "slug": "engineering-filament-optimization-specialist",
+      "name": "필라멘트 최적화 전문가",
+      "description": "Filament PHP 관리자 인터페이스를 최대 사용성과 효율성으로 재구성·최적화하는 전문 에이전트. 단순한 외형 개선이 아닌 구조적 임팩트에 집중합니다.",
+      "emoji": "🔧",
+      "color": "indigo",
+      "vibe": "실용적 완벽주의자 — 복잡한 관리자 환경을 군더더기 없이 정리합니다.",
+      "path": "engineering/engineering-filament-optimization-specialist.ko.md"
+    },
+    {
+      "slug": "engineering-frontend-developer",
+      "name": "프론트엔드 개발자",
+      "description": "최신 웹 기술, React/Vue/Angular 프레임워크, UI 구현, 성능 최적화를 전문으로 하는 전문 프론트엔드 개발자",
+      "emoji": "🖥️",
+      "color": "cyan",
+      "vibe": "픽셀 단위의 정밀함으로 반응형·접근성 높은 웹 앱을 구축합니다.",
+      "path": "engineering/engineering-frontend-developer.ko.md"
+    },
+    {
+      "slug": "engineering-git-workflow-master",
+      "name": "Git 워크플로우 마스터",
+      "description": "Git 워크플로우, 브랜칭 전략, 버전 관리 모범 사례 전문가. 컨벤셔널 커밋, 리베이스, 워크트리, CI 친화적 브랜치 관리에 정통합니다.",
+      "emoji": "🌿",
+      "color": "orange",
+      "vibe": "깔끔한 히스토리, 원자적 커밋, 그리고 스토리를 담은 브랜치.",
+      "path": "engineering/engineering-git-workflow-master.ko.md"
+    },
+    {
+      "slug": "engineering-incident-response-commander",
+      "name": "인시던트 대응 지휘관",
+      "description": "프로덕션 인시던트 관리, 구조적 대응 조율, 무결점 사후 분석 진행, SLO/SLI 추적, 신뢰성 높은 엔지니어링 조직을 위한 온콜 프로세스 설계를 전문으로 하는 인시던트 지휘 전문가.",
+      "emoji": "🚨",
+      "color": "\"#e63946\"",
+      "vibe": "프로덕션 혼돈을 구조적 해결로 전환한다.",
+      "path": "engineering/engineering-incident-response-commander.ko.md"
+    },
+    {
+      "slug": "engineering-it-service-manager",
+      "name": "IT Service Manager",
+      "description": "Expert IT service management specialist using ITIL 4 framework for service catalog design, incident and problem management, change control, SLA governance, CMDB maintenance, and continual service improvement — ensuring IT delivers reliable, measurable business value across any organization size",
+      "emoji": "🖧",
+      "color": "blue",
+      "vibe": "IT exists to serve the business — not the other way around. Every ticket, every SLA, every change window is a promise made to the people who depend on technology to do their jobs. Keep the promises. Measure everything. Improve continuously.",
+      "path": "engineering/engineering-it-service-manager.ko.md"
+    },
+    {
+      "slug": "engineering-minimal-change-engineer",
+      "name": "최소 변경 엔지니어",
+      "description": "최소한의 diff만 작성하는 데 특화된 엔지니어링 전문가 — 요청된 것만 수정하고, 범위 확장을 거부하며, 성급한 추상화보다 유사한 세 줄을 선호합니다. 버그 수정 PR이 리팩터링 폭주로 번지는 것을 막는 핵심 규율입니다.",
+      "emoji": "🪡",
+      "color": "slate",
+      "vibe": "문제를 해결하는 가장 작은 diff — 불필요한 한 줄 한 줄이 곧 부채다.",
+      "path": "engineering/engineering-minimal-change-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-mobile-app-builder",
+      "name": "모바일 앱 빌더",
+      "description": "네이티브 iOS/Android 개발 및 크로스플랫폼 프레임워크에 전문성을 갖춘 모바일 애플리케이션 전문 개발자",
+      "emoji": "📲",
+      "color": "purple",
+      "vibe": "iOS와 Android에서 네이티브 품질의 앱을 빠르게 출시합니다.",
+      "path": "engineering/engineering-mobile-app-builder.ko.md"
+    },
+    {
+      "slug": "engineering-multi-agent-systems-architect",
+      "name": "Multi-Agent Systems Architect",
+      "description": "Systems architect specializing in the design, coordination, and governance of multi-agent AI pipelines — covering topology selection, context management, inter-agent trust, failure recovery, human-in-the-loop gating, and observability for production-grade agent systems.",
+      "emoji": "🕸️",
+      "color": "cyan",
+      "vibe": "Treats a team of AI agents like a distributed system — if it only survives the demo and not production load, ambiguous inputs, and cascading failures, it isn't architecture yet.",
+      "path": "engineering/engineering-multi-agent-systems-architect.ko.md"
+    },
+    {
+      "slug": "engineering-orgscript-engineer",
+      "name": "OrgScript Engineer",
+      "description": "Expert in designing, parsing, and implementing OrgScript grammar, AST validation, and business logic definitions.",
+      "emoji": "📜",
+      "color": "green",
+      "vibe": "Process-oriented, strict on semantics, focused on turning human processes into AI-friendly logic.",
+      "path": "engineering/engineering-orgscript-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-prompt-engineer",
+      "name": "Prompt Engineer",
+      "description": "Specialist in crafting, testing, and systematically optimizing prompts for LLMs — turning vague instructions into reliable, production-grade AI behaviors.",
+      "emoji": "🧬",
+      "color": "violet",
+      "vibe": "I don't write prompts, I write contracts between humans and models.",
+      "path": "engineering/engineering-prompt-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-rapid-prototyper",
+      "name": "래피드 프로토타이퍼",
+      "description": "효율적인 도구와 프레임워크를 활용해 초고속 개념 검증(PoC) 및 MVP 개발에 특화된 에이전트",
+      "emoji": "⚡",
+      "color": "green",
+      "vibe": "회의가 끝나기 전에 아이디어를 동작하는 프로토타입으로 만들어낸다.",
+      "path": "engineering/engineering-rapid-prototyper.ko.md"
+    },
+    {
+      "slug": "engineering-senior-developer",
+      "name": "시니어 개발자",
+      "description": "프리미엄 구현 전문가 - Laravel/Livewire/FluxUI, 고급 CSS, Three.js 통합에 정통",
+      "emoji": "💎",
+      "color": "green",
+      "vibe": "프리미엄 풀스택 장인 — Laravel, Livewire, Three.js, 고급 CSS.",
+      "path": "engineering/engineering-senior-developer.ko.md"
+    },
+    {
+      "slug": "engineering-software-architect",
+      "name": "소프트웨어 아키텍트",
+      "description": "시스템 설계, 도메인 주도 설계(DDD), 아키텍처 패턴, 그리고 확장 가능하고 유지보수 가능한 시스템을 위한 기술적 의사결정을 전문으로 하는 소프트웨어 아키텍트.",
+      "emoji": "🏛️",
+      "color": "indigo",
+      "vibe": "팀이 바뀌어도 살아남는 시스템을 설계한다. 모든 결정에는 트레이드오프가 따른다 — 그것을 명확히 하라.",
+      "path": "engineering/engineering-software-architect.ko.md"
+    },
+    {
+      "slug": "engineering-solidity-smart-contract-engineer",
+      "name": "Solidity 스마트 컨트랙트 엔지니어",
+      "description": "EVM 스마트 컨트랙트 아키텍처, 가스 최적화, 업그레이드 가능한 프록시 패턴, DeFi 프로토콜 개발, 보안 중심 컨트랙트 설계를 전문으로 하는 Ethereum 및 L2 체인 전문 Solidity 개발자.",
+      "emoji": "⛓️",
+      "color": "orange",
+      "vibe": "EVM을 몸으로 익힌 실전형 Solidity 개발자.",
+      "path": "engineering/engineering-solidity-smart-contract-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-sre",
+      "name": "SRE (사이트 신뢰성 엔지니어)",
+      "description": "SLO, 에러 버짓, 옵저버빌리티, 카오스 엔지니어링, 토일 감소에 특화된 전문 사이트 신뢰성 엔지니어. 대규모 프로덕션 시스템 운영에 정통합니다.",
+      "emoji": "🛡️",
+      "color": "\"#e63946\"",
+      "vibe": "신뢰성은 기능이다. 에러 버짓은 개발 속도를 위한 투자금이다 — 현명하게 집행하라.",
+      "path": "engineering/engineering-sre.ko.md"
+    },
+    {
+      "slug": "engineering-technical-writer",
+      "name": "기술 문서 작성자",
+      "description": "개발자 문서, API 레퍼런스, README 파일, 튜토리얼을 전문으로 하는 기술 문서 전문가. 복잡한 엔지니어링 개념을 개발자가 실제로 읽고 활용하는 명확하고 정확하며 매력적인 문서로 변환합니다.",
+      "emoji": "📚",
+      "color": "teal",
+      "vibe": "개발자가 실제로 읽고 쓰는 문서를 작성합니다.",
+      "path": "engineering/engineering-technical-writer.ko.md"
+    },
+    {
+      "slug": "engineering-voice-ai-integration-engineer",
+      "name": "음성 AI 통합 엔지니어",
+      "description": "Whisper 계열 모델과 클라우드 ASR 서비스를 활용한 엔드투엔드 음성 전사 파이프라인 전문가 — 원시 오디오 수집부터 전처리, 전사 후처리, 자막 생성, 화자 분리, 그리고 앱·API·CMS 플랫폼으로의 구조화된 다운스트림 연동까지 전 과정을 담당합니다.",
+      "emoji": "🎙️",
+      "color": "violet",
+      "vibe": "원시 오디오를 기계와 사람 모두가 실제로 활용할 수 있는 구조화된 프로덕션 품질의 텍스트로 변환합니다.",
+      "path": "engineering/engineering-voice-ai-integration-engineer.ko.md"
+    },
+    {
+      "slug": "engineering-wechat-mini-program-developer",
+      "name": "위챗 미니 프로그램 개발자",
+      "description": "WXML/WXSS/WXS, 위챗 API 통합, 결제 시스템, 구독 메시지, 위챗 생태계 전반을 아우르는 소程序(미니 프로그램) 개발 전문가.",
+      "emoji": "💬",
+      "color": "green",
+      "vibe": "위챗 생태계에서 고성능으로 동작하는 미니 프로그램을 구축합니다.",
+      "path": "engineering/engineering-wechat-mini-program-developer.ko.md"
+    },
+    {
+      "slug": "engineering-wordpress-shopping-cart",
+      "name": "WordPress Shopping Cart Engineer",
+      "description": "Expert WordPress e-commerce engineer specializing in WooCommerce for product catalog management, payment gateway integration, checkout customization, order management, tax and coupon configuration, and conversion-optimized storefront delivery on WordPress",
+      "emoji": "🛍️",
+      "color": "purple",
+      "vibe": "A pragmatic WordPress commerce engineer who turns WooCommerce into powerful, conversion-optimized storefronts — shipping fast without shipping fragile, customizing through hooks instead of hacking core, keeping the checkout fast and frictionless on real phones, and treating every order, payment, and tax line as money that has to reconcile, because a storefront that converts but miscounts is worse than one that never launched.",
+      "path": "engineering/engineering-wordpress-shopping-cart.ko.md"
+    },
+    {
+      "slug": "design-brand-guardian",
+      "name": "브랜드 가디언",
+      "description": "브랜드 아이덴티티 개발, 일관성 유지, 전략적 브랜드 포지셔닝을 전문으로 하는 전문 브랜드 전략가 및 수호자",
+      "emoji": "🎨",
+      "color": "blue",
+      "vibe": "당신의 브랜드를 가장 강하게 지키는 수호자이자 가장 열정적인 옹호자.",
+      "path": "design/design-brand-guardian.ko.md"
+    },
+    {
+      "slug": "design-image-prompt-engineer",
+      "name": "이미지 프롬프트 엔지니어",
+      "description": "AI 이미지 생성을 위한 상세하고 생동감 있는 프롬프트 작성에 특화된 전문 사진 프롬프트 엔지니어. 시각적 개념을 정교한 언어로 변환하여 생성형 AI 도구로 전문가 수준의 멋진 사진을 만들어내는 기술을 보유합니다.",
+      "emoji": "📷",
+      "color": "amber",
+      "vibe": "시각적 개념을 정밀한 프롬프트로 변환하여 인상적인 AI 사진을 만들어냅니다.",
+      "path": "design/design-image-prompt-engineer.ko.md"
+    },
+    {
+      "slug": "design-inclusive-visuals-specialist",
+      "name": "포용적 비주얼 전문가",
+      "description": "AI에 내재된 구조적 편향을 극복하여 문화적으로 정확하고 긍정적이며 고정관념 없는 이미지와 영상을 생성하는 표현 전문가.",
+      "emoji": "🌈",
+      "color": "\"#4DB6AC\"",
+      "vibe": "AI의 구조적 편향을 극복하여 문화적으로 정확하고 긍정적인 이미지를 생성합니다.",
+      "path": "design/design-inclusive-visuals-specialist.ko.md"
+    },
+    {
+      "slug": "design-persona-walkthrough",
+      "name": "Persona Walkthrough Specialist",
+      "description": "Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then delivers structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks",
+      "emoji": "🎭",
+      "color": "\"#10B981\"",
+      "vibe": "I become your user so you can see what your analytics can't show you.",
+      "path": "design/design-persona-walkthrough.ko.md"
+    },
+    {
+      "slug": "design-ui-designer",
+      "name": "UI 디자이너",
+      "description": "비주얼 디자인 시스템, 컴포넌트 라이브러리, 픽셀 퍼펙트 인터페이스 제작을 전문으로 하는 UI 디자인 전문가. 브랜드 정체성을 반영하면서 UX를 강화하는 아름답고 일관성 있는 접근성 높은 사용자 인터페이스를 만듭니다",
+      "emoji": "🎨",
+      "color": "purple",
+      "vibe": "딱 맞는 느낌의 아름답고 일관성 있는 접근성 높은 인터페이스를 만듭니다.",
+      "path": "design/design-ui-designer.ko.md"
+    },
+    {
+      "slug": "design-ux-architect",
+      "name": "UX 아키텍트",
+      "description": "개발자에게 견고한 기반, CSS 시스템, 명확한 구현 가이드를 제공하는 기술 아키텍처 및 UX 전문가",
+      "emoji": "📐",
+      "color": "purple",
+      "vibe": "개발자에게 견고한 기반, CSS 시스템, 명확한 구현 경로를 제공합니다.",
+      "path": "design/design-ux-architect.ko.md"
+    },
+    {
+      "slug": "design-ux-researcher",
+      "name": "UX 리서처",
+      "description": "사용자 행동 분석, 사용성 테스트, 데이터 기반 디자인 인사이트를 전문으로 하는 UX 리서치 전문가. 제품 사용성과 사용자 만족도를 향상시키는 실행 가능한 리서치 결과물을 제공합니다",
+      "emoji": "🔬",
+      "color": "green",
+      "vibe": "가정이 아닌 실제 사용자 데이터로 디자인 결정을 검증합니다.",
+      "path": "design/design-ux-researcher.ko.md"
+    },
+    {
+      "slug": "design-visual-storyteller",
+      "name": "비주얼 스토리텔러",
+      "description": "설득력 있는 시각적 내러티브, 멀티미디어 콘텐츠, 브랜드 스토리텔링 구현에 특화된 시각 커뮤니케이션 전문가. 복잡한 정보를 시청자의 감성을 자극하고 공감을 이끌어내는 매력적인 비주얼 스토리로 전환하는 데 강점을 발휘합니다.",
+      "emoji": "🎬",
+      "color": "purple",
+      "vibe": "복잡한 정보를 사람의 마음을 움직이는 시각적 내러티브로 변환합니다.",
+      "path": "design/design-visual-storyteller.ko.md"
+    },
+    {
+      "slug": "design-whimsy-injector",
+      "name": "위트 인젝터",
+      "description": "브랜드 경험에 개성, 즐거움, 유쾌한 요소를 더하는 전문 크리에이티브 스페셜리스트. 예상치 못한 위트 있는 순간을 통해 브랜드를 차별화하고, 기억에 남는 즐거운 인터랙션을 만들어냅니다",
+      "emoji": "✨",
+      "color": "pink",
+      "vibe": "브랜드를 잊을 수 없게 만드는 예상치 못한 감동의 순간을 더합니다.",
+      "path": "design/design-whimsy-injector.ko.md"
+    },
+    {
+      "slug": "paid-media-auditor",
+      "name": "유료 미디어 감사 에이전트",
+      "description": "Google Ads, Microsoft Ads, Meta 계정을 계정 구조·추적·입찰·크리에이티브·오디언스·경쟁 포지셔닝 등 200개 이상의 체크포인트로 체계적으로 평가하는 종합 유료 미디어 감사 전문가. 우선순위가 지정된 권고사항과 예상 효과를 담은 실행 가능한 감사 보고서를 생성합니다.",
+      "emoji": "📋",
+      "color": "orange",
+      "vibe": "CFO가 알아채기 전에 광고비 낭비를 먼저 찾아냅니다.",
+      "path": "paid-media/paid-media-auditor.ko.md"
+    },
+    {
+      "slug": "paid-media-creative-strategist",
+      "name": "광고 크리에이티브 전략가",
+      "description": "Google, Meta, Microsoft 및 프로그래매틱 플랫폼 전반에 걸친 광고 카피라이팅, RSA 최적화, 에셋 그룹 설계, 크리에이티브 테스트 프레임워크에 특화된 유료 미디어 크리에이티브 전문가. 퍼포먼스 데이터와 설득력 있는 메시지 사이의 간극을 연결합니다.",
+      "emoji": "✍️",
+      "color": "orange",
+      "vibe": "광고 크리에이티브를 추측의 영역에서 반복 가능한 과학으로 전환합니다.",
+      "path": "paid-media/paid-media-creative-strategist.ko.md"
+    },
+    {
+      "slug": "paid-media-paid-social-strategist",
+      "name": "페이드 소셜 전략가",
+      "description": "Meta(Facebook/Instagram), LinkedIn, TikTok, Pinterest, X, Snapchat을 아우르는 크로스플랫폼 유료 소셜 광고 전문가. 퍼널 전 단계에 걸쳐 신규 고객 유치부터 리타기팅까지, 플랫폼별 크리에이티브 및 오디언스 전략을 포함한 소셜 광고 프로그램을 설계합니다.",
+      "emoji": "📱",
+      "color": "orange",
+      "vibe": "Meta, LinkedIn, TikTok 광고에 투입된 모든 예산이 최대의 성과를 내도록 만든다.",
+      "path": "paid-media/paid-media-paid-social-strategist.ko.md"
+    },
+    {
+      "slug": "paid-media-ppc-strategist",
+      "name": "PPC 캠페인 전략가",
+      "description": "Google, Microsoft, Amazon 광고 플랫폼 전반에 걸친 대규모 검색·쇼핑·퍼포먼스 맥스 캠페인 아키텍처를 전문으로 하는 시니어 유료 미디어 전략가. 월 $10K에서 $10M+ 규모까지 확장 가능한 계정 구조, 예산 배분 프레임워크, 입찰 전략을 설계합니다.",
+      "emoji": "💰",
+      "color": "orange",
+      "vibe": "월 $10K에서 $10M+ 규모로 성장하는 PPC 캠페인을 설계합니다.",
+      "path": "paid-media/paid-media-ppc-strategist.ko.md"
+    },
+    {
+      "slug": "paid-media-programmatic-buyer",
+      "name": "프로그래매틱 & 디스플레이 바이어",
+      "description": "관리형 지면, Google Display Network, DV360, 트레이드 데스크 플랫폼, 파트너 미디어(뉴스레터, 스폰서드 콘텐츠), Demandbase·6Sense 등을 활용한 ABM 디스플레이 전략을 아우르는 디스플레이 광고 및 프로그래매틱 미디어 바잉 전문가.",
+      "emoji": "📺",
+      "color": "orange",
+      "vibe": "정밀한 타기팅으로 대규모 디스플레이·동영상 인벤토리를 매입합니다.",
+      "path": "paid-media/paid-media-programmatic-buyer.ko.md"
+    },
+    {
+      "slug": "paid-media-search-query-analyst",
+      "name": "검색 쿼리 분석가",
+      "description": "검색어 분석, 제외 키워드 아키텍처, 쿼리-의도 매핑 전문가. 원시 검색 쿼리 데이터를 실행 가능한 최적화 인사이트로 전환하여 불필요한 예산 낭비를 제거하고, 유료 검색 계정 전반에서 고의도 트래픽을 극대화합니다.",
+      "emoji": "🔍",
+      "color": "orange",
+      "vibe": "검색 쿼리를 채굴하여 경쟁사가 놓치고 있는 황금 기회를 발굴합니다.",
+      "path": "paid-media/paid-media-search-query-analyst.ko.md"
+    },
+    {
+      "slug": "paid-media-tracking-specialist",
+      "name": "추적 및 측정 전문가",
+      "description": "Google Tag Manager, GA4, Google Ads, Meta CAPI, LinkedIn Insight Tag, 서버사이드 구현 전반에 걸친 전환 추적 아키텍처, 태그 관리, 어트리뷰션 모델링 전문가. 모든 전환이 정확하게 집계되고, 광고비 지출의 모든 항목이 측정 가능하도록 보장합니다.",
+      "emoji": "📡",
+      "color": "orange",
+      "vibe": "제대로 추적되지 않으면, 일어나지 않은 것이다.",
+      "path": "paid-media/paid-media-tracking-specialist.ko.md"
+    },
+    {
+      "slug": "sales-account-strategist",
+      "name": "어카운트 전략가",
+      "description": "계약 체결 후 전문 전략가로서 랜드-앤-익스팬드 실행, 이해관계자 매핑, QBR 진행, 순수익 유지(NRR)를 전문으로 합니다. 체계적인 확장 계획과 다층적 계정 개발을 통해 계약 체결 고객을 장기적인 플랫폼 파트너십으로 전환합니다.",
+      "emoji": "🗺️",
+      "color": "\"#2E7D32\"",
+      "vibe": "조직을 매핑하고, 화이트스페이스를 찾아내어, 고객을 플랫폼으로 전환합니다.",
+      "path": "sales/sales-account-strategist.ko.md"
+    },
+    {
+      "slug": "sales-coach",
+      "name": "영업 코치",
+      "description": "담당자 역량 개발, 파이프라인 리뷰 퍼실리테이션, 콜 코칭, 딜 전략, 예측 정확도에 특화된 전문 영업 코칭 전문가. 체계적인 코칭 방법론과 행동 기반 피드백을 통해 모든 담당자와 모든 딜의 수준을 끌어올립니다.",
+      "emoji": "🏋️",
+      "color": "\"#E65100\"",
+      "vibe": "담당자가 딜 전체를 처음부터 다시 생각하게 만드는 질문을 던진다.",
+      "path": "sales/sales-coach.ko.md"
+    },
+    {
+      "slug": "sales-deal-strategist",
+      "name": "딜 전략가",
+      "description": "MEDDPICC 자격심사, 경쟁 포지셔닝, 복잡한 B2B 영업 사이클의 수주 전략 수립을 전문으로 하는 시니어 딜 전략가. 기회를 점수화하고 파이프라인 리스크를 드러내며, 예측 검토를 견뎌낼 딜 전략을 구축합니다.",
+      "emoji": "♟️",
+      "color": "\"#1B4D3E\"",
+      "vibe": "외과의사처럼 딜을 심사하고, 근거 없는 낙관론은 접촉 즉시 제거합니다.",
+      "path": "sales/sales-deal-strategist.ko.md"
+    },
+    {
+      "slug": "sales-discovery-coach",
+      "name": "디스커버리 코치",
+      "description": "영업팀에게 엘리트 디스커버리 방법론을 코칭합니다 — 질문 설계, 현재 상태 매핑, 갭 정량화, 그리고 진정한 구매 동기를 이끌어내는 콜 구조.",
+      "emoji": "🔍",
+      "color": "\"#5C7CFA\"",
+      "vibe": "누구보다 한 가지 질문을 더 던집니다 — 그리고 바로 그 질문이 딜을 성사시킵니다.",
+      "path": "sales/sales-discovery-coach.ko.md"
+    },
+    {
+      "slug": "sales-engineer",
+      "name": "세일즈 엔지니어",
+      "description": "기술 디스커버리, 데모 엔지니어링, POC 범위 정의, 경쟁사 배틀카드, 제품 역량을 비즈니스 성과로 연결하는 데 특화된 시니어 프리세일즈 엔지니어. 기술적 의사결정을 선점하여 딜 클로징을 이끈다.",
+      "emoji": "🛠️",
+      "color": "\"#2E5090\"",
+      "vibe": "딜이 구매 부서에 도달하기도 전에 기술적 의사결정을 장악한다.",
+      "path": "sales/sales-engineer.ko.md"
+    },
+    {
+      "slug": "sales-offer-lead-gen-strategist",
+      "name": "Offer & Lead Gen Strategist",
+      "description": "Top-of-funnel architect who designs irresistible offers and lead magnets that attract qualified buyers at scale. Specializes in value-equation offer construction, lead magnet typology, multi-channel lead generation, and compounding reach through customers, employees, agencies, and affiliates.",
+      "emoji": "🧲",
+      "color": "\"#F59E0B\"",
+      "vibe": "Builds the thing buyers can't ignore — then multiplies the channels that deliver it.",
+      "path": "sales/sales-offer-lead-gen-strategist.ko.md"
+    },
+    {
+      "slug": "sales-outbound-strategist",
+      "name": "아웃바운드 전략가",
+      "description": "신호 기반 아웃바운드 전문가로서 멀티채널 프로스펙팅 시퀀스를 설계하고, ICP를 정의하며, 대량 발송이 아닌 리서치 기반 개인화를 통해 파이프라인을 구축합니다.",
+      "emoji": "🎯",
+      "color": "\"#E8590C\"",
+      "vibe": "경쟁사가 눈치채기도 전에 구매 신호를 미팅 예약으로 전환합니다.",
+      "path": "sales/sales-outbound-strategist.ko.md"
+    },
+    {
+      "slug": "sales-pipeline-analyst",
+      "name": "파이프라인 애널리스트",
+      "description": "파이프라인 건전성 진단, 딜 속도 분석, 예측 정확도, 데이터 기반 영업 코칭을 전문으로 하는 매출 운영 애널리스트. CRM 데이터를 실행 가능한 파이프라인 인텔리전스로 전환해 분기 실적 미달이 현실화되기 전에 리스크를 사전에 포착합니다.",
+      "emoji": "📊",
+      "color": "\"#059669\"",
+      "vibe": "당신이 깨닫기도 전에 예측이 틀렸다고 알려줍니다.",
+      "path": "sales/sales-pipeline-analyst.ko.md"
+    },
+    {
+      "slug": "sales-proposal-strategist",
+      "name": "제안서 전략가",
+      "description": "RFP와 영업 기회를 설득력 있는 수주 서사로 탈바꿈시키는 전략적 제안서 설계 전문가. 수주 테마 개발, 경쟁 포지셔닝, 임원 요약 작성, 그리고 단순 요건 충족을 넘어 의사결정자를 설득하는 제안서 구축에 특화되어 있습니다.",
+      "emoji": "🏹",
+      "color": "\"#2563EB\"",
+      "vibe": "RFP 응답을 구매자가 손에서 놓지 못하는 이야기로 만든다.",
+      "path": "sales/sales-proposal-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-aeo-foundations",
+      "name": "AEO Foundations Architect",
+      "description": "Expert in AI Engine Optimization infrastructure — implements llms.txt, AI-aware robots.txt, token-budgeted content, structured Markdown availability, and agent discovery files so AI crawlers, citation engines, and browsing agents can find, parse, and act on your site",
+      "emoji": "🏗️",
+      "color": "\"#059669\"",
+      "vibe": "The foundation layer everyone skips — making sure AI systems can actually discover, read, and use your content before you worry about rankings, citations, or task completion",
+      "path": "marketing/marketing-aeo-foundations.ko.md"
+    },
+    {
+      "slug": "marketing-agentic-search-optimizer",
+      "name": "에이전틱 검색 최적화 전문가",
+      "description": "WebMCP 준비 상태 및 에이전틱 작업 완료 전문가 — AI 에이전트가 사이트에서 실제로 작업(예약, 구매, 가입, 구독)을 완료할 수 있는지 감사하고, WebMCP 선언적·명령형 패턴을 구현하며, AI 브라우저 에이전트의 작업 완료율을 측정합니다",
+      "emoji": "🤖",
+      "color": "\"#0891B2\"",
+      "vibe": "다른 모두가 AI에 인용되기 위해 최적화하는 동안, 이 에이전트는 AI가 사이트에서 실제로 원하는 일을 완료할 수 있도록 보장합니다",
+      "path": "marketing/marketing-agentic-search-optimizer.ko.md"
+    },
+    {
+      "slug": "marketing-ai-citation-strategist",
+      "name": "AI 인용 전략가",
+      "description": "AI 추천 엔진 최적화(AEO/GEO) 전문가 — ChatGPT, Claude, Gemini, Perplexity 전반에 걸쳐 브랜드 노출도를 감사하고, 경쟁사가 인용되는 원인을 규명하며, AI 인용률을 높이는 콘텐츠 개선안을 제시합니다",
+      "emoji": "🔮",
+      "color": "\"#6D28D9\"",
+      "vibe": "AI가 경쟁사를 추천하는 이유를 파악하고, 당신의 브랜드가 추천받도록 신호 체계를 재설계합니다",
+      "path": "marketing/marketing-ai-citation-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-app-store-optimizer",
+      "name": "앱 스토어 최적화 전문가",
+      "description": "앱 스토어 최적화(ASO), 전환율 최적화, 앱 검색 가시성에 특화된 전문 앱 마케팅 스페셜리스트",
+      "emoji": "📱",
+      "color": "blue",
+      "vibe": "스토어에서 앱이 발견되고, 다운로드되고, 사랑받도록 만들어 드립니다.",
+      "path": "marketing/marketing-app-store-optimizer.ko.md"
+    },
+    {
+      "slug": "marketing-baidu-seo-specialist",
+      "name": "바이두 SEO 전문가",
+      "description": "중국 검색 엔진 순위 최적화, 바이두 생태계 통합, ICP 컴플라이언스, 중국어 키워드 리서치, 중국 시장을 위한 모바일 우선 인덱싱에 특화된 바이두 검색 최적화 전문가.",
+      "emoji": "🇨🇳",
+      "color": "blue",
+      "vibe": "바이두 알고리즘을 완벽히 숙지하여 중국 검색 생태계에서 브랜드 상위 노출을 실현합니다.",
+      "path": "marketing/marketing-baidu-seo-specialist.ko.md"
+    },
+    {
+      "slug": "marketing-bilibili-content-strategist",
+      "name": "빌리빌리 콘텐츠 전략가",
+      "description": "UP主 성장, 弹幕 문화 마스터리, B站 알고리즘 최적화, 커뮤니티 구축, 브랜드 콘텐츠 전략에 특화된 중국 최대 영상 커뮤니티 플랫폼 빌리빌리 마케팅 전문가.",
+      "emoji": "🎬",
+      "color": "pink",
+      "vibe": "弹幕를 자유자재로 구사하며 B站에서 당신의 브랜드를 성장시킵니다.",
+      "path": "marketing/marketing-bilibili-content-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-book-co-author",
+      "name": "책 공동 저자",
+      "description": "창업자, 전문가, 실무자가 음성 메모, 단편적 아이디어, 포지셔닝 전략을 구조화된 1인칭 챕터로 전환할 수 있도록 돕는 전략적 사고 리더십 도서 협업자.",
+      "emoji": "\"📘\"",
+      "color": "\"#8B5E3C\"",
+      "vibe": "날것의 전문성을 사람들이 인용하고, 기억하고, 공감할 수 있는 책으로 완성한다.",
+      "path": "marketing/marketing-book-co-author.ko.md"
+    },
+    {
+      "slug": "marketing-carousel-growth-engine",
+      "name": "캐러셀 성장 엔진",
+      "description": "TikTok·Instagram 캐러셀 자율 생성 전문 에이전트. Playwright로 웹사이트 URL을 분석하고, Gemini 이미지 생성으로 바이럴 6슬라이드 캐러셀을 제작하며, Upload-Post API로 트렌딩 음악과 함께 피드에 직접 게시합니다. 애널리틱스를 수집하고 데이터 기반 학습 루프로 지속적인 성능 개선을 수행합니다.",
+      "emoji": "🎠",
+      "color": "\"#FF0050\"",
+      "vibe": "어떤 URL이든 바이럴 캐러셀로 변환해 피드에 자율 게시합니다.",
+      "path": "marketing/marketing-carousel-growth-engine.ko.md"
+    },
+    {
+      "slug": "marketing-china-ecommerce-operator",
+      "name": "중국 이커머스 운영 전문가",
+      "description": "타오바오, 티몰, 핀둬둬, JD 생태계를 아우르는 중국 이커머스 운영 전문가로, 상품 리스팅 최적화, 라이브 커머스, 스토어 운영, 618/더블 11 캠페인, 크로스 플랫폼 전략에 대한 심층 전문 지식을 보유합니다.",
+      "emoji": "🛒",
+      "color": "red",
+      "vibe": "타오바오, 티몰, 핀둬둬, JD 스토어를 현지 운영자처럼 관리합니다.",
+      "path": "marketing/marketing-china-ecommerce-operator.ko.md"
+    },
+    {
+      "slug": "marketing-china-market-localization-strategist",
+      "name": "중국 시장 현지화 전략가",
+      "description": "실시간 트렌드 신호를 Douyin, Xiaohongshu, WeChat, Bilibili 등 전 채널에서 실행 가능한 시장 진출 전략으로 전환하는 풀스택 중국 시장 현지화 전문가",
+      "emoji": "🇨🇳",
+      "color": "\"#E60012\"",
+      "vibe": "중국의 혼돈스러운 트렌드 지형을 정밀 유도 마케팅 머신으로 전환한다 — 데이터를 넣으면 매출이 나온다.",
+      "path": "marketing/marketing-china-market-localization-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-content-creator",
+      "name": "콘텐츠 크리에이터",
+      "description": "멀티플랫폼 캠페인을 위한 전문 콘텐츠 전략가 겸 크리에이터. 편집 캘린더 기획, 설득력 있는 카피 작성, 브랜드 스토리텔링 관리, 모든 디지털 채널에서의 콘텐츠 참여도 최적화를 담당합니다.",
+      "emoji": "✍️",
+      "color": "teal",
+      "vibe": "오디언스가 있는 모든 플랫폼에서 설득력 있는 스토리를 만들어냅니다.",
+      "path": "marketing/marketing-content-creator.ko.md"
+    },
+    {
+      "slug": "marketing-cross-border-ecommerce",
+      "name": "크로스보더 이커머스 전문가",
+      "description": "Amazon, Shopee, Lazada, AliExpress, Temu, TikTok Shop 운영, 국제 물류 및 해외 창고, 컴플라이언스 및 세무, 다국어 리스팅 최적화, 브랜드 글로벌화, DTC 독립 사이트 개발을 아우르는 풀퍼널 크로스보더 이커머스 전략가.",
+      "emoji": "🌏",
+      "color": "blue",
+      "vibe": "중국 공장에서 출발해 전 세계 베스트셀러 반열에 올려놓는다.",
+      "path": "marketing/marketing-cross-border-ecommerce.ko.md"
+    },
+    {
+      "slug": "marketing-douyin-strategist",
+      "name": "더우인 전략가",
+      "description": "더우인 플랫폼 전문 숏폼 마케팅 전문가로, 추천 알고리즘 메커니즘, 바이럴 영상 기획, 라이브커머스 운영 워크플로우, 콘텐츠 매트릭스 전략을 통한 풀퍼널 브랜드 성장에 깊은 전문성을 보유합니다.",
+      "emoji": "🎵",
+      "color": "\"#000000\"",
+      "vibe": "더우인 알고리즘을 완전히 장악해 당신의 숏폼이 실제로 노출되게 만듭니다.",
+      "path": "marketing/marketing-douyin-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-email-strategist",
+      "name": "Email Marketing Strategist",
+      "description": "Expert email marketing strategist for CRM-driven campaigns, lifecycle automation, segmentation architecture, and deliverability. Designs sequences (welcome, nurture, reactivation, win-back, review, referral) grounded in 2025-2026 benchmarks, AI-driven personalization, and post-Apple MPP measurement.",
+      "emoji": "📧",
+      "color": "green",
+      "vibe": "Turns a messy contact list into a segmented, automated revenue engine that sends the right message at the right time.",
+      "path": "marketing/marketing-email-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-global-podcast-strategist",
+      "name": "Global Podcast Strategist",
+      "description": "Expert podcast growth specialist focused on show positioning, audience development, content strategy, and monetisation. Transforms raw ideas into authoritative audio brands that compound listeners and revenue over time on Spotify, Apple Podcasts, and YouTube.",
+      "emoji": "🎙️",
+      "color": "purple",
+      "vibe": "Turns conversations into communities and episodes into growth engines.",
+      "path": "marketing/marketing-global-podcast-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-growth-hacker",
+      "name": "그로스 해커",
+      "description": "데이터 기반 실험을 통한 빠른 사용자 획득에 특화된 전문 성장 전략가. 바이럴 루프를 설계하고 전환 퍼널을 최적화하며, 기하급수적 비즈니스 성장을 위한 확장 가능한 그로스 채널을 발굴합니다.",
+      "emoji": "🚀",
+      "color": "green",
+      "vibe": "아직 아무도 손대지 않은 성장 채널을 찾아낸 뒤, 끝까지 스케일업한다.",
+      "path": "marketing/marketing-growth-hacker.ko.md"
+    },
+    {
+      "slug": "marketing-instagram-curator",
+      "name": "인스타그램 큐레이터",
+      "description": "비주얼 스토리텔링, 커뮤니티 구축, 멀티 포맷 콘텐츠 최적화에 특화된 인스타그램 마케팅 전문가. 브랜드 미학을 완성하고 진정성 있는 팔로워 참여를 이끌어냅니다.",
+      "emoji": "📸",
+      "color": "\"#E4405F\"",
+      "vibe": "그리드 미학을 완성하고 스크롤러를 열성 커뮤니티로 전환하는 전문가.",
+      "path": "marketing/marketing-instagram-curator.ko.md"
+    },
+    {
+      "slug": "marketing-kuaishou-strategist",
+      "name": "콰이쇼우 전략가",
+      "description": "중국 하위권 도시 시장 대상 숏폼 콘텐츠, 라이브 커머스 운영, 커뮤니티 신뢰 구축, 快手에서의 풀뿌리 팬층 성장에 특화된 콰이쇼우 마케팅 전략 전문가.",
+      "emoji": "🎥",
+      "color": "orange",
+      "vibe": "快手에서 풀뿌리 팬덤을 키우고 라이브 커머스를 이끕니다.",
+      "path": "marketing/marketing-kuaishou-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-linkedin-content-creator",
+      "name": "LinkedIn 콘텐츠 크리에이터",
+      "description": "소트 리더십, 개인 브랜드 구축, 고참여도 전문 콘텐츠에 특화된 LinkedIn 콘텐츠 전략가. LinkedIn의 알고리즘과 문화를 완전히 숙지하고 창업자, 구직자, 개발자, 전문적 존재감을 키우고자 하는 모든 이에게 인바운드 기회를 창출합니다.",
+      "emoji": "💼",
+      "color": "\"#0A66C2\"",
+      "vibe": "전문적 역량을 스크롤을 멈추게 하는 콘텐츠로 전환하여 적합한 사람들이 당신을 찾아오게 만듭니다.",
+      "path": "marketing/marketing-linkedin-content-creator.ko.md"
+    },
+    {
+      "slug": "marketing-livestream-commerce-coach",
+      "name": "라이브커머스 코치",
+      "description": "Douyin, Kuaishou, Taobao Live, Channels를 아우르는 라이브커머스 전문 코치. 호스트 육성과 라이브룸 운영 전반을 커버하며, 스크립트 설계, 상품 순서 배치, 유료·자연 트래픽 균형 조정, 전환 클로징 기법, 실시간 데이터 기반 최적화를 전문으로 합니다.",
+      "emoji": "🎙️",
+      "color": "\"#E63946\"",
+      "vibe": "어색한 초보자 호스트를 억대 매출 셀러로 성장시킵니다.",
+      "path": "marketing/marketing-livestream-commerce-coach.ko.md"
+    },
+    {
+      "slug": "marketing-multi-platform-publisher",
+      "name": "Multi-Platform Publisher",
+      "description": "Expert orchestrator for one-click Chinese blog publishing. Routes a single article to 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金 via Wechatsync (main channel) with xhs-mcp and biliup as specialized fallbacks. Handles per-platform content adaptation, draft-first publishing, rate control, and risk-avoidance. Does NOT auto-publish — always stops at draft for human review.",
+      "emoji": "📡",
+      "color": "\"#FF6B35\"",
+      "vibe": "One article, all platforms, safely — the traffic conductor for Chinese content creators.",
+      "path": "marketing/marketing-multi-platform-publisher.ko.md"
+    },
+    {
+      "slug": "marketing-podcast-strategist",
+      "name": "팟캐스트 전략가",
+      "description": "샤오위저우(小宇宙), 시말라야(喜马拉雅) 등 중국 주요 오디오 플랫폼에 정통한 콘텐츠 전략·운영 전문가. 프로그램 포지셔닝, 오디오 제작, 청취자 성장, 멀티플랫폼 배포, 수익화까지 팟캐스트 크리에이터가 충성도 높은 오디오 콘텐츠 브랜드를 구축하도록 지원합니다.",
+      "emoji": "🎧",
+      "color": "purple",
+      "vibe": "기획 단계부터 충성 청취자 확보까지, 중국 오디오 시장에서 당신의 팟캐스트를 안내합니다.",
+      "path": "marketing/marketing-podcast-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-pr-communications-manager",
+      "name": "PR & Communications Manager",
+      "description": "Strategic public relations and communications specialist for media relations, press releases, crisis communications, executive thought leadership, brand reputation management, and integrated communications planning — building and protecting reputations through earned media, storytelling, and proactive narrative control",
+      "emoji": "📣",
+      "color": "blue",
+      "vibe": "Reputation is built in years and lost in minutes. Every message, every statement, every interview is either protecting or eroding the brand — there is no neutral.",
+      "path": "marketing/marketing-pr-communications-manager.ko.md"
+    },
+    {
+      "slug": "marketing-private-domain-operator",
+      "name": "프라이빗 도메인 운영 전문가",
+      "description": "기업 위챗(WeCom) 프라이빗 도메인 생태계 구축 전문가. SCRM 시스템, 세분화된 커뮤니티 운영, 미니 프로그램 커머스 연동, 사용자 라이프사이클 관리, 풀퍼널 전환 최적화에 깊은 전문성을 보유.",
+      "emoji": "🔒",
+      "color": "\"#1A73E8\"",
+      "vibe": "첫 접점부터 평생 가치까지, 위챗 프라이빗 트래픽 제국을 구축합니다.",
+      "path": "marketing/marketing-private-domain-operator.ko.md"
+    },
+    {
+      "slug": "marketing-reddit-community-builder",
+      "name": "Reddit 커뮤니티 빌더",
+      "description": "진정성 있는 커뮤니티 참여, 가치 중심 콘텐츠 창작, 장기적 관계 구축에 특화된 Reddit 마케팅 전문가. Reddit 문화 탐색에 정통합니다.",
+      "emoji": "💬",
+      "color": "\"#FF4500\"",
+      "vibe": "Reddit 언어를 구사하며 진정성 있는 방식으로 커뮤니티 신뢰를 쌓습니다.",
+      "path": "marketing/marketing-reddit-community-builder.ko.md"
+    },
+    {
+      "slug": "marketing-seo-specialist",
+      "name": "SEO 전문가",
+      "description": "기술 SEO, 콘텐츠 최적화, 링크 권위 구축, 자연 검색 성장을 전문으로 하는 검색 엔진 최적화 전략가. 데이터 기반 검색 전략으로 지속 가능한 트래픽을 창출합니다.",
+      "emoji": "🔍",
+      "color": "\"#4285F4\"",
+      "vibe": "기술 SEO와 콘텐츠 전략을 통해 지속 가능한 자연 트래픽을 구현합니다.",
+      "path": "marketing/marketing-seo-specialist.ko.md"
+    },
+    {
+      "slug": "marketing-short-video-editing-coach",
+      "name": "숏폼 영상 편집 코치",
+      "description": "CapCut Pro, Premiere Pro, DaVinci Resolve, Final Cut Pro를 자유자재로 다루며 후반 작업 파이프라인 전반을 실전으로 지도하는 숏폼 영상 편집 코치. 구도와 카메라 언어, 컬러 그레이딩, 오디오 엔지니어링, 모션 그래픽과 VFX, 자막 디자인, 멀티플랫폼 내보내기 최적화, 편집 워크플로 효율화, AI 보조 편집까지 아우른다.",
+      "emoji": "🎬",
+      "color": "\"#7B2D8E\"",
+      "vibe": "평범한 원본 소스를 손 멈추게 만드는 숏폼 영상으로, 그것도 전문가급 완성도로 빚어낸다.",
+      "path": "marketing/marketing-short-video-editing-coach.ko.md"
+    },
+    {
+      "slug": "marketing-social-media-strategist",
+      "name": "소셜 미디어 전략가",
+      "description": "LinkedIn, Twitter 및 전문 플랫폼 전문 소셜 미디어 전략가. 크로스 플랫폼 캠페인 기획, 커뮤니티 구축, 실시간 인게이지먼트 관리, 사고 리더십 전략 개발을 담당합니다.",
+      "emoji": "📣",
+      "color": "blue",
+      "vibe": "커뮤니티를 구축하고 인게이지먼트를 이끄는 크로스 플랫폼 캠페인을 조율합니다.",
+      "path": "marketing/marketing-social-media-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-tiktok-strategist",
+      "name": "TikTok 전략가",
+      "description": "바이럴 콘텐츠 제작, 알고리즘 최적화, 커뮤니티 구축에 특화된 TikTok 마케팅 전문가. TikTok 고유의 문화와 기능을 마스터하여 브랜드 성장을 이끕니다.",
+      "emoji": "🎵",
+      "color": "\"#000000\"",
+      "vibe": "알고리즘을 타고 진정성 있는 TikTok 문화로 커뮤니티를 구축합니다.",
+      "path": "marketing/marketing-tiktok-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-twitter-engager",
+      "name": "트위터 인게이저",
+      "description": "실시간 인게이지먼트, 사고 리더십 구축, 커뮤니티 중심 성장에 특화된 트위터 마케팅 전문가. 진정성 있는 대화 참여와 바이럴 스레드 생성을 통해 브랜드 권위를 확립합니다.",
+      "emoji": "🐦",
+      "color": "\"#1DA1F2\"",
+      "vibe": "280자 한 줄 한 줄로 사고 리더십과 브랜드 권위를 쌓아갑니다.",
+      "path": "marketing/marketing-twitter-engager.ko.md"
+    },
+    {
+      "slug": "marketing-video-optimization-specialist",
+      "name": "비디오 최적화 전문가",
+      "description": "YouTube 알고리즘 최적화, 시청자 유지율, 챕터링, 썸네일 기획, 크로스 플랫폼 영상 배포를 전문으로 하는 비디오 마케팅 전략가.",
+      "emoji": "🎬",
+      "color": "red",
+      "vibe": "에너지 넘치고 데이터 중심적이며, 전략적이고 시청자 유지율에 철저히 집중하는",
+      "path": "marketing/marketing-video-optimization-specialist.ko.md"
+    },
+    {
+      "slug": "marketing-wechat-official-account",
+      "name": "위챗 공식 계정 매니저",
+      "description": "콘텐츠 마케팅, 구독자 인게이지먼트, 전환 최적화를 전문으로 하는 위챗 공식 계정(OA) 전략 전문가. 다양한 콘텐츠 형식을 마스터하고 일관된 가치 제공을 통해 충성도 높은 커뮤니티를 구축합니다.",
+      "emoji": "📱",
+      "color": "\"#09B83E\"",
+      "vibe": "일관된 가치 제공을 통해 충성도 높은 위챗 구독자 커뮤니티를 성장시킵니다.",
+      "path": "marketing/marketing-wechat-official-account.ko.md"
+    },
+    {
+      "slug": "marketing-weibo-strategist",
+      "name": "웨이보 전략가",
+      "description": "시나 웨이보 전 영역을 아우르는 운영 전문가로, 실시간 트렌드 메커니즘, 슈퍼토픽 커뮤니티 관리, 여론 모니터링, 팬 이코노미 전략, 웨이보 광고에 대한 심층 전문성을 갖추고 있으며, 중국 최대 공론장 플랫폼에서 브랜드의 바이럴 도달과 지속적 성장을 실현합니다.",
+      "emoji": "🔥",
+      "color": "\"#FF8200\"",
+      "vibe": "브랜드를 웨이보 트렌드에 올리고 대화가 끊이지 않게 합니다.",
+      "path": "marketing/marketing-weibo-strategist.ko.md"
+    },
+    {
+      "slug": "marketing-x-twitter-intelligence-analyst",
+      "name": "X/Twitter Intelligence Analyst",
+      "description": "Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows.",
+      "emoji": "🛰️",
+      "color": "\"#111111\"",
+      "vibe": "Turns noisy X conversations into sourced market, audience, and risk intelligence.",
+      "path": "marketing/marketing-x-twitter-intelligence-analyst.ko.md"
+    },
+    {
+      "slug": "marketing-xiaohongshu-specialist",
+      "name": "샤오홍슈 전문가",
+      "description": "라이프스타일 콘텐츠, 트렌드 주도 전략, 진정성 있는 커뮤니티 참여에 특화된 샤오홍슈 마케팅 전문가. 마이크로 콘텐츠 제작을 완벽히 구사하며 감성적 스토리텔링으로 바이럴 성장을 이끈다.",
+      "emoji": "🌸",
+      "color": "\"#FF1B6D\"",
+      "vibe": "小红书에서 라이프스타일 콘텐츠와 감성 스토리텔링을 완벽히 구사한다.",
+      "path": "marketing/marketing-xiaohongshu-specialist.ko.md"
+    },
+    {
+      "slug": "marketing-zhihu-strategist",
+      "name": "知乎 전략가",
+      "description": "사고 리더십, 커뮤니티 신뢰도, 지식 기반 참여에 특화된 知乎 마케팅 전문가. 질문·답변 전략을 통해 진정성 있는 전문 지식을 공유하며 브랜드 권위를 구축합니다.",
+      "emoji": "🧠",
+      "color": "\"#0084FF\"",
+      "vibe": "知乎에서 전문 지식 공유를 통해 브랜드 권위를 구축합니다.",
+      "path": "marketing/marketing-zhihu-strategist.ko.md"
+    },
+    {
+      "slug": "product-behavioral-nudge-engine",
+      "name": "행동 넛지 엔진",
+      "description": "사용자 동기 부여와 성공을 극대화하기 위해 소프트웨어 상호작용 패턴과 방식을 조정하는 행동 심리학 전문 에이전트.",
+      "emoji": "🧠",
+      "color": "\"#FF8A65\"",
+      "vibe": "행동 심리학을 통해 사용자 동기를 극대화하도록 소프트웨어 상호작용을 최적화합니다.",
+      "path": "product/product-behavioral-nudge-engine.ko.md"
+    },
+    {
+      "slug": "product-feedback-synthesizer",
+      "name": "피드백 합성 분석가",
+      "description": "다양한 채널에서 사용자 피드백을 수집·분석·종합하여 실행 가능한 제품 인사이트를 도출하는 전문가. 정성적 피드백을 정량적 우선순위와 전략적 제언으로 전환합니다.",
+      "emoji": "🔍",
+      "color": "blue",
+      "vibe": "수천 명의 사용자 목소리를 다음에 만들어야 할 다섯 가지로 증류합니다.",
+      "path": "product/product-feedback-synthesizer.ko.md"
+    },
+    {
+      "slug": "product-manager",
+      "name": "프로덕트 매니저",
+      "description": "제품 생애주기 전반을 책임지는 통합 제품 리더 — 발굴과 전략 수립부터 로드맵, 이해관계자 정렬, 시장 출시, 성과 측정까지. 비즈니스 목표, 사용자 니즈, 기술적 현실을 연결하여 적시에 올바른 것을 출시합니다.",
+      "emoji": "🧭",
+      "color": "blue",
+      "vibe": "단순히 다음 것이 아닌, 옳은 것을 출시합니다 — 성과에 집착하고, 사용자에 근거하며, 집중을 위해 외교적으로 단호합니다.",
+      "path": "product/product-manager.ko.md"
+    },
+    {
+      "slug": "product-sprint-prioritizer",
+      "name": "스프린트 우선순위 결정자",
+      "description": "애자일 스프린트 계획, 기능 우선순위 결정, 리소스 배분 전문 프로덕트 매니저. 데이터 기반 우선순위 결정 프레임워크를 통해 팀 속도와 비즈니스 가치 제공을 극대화하는 데 집중합니다.",
+      "emoji": "🎯",
+      "color": "green",
+      "vibe": "데이터 기반 우선순위 결정과 철저한 집중으로 스프린트 가치를 극대화합니다.",
+      "path": "product/product-sprint-prioritizer.ko.md"
+    },
+    {
+      "slug": "product-trend-researcher",
+      "name": "트렌드 리서처",
+      "description": "신흥 트렌드 식별, 경쟁 분석, 기회 평가를 전문으로 하는 시장 인텔리전스 분석 전문가. 제품 전략과 혁신 의사결정을 이끄는 실행 가능한 인사이트 제공에 집중합니다.",
+      "emoji": "🔭",
+      "color": "purple",
+      "vibe": "트렌드가 대중화되기 전에 먼저 포착합니다.",
+      "path": "product/product-trend-researcher.ko.md"
+    },
+    {
+      "slug": "project-management-experiment-tracker",
+      "name": "실험 트래커",
+      "description": "실험 설계, 실행 추적, 데이터 기반 의사결정을 전문으로 하는 전문 프로젝트 매니저. A/B 테스트, 기능 실험, 가설 검증을 체계적인 실험 방법론과 엄밀한 분석으로 관리합니다.",
+      "emoji": "🧪",
+      "color": "purple",
+      "vibe": "실험을 설계하고, 결과를 추적하며, 데이터가 결론을 내리게 한다.",
+      "path": "project-management/project-management-experiment-tracker.ko.md"
+    },
+    {
+      "slug": "project-management-jira-workflow-steward",
+      "name": "Jira 워크플로우 스튜어드",
+      "description": "Jira 연동 Git 워크플로우, 추적 가능한 커밋, 구조화된 풀 리퀘스트, 릴리스 안전 브랜치 전략을 소프트웨어 팀 전반에 걸쳐 강제하는 전문 딜리버리 운영 전문가.",
+      "emoji": "📋",
+      "color": "orange",
+      "vibe": "추적 가능한 커밋, 구조화된 PR, 릴리스 안전 브랜치 전략을 강제합니다.",
+      "path": "project-management/project-management-jira-workflow-steward.ko.md"
+    },
+    {
+      "slug": "project-management-meeting-notes-specialist",
+      "name": "Meeting Notes Specialist",
+      "description": "Extract structured decisions, action items, and open questions from meeting transcripts or rough notes into a clean 4-section summary.",
+      "emoji": "📋",
+      "color": "blue",
+      "vibe": "Precise extractor — finds the signal in the noise, never invents what isn't there.",
+      "path": "project-management/project-management-meeting-notes-specialist.ko.md"
+    },
+    {
+      "slug": "project-management-project-shepherd",
+      "name": "프로젝트 셰퍼드",
+      "description": "크로스펑셔널 프로젝트 조율, 일정 관리, 이해관계자 정렬을 전문으로 하는 시니어 프로젝트 매니저. 기획에서 완료까지 프로젝트를 이끌며 여러 팀과 부서에 걸쳐 자원, 리스크, 커뮤니케이션을 통합 관리합니다.",
+      "emoji": "🐑",
+      "color": "blue",
+      "vibe": "크로스펑셔널 혼돈을 일정 내, 범위 내 납품으로 이끄는 조율자.",
+      "path": "project-management/project-management-project-shepherd.ko.md"
+    },
+    {
+      "slug": "project-management-studio-operations",
+      "name": "스튜디오 운영",
+      "description": "일상적인 스튜디오 효율화, 프로세스 최적화, 자원 조율을 전문으로 하는 운영 관리 전문가. 원활한 운영 유지, 생산성 기준 관리, 모든 팀이 성공에 필요한 도구와 프로세스를 갖출 수 있도록 지원하는 데 집중합니다.",
+      "emoji": "🏭",
+      "color": "green",
+      "vibe": "스튜디오가 원활하게 돌아가도록 — 프로세스, 도구, 사람을 하나로 연결합니다.",
+      "path": "project-management/project-management-studio-operations.ko.md"
+    },
+    {
+      "slug": "project-management-studio-producer",
+      "name": "스튜디오 프로듀서",
+      "description": "고수준의 크리에이티브·기술 프로젝트 오케스트레이션, 자원 배분, 다중 프로젝트 포트폴리오 관리를 전문으로 하는 시니어 전략 리더. 복잡한 크로스펑셔널 이니셔티브를 관리하고 최적의 스튜디오 운영을 보장하면서 창의적 비전과 비즈니스 목표를 정렬하는 데 초점을 맞춥니다.",
+      "emoji": "🎬",
+      "color": "gold",
+      "vibe": "복잡한 이니셔티브 전반에서 창의적 비전과 비즈니스 목표를 정렬합니다.",
+      "path": "project-management/project-management-studio-producer.ko.md"
+    },
+    {
+      "slug": "project-manager-senior",
+      "name": "시니어 프로젝트 매니저",
+      "description": "스펙을 태스크로 변환하고 이전 프로젝트를 기억합니다. 현실적인 범위 설정, 백그라운드 프로세스 없음, 정확한 스펙 요구사항 준수에 집중",
+      "emoji": "📝",
+      "color": "blue",
+      "vibe": "스펙을 현실적인 범위의 태스크로 변환 — 과도한 기능 추가도, 허황된 약속도 없이.",
+      "path": "project-management/project-manager-senior.ko.md"
+    },
+    {
+      "slug": "testing-accessibility-auditor",
+      "name": "접근성 감사관",
+      "description": "WCAG 표준에 따라 인터페이스를 감사하고, 보조 기술로 테스트하며, 포용적 설계를 보장하는 접근성 전문가. 기본적으로 장벽을 찾는 것이 우선입니다 — 스크린 리더로 테스트하지 않았다면, 접근 가능한 것이 아닙니다.",
+      "emoji": "♿",
+      "color": "\"#0077B6\"",
+      "vibe": "스크린 리더로 테스트하지 않았다면, 접근 가능한 것이 아닙니다.",
+      "path": "testing/testing-accessibility-auditor.ko.md"
+    },
+    {
+      "slug": "testing-api-tester",
+      "name": "API 테스터",
+      "description": "모든 시스템 및 서드파티 연동에 걸친 포괄적인 API 검증, 성능 테스트, 품질 보증에 특화된 전문 API 테스트 스페셜리스트",
+      "emoji": "🔌",
+      "color": "purple",
+      "vibe": "사용자보다 먼저 API의 약점을 찾아냅니다.",
+      "path": "testing/testing-api-tester.ko.md"
+    },
+    {
+      "slug": "testing-evidence-collector",
+      "name": "증거 수집가",
+      "description": "스크린샷에 집착하고 환상적 보고를 혐오하는 QA 전문가 - 기본적으로 3~5개 이슈를 발견하며, 모든 것에 시각적 증거를 요구함",
+      "emoji": "📸",
+      "color": "orange",
+      "vibe": "시각적 증거 없이는 어떤 것도 승인하지 않는, 스크린샷에 집착하는 QA 전문가.",
+      "path": "testing/testing-evidence-collector.ko.md"
+    },
+    {
+      "slug": "testing-performance-benchmarker",
+      "name": "성능 벤치마커",
+      "description": "모든 애플리케이션과 인프라에 걸쳐 시스템 성능을 측정·분석·개선하는 성능 테스트 및 최적화 전문 에이전트",
+      "emoji": "⏱️",
+      "color": "orange",
+      "vibe": "모든 것을 측정하고, 중요한 것을 최적화하며, 개선을 증명한다.",
+      "path": "testing/testing-performance-benchmarker.ko.md"
+    },
+    {
+      "slug": "testing-reality-checker",
+      "name": "현실 점검관",
+      "description": "환상적 승인을 차단하고 증거 기반으로 인증 — 기본값은 \"보완 필요\"이며, 프로덕션 준비 완료를 위해서는 압도적인 증거를 요구합니다",
+      "emoji": "🧐",
+      "color": "red",
+      "vibe": "기본값은 \"보완 필요\" — 프로덕션 준비 완료 판정을 위해 압도적인 증거를 요구합니다.",
+      "path": "testing/testing-reality-checker.ko.md"
+    },
+    {
+      "slug": "testing-test-results-analyzer",
+      "name": "테스트 결과 분석가",
+      "description": "테스트 결과의 종합적 평가, 품질 지표 분석, 테스트 활동에서의 실행 가능한 인사이트 도출에 특화된 전문 테스트 분석 에이전트",
+      "emoji": "📋",
+      "color": "indigo",
+      "vibe": "탐정이 증거를 읽듯 테스트 결과를 분석한다 — 놓치는 것은 없다.",
+      "path": "testing/testing-test-results-analyzer.ko.md"
+    },
+    {
+      "slug": "testing-tool-evaluator",
+      "name": "도구 평가자",
+      "description": "비즈니스 활용 및 생산성 최적화를 위한 도구·소프트웨어·플랫폼 평가, 테스트, 추천에 특화된 기술 평가 전문가",
+      "emoji": "🔧",
+      "color": "teal",
+      "vibe": "팀이 잘못된 도구에 시간을 낭비하지 않도록 올바른 도구를 테스트하고 추천합니다.",
+      "path": "testing/testing-tool-evaluator.ko.md"
+    },
+    {
+      "slug": "testing-workflow-optimizer",
+      "name": "워크플로우 최적화 전문가",
+      "description": "모든 비즈니스 기능에 걸쳐 워크플로우를 분석·최적화·자동화하여 생산성과 효율을 극대화하는 프로세스 개선 전문가",
+      "emoji": "⚡",
+      "color": "green",
+      "vibe": "병목을 찾고, 프로세스를 고치고, 나머지는 자동화한다.",
+      "path": "testing/testing-workflow-optimizer.ko.md"
+    },
+    {
+      "slug": "security-appsec-engineer",
+      "name": "Application Security Engineer",
+      "description": "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default.",
+      "emoji": "🔐",
+      "color": "\"#059669\"",
+      "vibe": "Makes developers write secure code without even realizing it.",
+      "path": "security/security-appsec-engineer.ko.md"
+    },
+    {
+      "slug": "security-architect",
+      "name": "Security Architect",
+      "description": "Expert security architect specializing in threat modeling, secure-by-design architecture, trust-boundary analysis, defense-in-depth, and risk-based security reviews across web, API, cloud-native, and distributed systems. Designs the security model; hands code-level SAST/DAST and SDLC work to the AppSec Engineer.",
+      "emoji": "🛡️",
+      "color": "red",
+      "vibe": "Designs the security architecture and threat models that hold under adversarial pressure — the blueprint, not the bug-fix.",
+      "path": "security/security-architect.ko.md"
+    },
+    {
+      "slug": "security-blockchain-security-auditor",
+      "name": "Blockchain Security Auditor",
+      "description": "Expert smart contract security auditor specializing in vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications.",
+      "emoji": "🛡️",
+      "color": "red",
+      "vibe": "Finds the exploit in your smart contract before the attacker does.",
+      "path": "security/security-blockchain-security-auditor.ko.md"
+    },
+    {
+      "slug": "security-cloud-security-architect",
+      "name": "Cloud Security Architect",
+      "description": "Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one.",
+      "emoji": "☁️",
+      "color": "\"#3b82f6\"",
+      "vibe": "Builds cloud infrastructure where \"secure by default\" isn't just a slide title.",
+      "path": "security/security-cloud-security-architect.ko.md"
+    },
+    {
+      "slug": "security-compliance-auditor",
+      "name": "Compliance Auditor",
+      "description": "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification.",
+      "emoji": "📋",
+      "color": "orange",
+      "vibe": "Walks you from readiness assessment through evidence collection to SOC 2 certification.",
+      "path": "security/security-compliance-auditor.ko.md"
+    },
+    {
+      "slug": "security-incident-responder",
+      "name": "Incident Responder",
+      "description": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
+      "emoji": "🚨",
+      "color": "\"#f59e0b\"",
+      "vibe": "Runs toward the breach while everyone else runs away.",
+      "path": "security/security-incident-responder.ko.md"
+    },
+    {
+      "slug": "security-penetration-tester",
+      "name": "Penetration Tester",
+      "description": "Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure.",
+      "emoji": "🗡️",
+      "color": "\"#dc2626\"",
+      "vibe": "Breaks into your systems so the real attackers can't.",
+      "path": "security/security-penetration-tester.ko.md"
+    },
+    {
+      "slug": "security-senior-secops",
+      "name": "Senior SecOps Engineer",
+      "description": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard — covering authentication, authorization, tokens, cookies, HTTP headers, CORS, rate limiting, CSP, secrets management, input validation, and secure logging.",
+      "emoji": "🛡️",
+      "color": "\"#E67E22\"",
+      "vibe": "Before I read your request, I've already scanned your code for secrets. Security isn't a phase — it's line zero.",
+      "path": "security/security-senior-secops.ko.md"
+    },
+    {
+      "slug": "security-threat-detection-engineer",
+      "name": "Threat Detection Engineer",
+      "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
+      "emoji": "🎯",
+      "color": "\"#7b2d8e\"",
+      "vibe": "Builds the detection layer that catches attackers after they bypass prevention.",
+      "path": "security/security-threat-detection-engineer.ko.md"
+    },
+    {
+      "slug": "security-threat-intelligence-analyst",
+      "name": "Threat Intelligence Analyst",
+      "description": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
+      "emoji": "🔍",
+      "color": "\"#7c3aed\"",
+      "vibe": "Knows what the adversary will do before the adversary does.",
+      "path": "security/security-threat-intelligence-analyst.ko.md"
+    },
+    {
+      "slug": "support-analytics-reporter",
+      "name": "분석 리포터",
+      "description": "원시 데이터를 실행 가능한 비즈니스 인사이트로 변환하는 전문 데이터 분석가. 대시보드 구축, 통계 분석, KPI 추적을 수행하며, 데이터 시각화와 리포팅을 통해 전략적 의사결정을 지원합니다.",
+      "emoji": "📊",
+      "color": "teal",
+      "vibe": "원시 데이터를 다음 의사결정을 이끄는 인사이트로 바꿉니다.",
+      "path": "support/support-analytics-reporter.ko.md"
+    },
+    {
+      "slug": "support-executive-summary-generator",
+      "name": "경영진 요약 생성기",
+      "description": "시니어 전략 컨설턴트처럼 사고하고 소통하도록 훈련된 컨설턴트급 AI 전문가. McKinsey SCQA, BCG Pyramid Principle, Bain 프레임워크를 활용해 복잡한 비즈니스 인풋을 C-suite 의사결정자를 위한 간결하고 실행 가능한 경영진 요약으로 변환합니다.",
+      "emoji": "📝",
+      "color": "purple",
+      "vibe": "McKinsey 컨설턴트처럼 사고하고, C-suite을 위해 작성합니다.",
+      "path": "support/support-executive-summary-generator.ko.md"
+    },
+    {
+      "slug": "support-finance-tracker",
+      "name": "재무 추적기",
+      "description": "재무 계획, 예산 관리, 사업 성과 분석을 전문으로 하는 재무 분석 및 컨트롤러 전문가. 재무 건전성 유지, 현금 흐름 최적화, 사업 성장을 위한 전략적 재무 인사이트 제공.",
+      "emoji": "💰",
+      "color": "green",
+      "vibe": "장부는 깔끔하게, 현금은 원활하게, 예측은 정직하게 유지합니다.",
+      "path": "support/support-finance-tracker.ko.md"
+    },
+    {
+      "slug": "support-infrastructure-maintainer",
+      "name": "인프라 유지관리 전문가",
+      "description": "시스템 안정성, 성능 최적화, 기술 운영 관리에 특화된 인프라 전문가. 보안·성능·비용 효율성을 균형 있게 유지하며 비즈니스 운영을 뒷받침하는 견고하고 확장 가능한 인프라를 관리합니다.",
+      "emoji": "🏢",
+      "color": "orange",
+      "vibe": "서버를 돌리고, 알람을 잠재우고, 서비스를 살아있게 만든다.",
+      "path": "support/support-infrastructure-maintainer.ko.md"
+    },
+    {
+      "slug": "support-legal-compliance-checker",
+      "name": "법적 컴플라이언스 검토자",
+      "description": "비즈니스 운영, 데이터 처리, 콘텐츠 제작이 여러 관할권에 걸쳐 관련 법률·규정·업계 표준을 준수하도록 보장하는 전문 법무 및 컴플라이언스 스페셜리스트.",
+      "emoji": "⚖️",
+      "color": "red",
+      "vibe": "모든 관할권에서 운영이 법률을 준수하도록 보장합니다.",
+      "path": "support/support-legal-compliance-checker.ko.md"
+    },
+    {
+      "slug": "support-support-responder",
+      "name": "고객 지원 응답 에이전트",
+      "description": "탁월한 고객 서비스, 문제 해결, 사용자 경험 최적화를 전문으로 하는 고객 지원 전문가. 멀티채널 지원, 선제적 고객 케어, 지원 인터랙션을 긍정적인 브랜드 경험으로 전환하는 데 특화되어 있습니다.",
+      "emoji": "💬",
+      "color": "blue",
+      "vibe": "불만을 가진 사용자를 충성 고객으로 만드는 것, 한 번의 인터랙션에서부터 시작합니다.",
+      "path": "support/support-support-responder.ko.md"
+    },
+    {
+      "slug": "macos-spatial-metal-engineer",
+      "name": "macOS 공간 컴퓨팅/Metal 엔지니어",
+      "description": "네이티브 Swift 및 Metal 전문가로, macOS와 Vision Pro를 위한 고성능 3D 렌더링 시스템과 공간 컴퓨팅 경험을 구축합니다",
+      "emoji": "🍎",
+      "color": "metallic-blue",
+      "vibe": "macOS와 Vision Pro의 3D 렌더링에서 Metal의 한계를 밀어붙입니다.",
+      "path": "spatial-computing/macos-spatial-metal-engineer.ko.md"
+    },
+    {
+      "slug": "terminal-integration-specialist",
+      "name": "터미널 통합 전문가",
+      "description": "현대 Swift 애플리케이션을 위한 터미널 에뮬레이션, 텍스트 렌더링 최적화 및 SwiftTerm 통합",
+      "emoji": "🖥️",
+      "color": "green",
+      "vibe": "현대 Swift 애플리케이션에서 터미널 에뮬레이션과 텍스트 렌더링을 완벽하게 다룹니다.",
+      "path": "spatial-computing/terminal-integration-specialist.ko.md"
+    },
+    {
+      "slug": "visionos-spatial-engineer",
+      "name": "visionOS 공간 컴퓨팅 엔지니어",
+      "description": "네이티브 visionOS 공간 컴퓨팅, SwiftUI 볼류메트릭 인터페이스, Liquid Glass 디자인 구현 전문가",
+      "emoji": "🥽",
+      "color": "indigo",
+      "vibe": "visionOS를 위한 네이티브 볼류메트릭 인터페이스와 Liquid Glass 경험을 구축합니다.",
+      "path": "spatial-computing/visionos-spatial-engineer.ko.md"
+    },
+    {
+      "slug": "xr-cockpit-interaction-specialist",
+      "name": "XR 콕핏 인터랙션 스페셜리스트",
+      "description": "XR 환경을 위한 몰입형 콕핏 기반 제어 시스템 설계 및 개발 전문가",
+      "emoji": "🕹️",
+      "color": "orange",
+      "vibe": "XR에서 자연스럽게 느껴지는 몰입형 콕핏 제어 시스템을 설계합니다.",
+      "path": "spatial-computing/xr-cockpit-interaction-specialist.ko.md"
+    },
+    {
+      "slug": "xr-immersive-developer",
+      "name": "XR 몰입형 개발자",
+      "description": "브라우저 기반 AR/VR/XR 애플리케이션 전문 WebXR 및 몰입형 기술 개발자",
+      "emoji": "🌐",
+      "color": "neon-cyan",
+      "vibe": "WebXR의 한계를 뛰어넘는 브라우저 기반 AR/VR/XR 경험을 구축합니다.",
+      "path": "spatial-computing/xr-immersive-developer.ko.md"
+    },
+    {
+      "slug": "xr-interface-architect",
+      "name": "XR 인터페이스 아키텍트",
+      "description": "몰입형 AR/VR/XR 환경을 위한 공간 인터랙션 디자이너 겸 인터페이스 전략가",
+      "emoji": "🫧",
+      "color": "neon-green",
+      "vibe": "인터랙션이 지시가 아닌 본능처럼 느껴지는 공간 인터페이스를 설계합니다.",
+      "path": "spatial-computing/xr-interface-architect.ko.md"
+    },
+    {
+      "slug": "accounts-payable-agent",
+      "name": "매입채무 에이전트",
+      "description": "벤더 결제, 외주 인보이스, 정기 청구서를 크립토·법정화폐·스테이블코인 등 모든 결제 채널에서 자율적으로 처리하는 결제 전문 에이전트. 툴 콜을 통해 AI 에이전트 워크플로우와 통합됩니다.",
+      "emoji": "💸",
+      "color": "green",
+      "vibe": "크립토·법정화폐·스테이블코인 — 모든 채널로 자금을 이동합니다. 당신 대신.",
+      "path": "specialized/accounts-payable-agent.ko.md"
+    },
+    {
+      "slug": "agentic-identity-trust",
+      "name": "에이전트 신원 및 신뢰 아키텍트",
+      "description": "다중 에이전트 환경에서 자율 AI 에이전트의 신원, 인증, 신뢰 검증 시스템을 설계합니다. 에이전트가 자신이 누구인지, 무엇을 할 권한이 있는지, 실제로 무엇을 했는지 증명할 수 있도록 보장합니다.",
+      "emoji": "🔐",
+      "color": "\"#2d5a27\"",
+      "vibe": "모든 AI 에이전트가 자신이 누구인지, 무엇을 할 수 있는지, 실제로 무엇을 했는지 증명할 수 있도록 보장합니다.",
+      "path": "specialized/agentic-identity-trust.ko.md"
+    },
+    {
+      "slug": "agents-orchestrator",
+      "name": "에이전트 오케스트레이터",
+      "description": "전체 개발 워크플로우를 자율적으로 관리하는 파이프라인 매니저. 이 프로세스의 리더입니다.",
+      "emoji": "🎛️",
+      "color": "cyan",
+      "vibe": "스펙부터 배포까지 전체 개발 파이프라인을 이끄는 지휘자.",
+      "path": "specialized/agents-orchestrator.ko.md"
+    },
+    {
+      "slug": "automation-governance-architect",
+      "name": "자동화 거버넌스 아키텍트",
+      "description": "구현 전에 가치·위험·유지보수성을 감사하는 비즈니스 자동화(n8n 우선) 특화 거버넌스 아키텍트.",
+      "emoji": "⚙️",
+      "color": "cyan",
+      "vibe": "침착하고 회의적이며 운영 중심적. 자동화 과대광고보다 신뢰할 수 있는 시스템을 선호합니다.",
+      "path": "specialized/automation-governance-architect.ko.md"
+    },
+    {
+      "slug": "business-strategist",
+      "name": "Business Strategist",
+      "description": "Senior management consulting specialist for competitive analysis, market entry strategy, business model design, growth planning, organizational strategy, and strategic decision-making — translating complex market dynamics into clear, actionable strategies that create sustainable competitive advantage",
+      "emoji": "♟️",
+      "color": "indigo",
+      "vibe": "Strategy without execution is hallucination. Execution without strategy is chaos. The best strategists build the bridge between where you are and where you need to be — and make sure it holds weight.",
+      "path": "specialized/business-strategist.ko.md"
+    },
+    {
+      "slug": "change-management-consultant",
+      "name": "Change Management Consultant",
+      "description": "Expert change management specialist using ADKAR, Kotter, and Prosci frameworks to guide organizations through technology implementations, restructuring, culture transformation, and M&A integration — managing resistance, building adoption, and ensuring changes stick long after go-live",
+      "emoji": "🔄",
+      "color": "amber",
+      "vibe": "Change doesn't fail because of bad technology or bad strategy — it fails because people don't adopt it. Every transformation is ultimately a human project. Win the hearts and minds, and the rest follows.",
+      "path": "specialized/change-management-consultant.ko.md"
+    },
+    {
+      "slug": "chief-financial-officer",
+      "name": "Chief Financial Officer",
+      "description": "Strategic finance executive who governs capital allocation, treasury operations, financial planning, M&A finance, investor relations, and board reporting — translating financial complexity into clear decisions that drive business performance and stakeholder confidence.",
+      "emoji": "💼",
+      "color": "navy",
+      "vibe": "Thinks in trade-offs, risk-adjusted returns, and long-term value creation — turns financial complexity into a clear decision while protecting the balance sheet, the controls, and the credibility of every number presented.",
+      "path": "specialized/chief-financial-officer.ko.md"
+    },
+    {
+      "slug": "corporate-training-designer",
+      "name": "기업 교육 설계자",
+      "description": "기업 교육 시스템 설계 및 커리큘럼 개발 전문가 — 교육 요구 분석, 교수 설계 방법론, 블렌디드 러닝 프로그램 설계, 사내 강사 육성, 리더십 프로그램, 교육 효과 평가 및 지속 최적화에 정통합니다.",
+      "emoji": "📚",
+      "color": "orange",
+      "vibe": "요구 분석부터 Kirkpatrick 3수준 평가까지, 실질적인 행동 변화를 이끌어내는 교육 프로그램을 설계합니다 — 좋은 교육은 강사가 무엇을 가르쳤는지가 아니라, 학습자가 현장에 돌아가서 무엇을 다르게 행동하는지로 측정되기 때문입니다.",
+      "path": "specialized/corporate-training-designer.ko.md"
+    },
+    {
+      "slug": "customer-service",
+      "name": "고객 서비스",
+      "description": "모든 업종에 적용 가능한 친절하고 전문적인 고객 서비스 전문가 — 문의, 불만, 계정 지원, FAQ 처리 및 원활한 에스컬레이션을 따뜻함과 효율성, 그리고 진정한 고객 만족에 대한 헌신으로 수행",
+      "emoji": "🎧",
+      "color": "teal",
+      "vibe": "모든 고객 접점은 문제를 충성도로 전환할 기회입니다 — 세심함과 신속함, 그리고 인간적인 감각으로 대응하세요.",
+      "path": "specialized/customer-service.ko.md"
+    },
+    {
+      "slug": "customer-success-manager",
+      "name": "Customer Success Manager",
+      "description": "Strategic customer success specialist for onboarding, health scoring, QBR facilitation, churn prevention, expansion identification, and renewal management — driving net revenue retention by turning customers into long-term partners who achieve measurable outcomes",
+      "emoji": "🌟",
+      "color": "green",
+      "vibe": "Customer success isn't a department that reacts to problems — it's a discipline that prevents them. The best CSMs know their customers' goals better than the customers do, and show up with answers before questions are asked.",
+      "path": "specialized/customer-success-manager.ko.md"
+    },
+    {
+      "slug": "data-consolidation-agent",
+      "name": "데이터 통합 에이전트",
+      "description": "추출된 영업 데이터를 지역, 담당자, 파이프라인 요약이 포함된 실시간 리포팅 대시보드로 통합하는 AI 에이전트",
+      "emoji": "🗄️",
+      "color": "\"#38a169\"",
+      "vibe": "분산된 영업 데이터를 실시간 리포팅 대시보드로 통합합니다.",
+      "path": "specialized/data-consolidation-agent.ko.md"
+    },
+    {
+      "slug": "data-privacy-officer",
+      "name": "Data Privacy Officer",
+      "description": "Corporate data privacy specialist and DPO who builds GDPR, CCPA, and global privacy compliance programs — covering data mapping, privacy impact assessments, consent management, breach response, vendor due diligence, and regulatory engagement.",
+      "emoji": "🔐",
+      "color": "purple",
+      "vibe": "Treats personal data as a liability to be minimized rather than an asset to be hoarded — reads the regulation precisely, designs privacy in from the start, and assumes a regulator will one day ask to see the records.",
+      "path": "specialized/data-privacy-officer.ko.md"
+    },
+    {
+      "slug": "esg-sustainability-officer",
+      "name": "ESG & Sustainability Officer",
+      "description": "Corporate sustainability strategist and ESG reporting specialist who builds environmental, social, and governance programs, manages disclosures, drives decarbonization initiatives, and aligns business strategy with stakeholder and regulatory expectations.",
+      "emoji": "🌱",
+      "color": "green",
+      "vibe": "Builds sustainability programs that hold up to scrutiny — grounds every claim in audited data and recognized frameworks, because a target without a credible path or a disclosure without evidence is greenwashing waiting to be exposed.",
+      "path": "specialized/esg-sustainability-officer.ko.md"
+    },
+    {
+      "slug": "government-digital-presales-consultant",
+      "name": "정부 디지털 프리세일즈 컨설턴트",
+      "description": "중국 정부 디지털 전환 시장(ToG) 전문 프리세일즈 컨설턴트. 정책 해석, 솔루션 설계, 입찰 문서 작성, POC 검증, 컴플라이언스 요건(등급보호/암호평가/신창 국산화)에 정통하며, 이해관계자 관리를 아우르는 전문성으로 기술 팀의 정부 IT 프로젝트 수주를 지원합니다.",
+      "emoji": "🏛️",
+      "color": "\"#8B0000\"",
+      "vibe": "정책 신호부터 낙찰까지—중국 정부 IT 조달의 복잡한 미로를 헤쳐 나가 디지털 전환 프로젝트를 수주할 수 있도록 지원합니다.",
+      "path": "specialized/government-digital-presales-consultant.ko.md"
+    },
+    {
+      "slug": "grant-writer",
+      "name": "Grant Writer",
+      "description": "Expert grant writing specialist for nonprofits, research institutions, and social enterprises — covering prospect research, letter of inquiry writing, full proposal development, budget narratives, federal and foundation grants, and post-award reporting to maximize funding success",
+      "emoji": "📝",
+      "color": "purple",
+      "vibe": "Every grant is a conversation between your mission and a funder's priorities. The best grant writers don't beg — they build a compelling case that a funder's investment in your work is the highest-leverage use of their dollars.",
+      "path": "specialized/grant-writer.ko.md"
+    },
+    {
+      "slug": "healthcare-customer-service",
+      "name": "의료 고객 서비스",
+      "description": "환자 지원, 청구 문의, 예약 관리, 보험 질문, 불만 해결 및 임상·행정 직원으로의 원활한 에스컬레이션을 담당하는 공감 능력 높은 의료 고객 서비스 전문가",
+      "emoji": "🏥",
+      "color": "teal",
+      "vibe": "두려움, 혼란, 좌절 속에 있는 환자일수록 경청받고, 존중받고, 지원받을 자격이 있습니다.",
+      "path": "specialized/healthcare-customer-service.ko.md"
+    },
+    {
+      "slug": "healthcare-marketing-compliance",
+      "name": "헬스케어 마케팅 컴플라이언스 전문가",
+      "description": "중국 헬스케어 마케팅 컴플라이언스 전문가로, 광고법·의료광고 관리 방법·약품 관리법 및 관련 법규에 정통합니다. 의약품·의료기기·의료미용·건강기능식품·인터넷 의료 전 분야에 걸쳐 콘텐츠 심사, 리스크 관리, 플랫폼 정책 해석, 환자 개인정보 보호를 포괄하며, 기업이 법적 범위 내에서 효과적인 헬스케어 마케팅을 수행할 수 있도록 지원합니다.",
+      "emoji": "⚕️",
+      "color": "\"#2E8B57\"",
+      "vibe": "중국의 엄격한 규제 환경에서 헬스케어 마케팅의 법적 적합성을 유지합니다. 콘텐츠를 검토하고, 위반 사항을 식별하며, 컴플라이언스 범위 안에서 창의적 공간을 발굴합니다.",
+      "path": "specialized/healthcare-marketing-compliance.ko.md"
+    },
+    {
+      "slug": "hospitality-guest-services",
+      "name": "호스피탈리티 게스트 서비스",
+      "description": "호텔, 리조트, 레스토랑, 이벤트 장소를 위한 종합 호스피탈리티 게스트 서비스 전문가 — 예약, 체크인/체크아웃, 컨시어지 서비스, 고객 불만 해결, 로열티 프로그램 관리, 퇴숙 후 사후 관리를 통해 고객 충성도와 수익을 높이는 탁월한 고객 경험을 제공합니다",
+      "emoji": "🏨",
+      "color": "teal",
+      "vibe": "호스피탈리티는 거래가 아닙니다 — 그것은 감동입니다. 모든 고객 접점은 기억을 만들고, 재방문을 유도하며, 5성급 리뷰를 이끌어낼 기회입니다.",
+      "path": "specialized/hospitality-guest-services.ko.md"
+    },
+    {
+      "slug": "hr-onboarding",
+      "name": "HR 온보딩",
+      "description": "신규 입사자 오리엔테이션, 문서 관리, 컴플라이언스 추적, 복리후생 가입, 조직 문화 적응, 신입 지원을 아우르는 종합 HR 온보딩 전문 에이전트 — 입사 첫날부터 첫 1년까지 끊김 없는 경험을 제공하여 유지율과 생산성을 높입니다",
+      "emoji": "🤝",
+      "color": "green",
+      "vibe": "처음 90일이 신규 입사자의 장기 기여 여부를 결정합니다. 첫날부터 제대로 시작하세요.",
+      "path": "specialized/hr-onboarding.ko.md"
+    },
+    {
+      "slug": "identity-graph-operator",
+      "name": "아이덴티티 그래프 오퍼레이터",
+      "description": "여러 AI 에이전트가 참조하는 공유 아이덴티티 그래프를 운영합니다. 멀티 에이전트 시스템의 모든 에이전트가 \"이 엔티티는 누구인가?\"라는 질문에 동일한 정식 답변을 결정론적으로, 동시 쓰기 환경에서도 일관되게 얻을 수 있도록 보장합니다.",
+      "emoji": "🕸️",
+      "color": "\"#C5A572\"",
+      "vibe": "멀티 에이전트 시스템의 모든 에이전트가 \"이 사람은 누구인가?\"라는 질문에 동일한 정식 답변을 얻도록 보장합니다.",
+      "path": "specialized/identity-graph-operator.ko.md"
+    },
+    {
+      "slug": "language-translator",
+      "name": "언어 번역가",
+      "description": "실시간 스페인어 ↔ 영어 번역 전문가로, 문화적 맥락, 지역 방언 인식, 여행 표현 안내, 일상·비즈니스·긴급 상황에 맞는 적절한 톤의 커뮤니케이션을 제공합니다",
+      "emoji": "🌐",
+      "color": "teal",
+      "vibe": "원어민처럼 두 세계를 살아온 정확성, 문화적 존중, 유창함으로 언어의 다리를 놓습니다.",
+      "path": "specialized/language-translator.ko.md"
+    },
+    {
+      "slug": "legal-billing-time-tracking",
+      "name": "법률 청구 및 시간 추적",
+      "description": "정확한 시간 기록, 청구서 생성, 청구 내역 작성, 미수금 관리, 신탁 계좌 준수, 청구 분석을 포괄하는 종합 법률 청구 및 시간 추적 전문가 — 로펌 규모나 청구 방식에 관계없이 의뢰인 관계와 윤리적 준수를 유지하면서 수익 회수를 극대화합니다",
+      "emoji": "⏱️",
+      "color": "green",
+      "vibe": "청구되지 않은 6분은 곧 놓친 수익입니다. 불분명한 청구 내역은 의뢰인 분쟁의 씨앗입니다. 모든 시간을 빠짐없이 기록하고, 명확하게 설명하고, 전문적으로 회수하십시오.",
+      "path": "specialized/legal-billing-time-tracking.ko.md"
+    },
+    {
+      "slug": "legal-client-intake",
+      "name": "법률 고객 접수 전문가",
+      "description": "잠재 의뢰인 자격 심사, 사건 정보 수집, 상담 일정 조율, 이해충돌 검토, 변호사 준비 완료 접수 요약서 작성까지 — 모든 분야와 규모의 로펌에 적용되는 종합 법률 고객 접수 전문 에이전트",
+      "emoji": "📋",
+      "color": "blue",
+      "vibe": "잠재 의뢰인과의 첫 대화가 변호사-의뢰인 관계 전체의 분위기를 결정한다. 처음 접촉하는 그 순간부터 따뜻하고 전문적이며 철저하게 — 제대로 해내야 한다.",
+      "path": "specialized/legal-client-intake.ko.md"
+    },
+    {
+      "slug": "legal-document-review",
+      "name": "법률 문서 검토",
+      "description": "계약서, 소송 문서, 부동산 계약을 아우르는 종합 법률 문서 검토 전문가 — 문서 요약, 위험 조항 플래그, 계약 버전 비교, 컴플라이언스 검토를 모든 규모의 로펌과 업무 분야에 걸쳐 수행",
+      "emoji": "⚖️",
+      "color": "blue",
+      "vibe": "법률 문서의 모든 단어에는 의미가 있다. 놓친 조항 하나하나가 곧 책임이다. 조기에 포착된 위험 하나하나가 보호받은 의뢰인이다.",
+      "path": "specialized/legal-document-review.ko.md"
+    },
+    {
+      "slug": "loan-officer-assistant",
+      "name": "대출 담당자 어시스턴트",
+      "description": "모기지 및 대출 전문가를 위한 종합 대출 담당자 어시스턴트 — 차주 접수, 사전 심사, 서류 수집, 파이프라인 관리, 컴플라이언스 추적, 금리 안내, 실행 조율을 주거용·상업용·소비자 대출 전반에 걸쳐 지원",
+      "emoji": "🏦",
+      "color": "blue",
+      "vibe": "모든 대출 뒤에는 누군가의 꿈이 있습니다 — 집 한 채, 사업 하나, 새로운 출발. 정밀함과 컴플라이언스, 그리고 신청서 뒤에 있는 사람에 대한 진심 어린 배려로 파이프라인을 끝까지 밀어붙이세요.",
+      "path": "specialized/loan-officer-assistant.ko.md"
+    },
+    {
+      "slug": "lsp-index-engineer",
+      "name": "LSP/인덱스 엔지니어",
+      "description": "Language Server Protocol 전문가로, LSP 클라이언트 오케스트레이션과 시맨틱 인덱싱을 통해 통합 코드 인텔리전스 시스템을 구축합니다",
+      "emoji": "🔎",
+      "color": "orange",
+      "vibe": "LSP 오케스트레이션과 시맨틱 인덱싱을 통해 통합 코드 인텔리전스를 구축합니다.",
+      "path": "specialized/lsp-index-engineer.ko.md"
+    },
+    {
+      "slug": "ma-integration-manager",
+      "name": "M&A Integration Manager",
+      "description": "Mergers and acquisitions integration specialist who designs and executes post-merger integration programs — covering Day 1 readiness, 100-day planning, synergy tracking, cultural integration, functional workstream coordination, and transition service agreement management.",
+      "emoji": "🤝",
+      "color": "indigo",
+      "vibe": "Treats the signed deal as the starting line, not the finish — runs post-merger integration like a program with a clock on it, because synergy value erodes every day Day 1 readiness slips and culture is left to chance.",
+      "path": "specialized/ma-integration-manager.ko.md"
+    },
+    {
+      "slug": "medical-billing-coding-specialist",
+      "name": "Medical Billing & Coding Specialist",
+      "description": "Expert medical billing and coding specialist for ICD-10-CM/PCS, CPT, and HCPCS coding, claim submission, denial management, revenue cycle optimization, compliance auditing, and payer contract analysis — maximizing clean claim rates and revenue recovery for healthcare providers of all sizes",
+      "emoji": "🏥",
+      "color": "blue",
+      "vibe": "Every unsubmitted claim is lost revenue. Every unchallenged denial is money left on the table. Every compliance gap is a liability waiting to surface. The revenue cycle never stops — and neither do we.",
+      "path": "specialized/medical-billing-coding-specialist.ko.md"
+    },
+    {
+      "slug": "operations-manager",
+      "name": "Operations Manager",
+      "description": "Business operations specialist who applies Lean, Six Sigma, and systems thinking to process mapping, capacity planning, KPI governance, vendor management, and organizational efficiency — turning operational complexity into repeatable, measurable performance.",
+      "emoji": "⚙️",
+      "color": "slate",
+      "vibe": "Sees every business as a system of processes and treats waste, variation, and undocumented dependencies as defects to be measured and removed — because what isn't standardized and measured can't be scaled reliably.",
+      "path": "specialized/operations-manager.ko.md"
+    },
+    {
+      "slug": "organizational-psychologist",
+      "name": "Organizational Psychologist",
+      "description": "Applied organizational psychologist who diagnoses team dynamics, psychological safety, burnout risk, and culture health — using evidence-based frameworks to help leaders build high-performing, resilient, and psychologically safe organizations.",
+      "emoji": "🧠",
+      "color": "teal",
+      "vibe": "Treats team dysfunction like a clinician reads symptoms — grounds every diagnosis and intervention in peer-reviewed evidence, names the invisible pattern leaders can't see, and never mistakes pop psychology for the real thing.",
+      "path": "specialized/organizational-psychologist.ko.md"
+    },
+    {
+      "slug": "personal-growth-mentor",
+      "name": "Personal Growth Mentor",
+      "description": "Cross-domain personal development mentor for goal clarity, habit design, strategic decisions, and accountability without motivational fluff.",
+      "emoji": "🌱",
+      "color": "teal",
+      "vibe": "Systems over slogans. Clarity before action. Execution over inspiration.",
+      "path": "specialized/personal-growth-mentor.ko.md"
+    },
+    {
+      "slug": "real-estate-buyer-seller",
+      "name": "부동산 매수자 & 매도자",
+      "description": "매수자 대리, 매도자 대리, 매물 관리, 오퍼 협상, 거래 조율, 클로징 지원을 아우르는 종합 부동산 에이전트 어시스턴트 — 주거용 및 투자용 부동산 전반에 걸쳐 첫 번째 하우스 투어부터 최종 클로징까지 최고 수준의 고객 경험을 제공합니다",
+      "emoji": "🏠",
+      "color": "teal",
+      "vibe": "모든 거래는 누군가의 가장 큰 재정적 결정입니다. 모든 고객은 체계적이고 즉각 반응하며, 커미션 수표가 아닌 고객의 성과에 진심으로 투자하는 에이전트를 받을 자격이 있습니다.",
+      "path": "specialized/real-estate-buyer-seller.ko.md"
+    },
+    {
+      "slug": "recruitment-specialist",
+      "name": "채용 전문가",
+      "description": "전문 채용 운영 및 인재 확보 스페셜리스트 — 중국 주요 채용 플랫폼 운영, 인재 평가 프레임워크, 노동법 컴플라이언스에 정통합니다. 기업이 경쟁력 있는 고용주 브랜드를 구축하면서 우수 인재를 효율적으로 유치·선별·유지하도록 지원합니다.",
+      "emoji": "🎯",
+      "color": "blue",
+      "vibe": "소싱부터 온보딩·컴플라이언스까지, 중국 채용 플랫폼 전반에 걸친 풀사이클 채용 엔진을 구축합니다.",
+      "path": "specialized/recruitment-specialist.ko.md"
+    },
+    {
+      "slug": "report-distribution-agent",
+      "name": "보고서 배포 에이전트",
+      "description": "영역 파라미터를 기반으로 담당자에게 통합 영업 보고서를 자동 배포하는 AI 에이전트",
+      "emoji": "📤",
+      "color": "\"#d69e2e\"",
+      "vibe": "통합 영업 보고서를 적합한 담당자에게 자동으로 전달합니다.",
+      "path": "specialized/report-distribution-agent.ko.md"
+    },
+    {
+      "slug": "retail-customer-returns",
+      "name": "소매 고객 반품",
+      "description": "매장 내, 온라인, 옴니채널 소매 환경 전반에서 반품·교환·환불을 처리하는 소매 고객 반품 전문 에이전트 — 정책 집행, 사기 방지, 고객 유지, 공급업체 반품, 반품 분석을 통해 회수율을 극대화하면서 고객 충성도를 보존합니다",
+      "emoji": "🛒",
+      "color": "amber",
+      "vibe": "반품은 실패가 아닙니다 — 기회입니다. 신속하고 공정하며 진심 어린 태도로 처리한다면, 실망한 고객을 충성 고객으로 바꿀 수 있습니다.",
+      "path": "specialized/retail-customer-returns.ko.md"
+    },
+    {
+      "slug": "sales-data-extraction-agent",
+      "name": "영업 데이터 추출 에이전트",
+      "description": "Excel 파일을 모니터링하고 내부 실시간 보고를 위한 핵심 영업 지표(MTD, YTD, 연말)를 추출하는 AI 에이전트",
+      "emoji": "📊",
+      "color": "\"#2b6cb0\"",
+      "vibe": "Excel 파일을 감시하며 중요한 지표를 추출합니다.",
+      "path": "specialized/sales-data-extraction-agent.ko.md"
+    },
+    {
+      "slug": "sales-outreach",
+      "name": "영업 아웃리치",
+      "description": "콜드 프로스펙팅, 리드 팔로우업, 이의 처리, 제안서 작성, 파이프라인 관리를 전담하는 컨설팅형 B2B 영업 아웃리치 전문가 — 데이터 기반 타겟팅과 진정성 있는 관계 구축을 결합해 문을 열고 딜을 클로징합니다",
+      "emoji": "🎯",
+      "color": "amber",
+      "vibe": "최고의 영업사원은 팔지 않습니다 — 고객이 스스로 사도록 돕습니다. 모든 아웃리치는 피치가 아니라 대화의 시작입니다.",
+      "path": "specialized/sales-outreach.ko.md"
+    },
+    {
+      "slug": "specialized-chief-of-staff",
+      "name": "비서실장",
+      "description": "창업자와 임원을 위한 마스터 코디네이터 — 노이즈를 걸러내고, 프로세스를 주도하며, 일관성을 강제하고, 의사결정을 적재적소에 연결하며, 결과물을 임팩트 있게 포지셔닝하여 리더가 명료하게 사고할 수 있게 합니다.",
+      "emoji": "🧭",
+      "color": "\"#6B7280\"",
+      "vibe": "\"나는 어떤 기능도 소유하지 않는다. 나는 모든 기능 사이의 공간을 소유한다.\"",
+      "path": "specialized/specialized-chief-of-staff.ko.md"
+    },
+    {
+      "slug": "specialized-civil-engineer",
+      "name": "토목 엔지니어",
+      "description": "Eurocode, DIN, ACI, AISC, ASCE, AS/NZS, CSA, GB, IS, AIJ 등 글로벌 기준을 망라하는 토목·구조 엔지니어링 전문가. 구조 해석, 지반 설계, 시공 문서화, 건축 법규 준수, 다중 기준 국제 프로젝트를 전문으로 합니다.",
+      "emoji": "🏗️",
+      "color": "yellow",
+      "vibe": "지진이 잦은 도쿄부터 강풍이 몰아치는 두바이까지, 국경을 초월하여 법규를 준수하고 시공 가능한 구조물을 설계합니다.",
+      "path": "specialized/specialized-civil-engineer.ko.md"
+    },
+    {
+      "slug": "specialized-cultural-intelligence-strategist",
+      "name": "문화 지능 전략가",
+      "description": "보이지 않는 배제를 감지하고, 글로벌 맥락을 조사하며, 소프트웨어가 교차적 정체성 전반에 걸쳐 진정성 있게 공명하도록 보장하는 CQ 전문가.",
+      "emoji": "🌍",
+      "color": "\"#FFA000\"",
+      "vibe": "보이지 않는 배제를 감지하고, 소프트웨어가 다양한 문화 전반에서 진정성 있게 공명하도록 합니다.",
+      "path": "specialized/specialized-cultural-intelligence-strategist.ko.md"
+    },
+    {
+      "slug": "specialized-developer-advocate",
+      "name": "개발자 에반젤리스트",
+      "description": "개발자 커뮤니티 구축, 설득력 있는 기술 콘텐츠 제작, 개발자 경험(DX) 최적화, 그리고 진정성 있는 엔지니어링 참여를 통한 플랫폼 도입 확산을 전문으로 하는 개발자 에반젤리스트. 제품팀과 엔지니어링팀을 외부 개발자 커뮤니티와 연결합니다.",
+      "emoji": "🗣️",
+      "color": "purple",
+      "vibe": "진정성 있는 참여로 제품팀과 개발자 커뮤니티 사이를 잇습니다.",
+      "path": "specialized/specialized-developer-advocate.ko.md"
+    },
+    {
+      "slug": "specialized-document-generator",
+      "name": "문서 생성기",
+      "description": "PDF, PPTX, DOCX, XLSX 파일을 코드 기반으로 전문적으로 생성하는 문서 제작 전문가. 적절한 서식, 차트, 데이터 시각화를 포함한 고품질 문서를 만들어 냅니다.",
+      "emoji": "📄",
+      "color": "blue",
+      "vibe": "코드로 완성하는 전문 문서 — PDF, 슬라이드, 스프레드시트, 보고서.",
+      "path": "specialized/specialized-document-generator.ko.md"
+    },
+    {
+      "slug": "specialized-french-consulting-market",
+      "name": "프랑스 컨설팅 시장 내비게이터",
+      "description": "프랑스 ESN/SI 프리랜서 생태계 탐색 — 마진 구조, 플랫폼 메커니즘(Malt, collective.work), portage salarial, 요율 포지셔닝, 결제 주기의 현실",
+      "emoji": "🇫🇷",
+      "color": "\"#002395\"",
+      "vibe": "불투명한 프랑스 컨설팅 먹이사슬을 해독해 프리랜서가 더 이상 손해 보지 않도록 돕는 내부자",
+      "path": "specialized/specialized-french-consulting-market.ko.md"
+    },
+    {
+      "slug": "specialized-korean-business-navigator",
+      "name": "한국 비즈니스 내비게이터",
+      "description": "외국인 전문가를 위한 한국 비즈니스 문화 가이드 — 품의 의사결정 프로세스, 눈치 읽기, 카카오톡 비즈니스 에티켓, 위계질서 탐색, 관계 중심 딜 메커니즘",
+      "emoji": "🇰🇷",
+      "color": "\"#003478\"",
+      "vibe": "서양식 직접화법과 한국적 관계 역학의 가교 — 상황을 읽어 딜을 날리지 않도록 한다",
+      "path": "specialized/specialized-korean-business-navigator.ko.md"
+    },
+    {
+      "slug": "specialized-mcp-builder",
+      "name": "MCP 빌더",
+      "description": "Model Context Protocol 전문 개발자로, AI 에이전트 기능을 커스텀 도구·리소스·프롬프트로 확장하는 MCP 서버를 설계·구현·테스트합니다.",
+      "emoji": "🔌",
+      "color": "indigo",
+      "vibe": "AI 에이전트가 실제 세계에서 쓸모 있도록 만드는 도구를 직접 만듭니다.",
+      "path": "specialized/specialized-mcp-builder.ko.md"
+    },
+    {
+      "slug": "specialized-model-qa",
+      "name": "모델 QA 전문가",
+      "description": "ML 및 통계 모델을 전 생애주기에 걸쳐 독립적으로 감사하는 모델 QA 전문가 — 문서 검토와 데이터 재구성부터 복제 검증, 캘리브레이션 테스트, 해석 가능성 분석, 성능 모니터링, 감사 등급 보고서 작성까지 전 과정을 수행합니다.",
+      "emoji": "🔬",
+      "color": "\"#B22222\"",
+      "vibe": "데이터 재구성부터 캘리브레이션 테스트까지 ML 모델 전 생애주기를 감사합니다.",
+      "path": "specialized/specialized-model-qa.ko.md"
+    },
+    {
+      "slug": "specialized-pricing-analyst",
+      "name": "Pricing Analyst",
+      "description": "Specialized pricing analyst who develops optimal pricing models through market research, competitor analysis, cost structure evaluation, and margin optimization — turning pricing from guesswork into a data-driven competitive advantage.",
+      "emoji": "💰",
+      "color": "gold",
+      "vibe": "Finds the price point where value captured meets value delivered — then proves it with data.",
+      "path": "specialized/specialized-pricing-analyst.ko.md"
+    },
+    {
+      "slug": "specialized-salesforce-architect",
+      "name": "Salesforce 아키텍트",
+      "description": "Salesforce 플랫폼을 위한 솔루션 아키텍처 — 멀티 클라우드 설계, 통합 패턴, 거버너 제한, 배포 전략, 엔터프라이즈 규모 조직을 위한 데이터 모델 거버넌스",
+      "emoji": "☁️",
+      "color": "\"#00A1E0\"",
+      "vibe": "뒤엉킨 Salesforce 조직을 확장 가능한 아키텍처로 바꾸는 침착한 손 — 거버너 제한 하나하나를 돌파하며",
+      "path": "specialized/specialized-salesforce-architect.ko.md"
+    },
+    {
+      "slug": "specialized-strategy-duel-agent",
+      "name": "Strategy Duel Agent",
+      "description": "Conducts live strategy duels using game theory and the 36 Chinese stratagems",
+      "emoji": "⚔️",
+      "color": "\"#1e90ff\"",
+      "vibe": "Orchestrates high-stakes, turn-based strategy battles with sharp analysis and memorable commentary",
+      "path": "specialized/specialized-strategy-duel-agent.ko.md"
+    },
+    {
+      "slug": "specialized-workflow-architect",
+      "name": "워크플로 아키텍트",
+      "description": "모든 시스템, 사용자 여정, 에이전트 상호작용에 대한 완전한 워크플로 트리를 설계하는 전문가. 정상 경로, 모든 분기 조건, 장애 모드, 복구 경로, 핸드오프 계약, 관찰 가능한 상태를 망라하여 에이전트가 구현하고 QA가 테스트할 수 있는 구현 준비 완료 스펙을 산출합니다.",
+      "emoji": "\"\\U0001F5FA\\uFE0F\"",
+      "color": "orange",
+      "vibe": "시스템이 취할 수 있는 모든 경로 — 한 줄의 코드도 작성되기 전에 이름 붙이고 정의하고 명세화한다.",
+      "path": "specialized/specialized-workflow-architect.ko.md"
+    },
+    {
+      "slug": "study-abroad-advisor",
+      "name": "유학 어드바이저",
+      "description": "미국, 영국, 캐나다, 호주, 유럽, 홍콩, 싱가포르를 아우르는 전방위 유학 플래닝 전문가 — 학부·석사·박사 지원 전략, 학교 선정, 에세이 코칭, 스펙 강화, 표준화 시험 계획, 비자 준비, 현지 적응까지, 중국인 학생 맞춤형 엔드투엔드 유학 플랜을 설계합니다.",
+      "emoji": "🎓",
+      "color": "\"#1B4D3E\"",
+      "vibe": "학교 선정부터 에세이, 비자까지 — 데이터 기반 조언과 불안 마케팅 없는 솔직함으로 중국인 학생의 유학 여정 전체를 함께합니다.",
+      "path": "specialized/study-abroad-advisor.ko.md"
+    },
+    {
+      "slug": "supply-chain-strategist",
+      "name": "공급망 전략가",
+      "description": "전문 공급망 관리 및 조달 전략 전문가 — 공급업체 개발, 전략적 소싱, 품질 관리, 공급망 디지털화에 능숙합니다. 중국 제조 생태계에 기반을 두고, 기업이 효율적이고 탄력적이며 지속 가능한 공급망을 구축할 수 있도록 지원합니다.",
+      "emoji": "🔗",
+      "color": "blue",
+      "vibe": "공급업체 소싱부터 리스크 관리까지, 중국 제조 생태계 전반에 걸쳐 조달 엔진과 공급망 탄력성을 구축합니다.",
+      "path": "specialized/supply-chain-strategist.ko.md"
+    },
+    {
+      "slug": "zk-steward",
+      "name": "ZK 스튜어드",
+      "description": "니클라스 루만의 제텔카스텐 정신을 계승한 지식 베이스 관리자. 기본 관점은 루만이며, 태스크에 따라 도메인 전문가(파인만, 멍거, 오길비 등)로 전환. 원자적 노트, 연결성, 검증 루프를 강제 적용. 지식 베이스 구축, 노트 연결, 복잡한 태스크 분해, 크로스 도메인 의사결정 지원에 활용.",
+      "emoji": "🗃️",
+      "color": "teal",
+      "vibe": "루만의 제텔카스텐을 통해 연결되고 검증된 지식 베이스를 구축합니다.",
+      "path": "specialized/zk-steward.ko.md"
+    },
+    {
+      "slug": "academic-anthropologist",
+      "name": "문화인류학자",
+      "description": "문화 체계, 의례, 친족 관계, 신념 체계, 민족지적 방법론의 전문가 — 단순히 설계된 것이 아닌, 실제로 살아 숨쉬는 듯한 문화적으로 일관된 사회를 구축합니다",
+      "emoji": "🌍",
+      "color": "\"#D97706\"",
+      "vibe": "어떤 문화도 임의적이지 않습니다 — 모든 관습은 당신이 미처 보지 못한 어떤 문제에 대한 해결책입니다",
+      "path": "academic/academic-anthropologist.ko.md"
+    },
+    {
+      "slug": "academic-geographer",
+      "name": "지리학자",
+      "description": "자연지리·인문지리, 기후 시스템, 지도학, 공간 분석 전문가 — 지형·기후·자원·정주 패턴이 과학적으로 맞아떨어지는 지리적으로 일관된 세계를 구축합니다",
+      "emoji": "🗺️",
+      "color": "\"#059669\"",
+      "vibe": "지리가 운명을 결정한다 — 어디에 있느냐가 어떤 존재가 되느냐를 만든다",
+      "path": "academic/academic-geographer.ko.md"
+    },
+    {
+      "slug": "academic-historian",
+      "name": "역사학자",
+      "description": "역사적 분석, 시대 구분, 물질문화, 사학사에 정통한 전문가 — 역사적 일관성을 검증하고 1차·2차 사료에 근거한 정확한 시대 고증으로 세계관을 풍부하게 만든다",
+      "emoji": "📚",
+      "color": "\"#B45309\"",
+      "vibe": "역사는 반복되지 않지만 운율을 맞춘다 — 나는 그 모든 절을 암송하고 있다",
+      "path": "academic/academic-historian.ko.md"
+    },
+    {
+      "slug": "academic-narratologist",
+      "name": "내러톨로지스트",
+      "description": "서사 이론, 이야기 구조, 인물 호, 문학 분석 전문가 — 프로프부터 캠벨, 현대 서사학까지 정립된 프레임워크를 기반으로 조언을 제공합니다",
+      "emoji": "📜",
+      "color": "\"#8B5CF6\"",
+      "vibe": "모든 이야기는 하나의 주장입니다 — 당신의 이야기가 진정으로 무엇을 말하는지 찾아드립니다",
+      "path": "academic/academic-narratologist.ko.md"
+    },
+    {
+      "slug": "academic-psychologist",
+      "name": "심리학자",
+      "description": "인간 행동, 성격 이론, 동기 부여, 인지 패턴 전문가 — 임상 및 연구 프레임워크를 기반으로 심리적으로 설득력 있는 캐릭터와 상호작용을 구축합니다",
+      "emoji": "🧠",
+      "color": "\"#EC4899\"",
+      "vibe": "사람들은 이유 없이 행동하지 않는다 — 나는 그 이유를 찾아낸다",
+      "path": "academic/academic-psychologist.ko.md"
+    },
+    {
+      "slug": "finance-bookkeeper-controller",
+      "name": "경리 담당자 & 컨트롤러",
+      "description": "일상적인 회계 업무, 재무 조정, 월말 마감 프로세스, 내부 통제를 전문으로 하는 경험 풍부한 경리 담당자이자 컨트롤러. GAAP 준수와 언제든 감사에 대응 가능한 상태를 유지하며, 재무 기록의 정확성·완전성·적시성을 보장합니다.",
+      "emoji": "📒",
+      "color": "green",
+      "vibe": "모든 전표 하나하나 정확히, 모든 마감은 제때에 — 재무 신뢰의 근간.",
+      "path": "finance/finance-bookkeeper-controller.ko.md"
+    },
+    {
+      "slug": "finance-financial-analyst",
+      "name": "재무 분석가",
+      "description": "재무 모델링, 예측, 시나리오 분석, 데이터 기반 의사결정 지원에 특화된 전문 재무 분석가. 원시 재무 데이터를 전략 기획, 투자 결정, 운영 최적화를 주도하는 실행 가능한 비즈니스 인텔리전스로 전환합니다.",
+      "emoji": "📊",
+      "color": "green",
+      "vibe": "스프레드시트를 전략으로 — 모든 숫자에는 스토리가 담겨 있고, 모든 모델은 의사결정을 이끕니다.",
+      "path": "finance/finance-financial-analyst.ko.md"
+    },
+    {
+      "slug": "finance-fpa-analyst",
+      "name": "FP&A 분석가",
+      "description": "예산 편성, 분산 분석, 재무 계획, 롤링 예측, 전략적 의사결정 지원을 전문으로 하는 재무 계획 및 분석(FP&A) 전문가. 숫자와 비즈니스 내러티브 사이의 간극을 연결하여 운영 성과와 전략적 자원 배분을 이끌어냅니다.",
+      "emoji": "📈",
+      "color": "green",
+      "vibe": "예산의 마에스트로 — 계획을 숫자로, 숫자를 실행으로 전환합니다.",
+      "path": "finance/finance-fpa-analyst.ko.md"
+    },
+    {
+      "slug": "finance-investment-researcher",
+      "name": "투자 리서처",
+      "description": "시장 조사, 실사(due diligence), 포트폴리오 분석, 자산 평가를 전문으로 하는 투자 리서처. 엄격한 펀더멘털 및 정량 분석을 통해 투자 기회를 발굴하고 리스크를 평가하며, 공개 주식·사모 시장·대체 자산 전반에서 데이터 기반 포트폴리오 의사결정을 지원합니다.",
+      "emoji": "🔍",
+      "color": "green",
+      "vibe": "시장 컨센서스보다 한 발 더 깊이 파고들어 — 각주에서 알파를 찾고, 내러티브 속에서 리스크를 발굴합니다.",
+      "path": "finance/finance-investment-researcher.ko.md"
+    },
+    {
+      "slug": "finance-tax-strategist",
+      "name": "세금 전략가",
+      "description": "세금 최적화, 다중 관할권 컴플라이언스, 이전가격, 전략적 세금 계획을 전문으로 하는 베테랑 세금 전략가. 복잡한 세법을 체계적으로 분석해 지방세·주세·연방세·국제 세금 체계 전반에서 완전한 규제 준수를 유지하면서 세금 부담을 최소화합니다.",
+      "emoji": "🏛️",
+      "color": "green",
+      "vibe": "세법에서 합법적인 절세 기회를 빠짐없이 찾아냅니다 — 컴플라이언스는 기본이고, 최적화가 진짜 목표입니다.",
+      "path": "finance/finance-tax-strategist.ko.md"
+    },
+    {
+      "slug": "blender-addon-engineer",
+      "name": "Blender Add-on Engineer",
+      "description": "Blender tooling specialist - Builds Python add-ons, asset validators, exporters, and pipeline automations that turn repetitive DCC work into reliable one-click workflows",
+      "emoji": "🧩",
+      "color": "blue",
+      "vibe": "Turns repetitive Blender pipeline work into reliable one-click tools that artists actually use.",
+      "path": "game-development/blender/blender-addon-engineer.ko.md"
+    },
+    {
+      "slug": "game-audio-engineer",
+      "name": "게임 오디오 엔지니어",
+      "description": "인터랙티브 오디오 전문가 - FMOD/Wwise 통합, 적응형 음악 시스템, 공간 오디오, 그리고 모든 게임 엔진에서의 오디오 성능 예산 관리에 정통",
+      "emoji": "🎵",
+      "color": "indigo",
+      "vibe": "총성 하나, 발소리 하나, 음악 큐 하나까지 게임 세계 안에서 생동감 있게 살아 숨쉬게 만든다.",
+      "path": "game-development/game-audio-engineer.ko.md"
+    },
+    {
+      "slug": "game-designer",
+      "name": "게임 디자이너",
+      "description": "시스템 및 메커니즘 설계 전문가 - GDD 작성, 플레이어 심리학, 경제 밸런싱, 전 엔진·장르를 아우르는 게임플레이 루프 설계에 정통",
+      "emoji": "🎮",
+      "color": "yellow",
+      "vibe": "루프, 레버, 플레이어 동기를 중심으로 사고하며 매력적인 게임플레이를 설계합니다.",
+      "path": "game-development/game-designer.ko.md"
+    },
+    {
+      "slug": "godot-gameplay-scripter",
+      "name": "Godot Gameplay Scripter",
+      "description": "Composition and signal integrity specialist - Masters GDScript 2.0, C# integration, node-based architecture, and type-safe signal design for Godot 4 projects",
+      "emoji": "🎯",
+      "color": "purple",
+      "vibe": "Builds Godot 4 gameplay systems with the discipline of a software architect.",
+      "path": "game-development/godot/godot-gameplay-scripter.ko.md"
+    },
+    {
+      "slug": "godot-multiplayer-engineer",
+      "name": "Godot Multiplayer Engineer",
+      "description": "Godot 4 networking specialist - Masters the MultiplayerAPI, scene replication, ENet/WebRTC transport, RPCs, and authority models for real-time multiplayer games",
+      "emoji": "🌐",
+      "color": "violet",
+      "vibe": "Masters Godot's MultiplayerAPI to make real-time netcode feel seamless.",
+      "path": "game-development/godot/godot-multiplayer-engineer.ko.md"
+    },
+    {
+      "slug": "godot-shader-developer",
+      "name": "Godot Shader Developer",
+      "description": "Godot 4 visual effects specialist - Masters the Godot Shading Language (GLSL-like), VisualShader editor, CanvasItem and Spatial shaders, post-processing, and performance optimization for 2D/3D effects",
+      "emoji": "💎",
+      "color": "purple",
+      "vibe": "Bends light and pixels through Godot's shading language to create stunning effects.",
+      "path": "game-development/godot/godot-shader-developer.ko.md"
+    },
+    {
+      "slug": "level-designer",
+      "name": "레벨 디자이너",
+      "description": "공간 스토리텔링 및 플로우 전문가 - 모든 게임 엔진에서 레이아웃 이론, 페이싱 설계, 인카운터 디자인, 환경 내러티브를 완벽하게 구사합니다",
+      "emoji": "🗺️",
+      "color": "teal",
+      "vibe": "모든 레벨을 공간이 이야기를 전달하는 하나의 작품으로 접근합니다.",
+      "path": "game-development/level-designer.ko.md"
+    },
+    {
+      "slug": "narrative-designer",
+      "name": "내러티브 디자이너",
+      "description": "스토리 시스템 및 대화 아키텍트 - GDD 연계 내러티브 디자인, 분기형 대화, 세계관 아키텍처, 환경적 스토리텔링을 모든 게임 엔진에서 마스터합니다",
+      "emoji": "📖",
+      "color": "red",
+      "vibe": "내러티브와 게임플레이가 분리될 수 없는 스토리 시스템을 설계합니다.",
+      "path": "game-development/narrative-designer.ko.md"
+    },
+    {
+      "slug": "roblox-avatar-creator",
+      "name": "Roblox Avatar Creator",
+      "description": "Roblox UGC and avatar pipeline specialist - Masters Roblox's avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline",
+      "emoji": "👤",
+      "color": "fuchsia",
+      "vibe": "Masters the UGC pipeline from rigging to Creator Marketplace submission.",
+      "path": "game-development/roblox-studio/roblox-avatar-creator.ko.md"
+    },
+    {
+      "slug": "roblox-experience-designer",
+      "name": "Roblox Experience Designer",
+      "description": "Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences",
+      "emoji": "🎪",
+      "color": "lime",
+      "vibe": "Designs engagement loops and monetization systems that keep players coming back.",
+      "path": "game-development/roblox-studio/roblox-experience-designer.ko.md"
+    },
+    {
+      "slug": "roblox-systems-scripter",
+      "name": "Roblox Systems Scripter",
+      "description": "Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences",
+      "emoji": "🔧",
+      "color": "rose",
+      "vibe": "Builds scalable Roblox experiences with rock-solid Luau and client-server security.",
+      "path": "game-development/roblox-studio/roblox-systems-scripter.ko.md"
+    },
+    {
+      "slug": "technical-artist",
+      "name": "테크니컬 아티스트",
+      "description": "아트-엔진 파이프라인 전문가 - 셰이더, VFX 시스템, LOD 파이프라인, 퍼포먼스 예산 관리, 크로스엔진 에셋 최적화 마스터",
+      "emoji": "🎨",
+      "color": "pink",
+      "vibe": "예술적 비전과 엔진 현실 사이를 잇는 다리.",
+      "path": "game-development/technical-artist.ko.md"
+    },
+    {
+      "slug": "unity-architect",
+      "name": "Unity Architect",
+      "description": "Data-driven modularity specialist - Masters ScriptableObjects, decoupled systems, and single-responsibility component design for scalable Unity projects",
+      "emoji": "🏛️",
+      "color": "blue",
+      "vibe": "Designs data-driven, decoupled Unity systems that scale without spaghetti.",
+      "path": "game-development/unity/unity-architect.ko.md"
+    },
+    {
+      "slug": "unity-editor-tool-developer",
+      "name": "Unity Editor Tool Developer",
+      "description": "Unity editor automation specialist - Masters custom EditorWindows, PropertyDrawers, AssetPostprocessors, ScriptedImporters, and pipeline automation that saves teams hours per week",
+      "emoji": "🛠️",
+      "color": "gray",
+      "vibe": "Builds custom Unity editor tools that save teams hours every week.",
+      "path": "game-development/unity/unity-editor-tool-developer.ko.md"
+    },
+    {
+      "slug": "unity-multiplayer-engineer",
+      "name": "Unity Multiplayer Engineer",
+      "description": "Networked gameplay specialist - Masters Netcode for GameObjects, Unity Gaming Services (Relay/Lobby), client-server authority, lag compensation, and state synchronization",
+      "emoji": "🔗",
+      "color": "blue",
+      "vibe": "Makes networked Unity gameplay feel local through smart sync and prediction.",
+      "path": "game-development/unity/unity-multiplayer-engineer.ko.md"
+    },
+    {
+      "slug": "unity-shader-graph-artist",
+      "name": "Unity Shader Graph Artist",
+      "description": "Visual effects and material specialist - Masters Unity Shader Graph, HLSL, URP/HDRP rendering pipelines, and custom pass authoring for real-time visual effects",
+      "emoji": "✨",
+      "color": "cyan",
+      "vibe": "Crafts real-time visual magic through Shader Graph and custom render passes.",
+      "path": "game-development/unity/unity-shader-graph-artist.ko.md"
+    },
+    {
+      "slug": "unreal-multiplayer-architect",
+      "name": "Unreal Multiplayer Architect",
+      "description": "Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5",
+      "emoji": "🌐",
+      "color": "red",
+      "vibe": "Architects server-authoritative Unreal multiplayer that feels lag-free.",
+      "path": "game-development/unreal-engine/unreal-multiplayer-architect.ko.md"
+    },
+    {
+      "slug": "unreal-systems-engineer",
+      "name": "Unreal Systems Engineer",
+      "description": "Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects",
+      "emoji": "⚙️",
+      "color": "orange",
+      "vibe": "Masters the C++/Blueprint continuum for AAA-grade Unreal Engine projects.",
+      "path": "game-development/unreal-engine/unreal-systems-engineer.ko.md"
+    },
+    {
+      "slug": "unreal-technical-artist",
+      "name": "Unreal Technical Artist",
+      "description": "Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects",
+      "emoji": "🎨",
+      "color": "orange",
+      "vibe": "Bridges Niagara VFX, Material Editor, and PCG into polished UE5 visuals.",
+      "path": "game-development/unreal-engine/unreal-technical-artist.ko.md"
+    },
+    {
+      "slug": "unreal-world-builder",
+      "name": "Unreal World Builder",
+      "description": "Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences",
+      "emoji": "🌍",
+      "color": "green",
+      "vibe": "Builds seamless open worlds with World Partition, Nanite, and procedural foliage.",
+      "path": "game-development/unreal-engine/unreal-world-builder.ko.md"
+    },
+    {
+      "slug": "gis-3d-scene-developer",
+      "name": "3D & Scene Developer",
+      "description": "Web 3D visualization specialist who creates immersive 3D scenes, terrain models, point cloud visualizations, and interactive web experiences using Cesium, ArcGIS Scene Viewer, and modern 3D web frameworks.",
+      "emoji": "🏔️",
+      "color": "cyan",
+      "vibe": "Bringing the third dimension to the web — one scene at a time.",
+      "path": "gis/gis-3d-scene-developer.ko.md"
+    },
+    {
+      "slug": "gis-analyst",
+      "name": "GIS Analyst",
+      "description": "Day-to-day GIS operator who creates maps, manages layers, performs spatial queries, and maintains geospatial data integrity across desktop and web environments.",
+      "emoji": "🖥️",
+      "color": "teal",
+      "vibe": "The reliable hands-on operator who keeps the GIS running day to day.",
+      "path": "gis/gis-analyst.ko.md"
+    },
+    {
+      "slug": "gis-bim-specialist",
+      "name": "BIM/GIS Specialist",
+      "description": "Integration specialist who bridges Building Information Modeling and Geographic Information Systems — Revit/IFC data conversion, indoor mapping, digital twin architecture, and facility management data models.",
+      "emoji": "🏗️",
+      "color": "gold",
+      "vibe": "Where buildings meet geography — the spatial side of the built world.",
+      "path": "gis/gis-bim-specialist.ko.md"
+    },
+    {
+      "slug": "gis-cartography-designer",
+      "name": "Cartography Designer",
+      "description": "Map aesthetics specialist who designs beautiful, readable, and effective maps — color theory, typography, label placement, basemap selection, and visual hierarchy for both print and web.",
+      "emoji": "🎨",
+      "color": "pink",
+      "vibe": "A map that communicates beautifully is a map that gets used.",
+      "path": "gis/gis-cartography-designer.ko.md"
+    },
+    {
+      "slug": "gis-drone-reality-mapping",
+      "name": "Drone/Reality Mapping Specialist",
+      "description": "Photogrammetry and reality capture expert who processes drone imagery into orthomosaics, digital terrain models, point clouds, and 3D meshes — bridging field capture and GIS-ready products.",
+      "emoji": "🛸",
+      "color": "amber",
+      "vibe": "From raw drone footage to production-ready GIS data — seamless.",
+      "path": "gis/gis-drone-reality-mapping.ko.md"
+    },
+    {
+      "slug": "gis-geoai-ml-engineer",
+      "name": "GeoAI/ML Engineer",
+      "description": "Geospatial machine learning specialist who builds models for feature extraction, object detection, image segmentation, and land cover classification from satellite and aerial imagery.",
+      "emoji": "🤖",
+      "color": "green",
+      "vibe": "Teaching machines to see the Earth — one pixel at a time.",
+      "path": "gis/gis-geoai-ml-engineer.ko.md"
+    },
+    {
+      "slug": "gis-geoprocessing-specialist",
+      "name": "Geoprocessing Specialist",
+      "description": "ArcPy and Python toolbox expert who automates spatial workflows — builds .pyt toolboxes, Model Builder processes, batch geoprocessing automation, and custom analysis scripts for ArcGIS Pro.",
+      "emoji": "⚙️",
+      "color": "red",
+      "vibe": "If you've done it manually more than twice, this agent will automate it.",
+      "path": "gis/gis-geoprocessing-specialist.ko.md"
+    },
+    {
+      "slug": "gis-qa-engineer",
+      "name": "GIS QA Engineer",
+      "description": "Quality assurance specialist who validates geospatial data integrity — topology checks, metadata audits, CRS consistency, accuracy assessment, and compliance verification.",
+      "emoji": "✅",
+      "color": "purple",
+      "vibe": "Data doesn't ship until QA says it ships.",
+      "path": "gis/gis-qa-engineer.ko.md"
+    },
+    {
+      "slug": "gis-solution-engineer",
+      "name": "Solution Engineer",
+      "description": "Hands-on GIS prototype builder who takes strategy from Technical Consultant and turns it into working demos, proof-of-concepts, and technical validations across the full Esri and open-source stack.",
+      "emoji": "🔧",
+      "color": "blue",
+      "vibe": "The builder who makes strategy real — one working demo at a time.",
+      "path": "gis/gis-solution-engineer.ko.md"
+    },
+    {
+      "slug": "gis-spatial-data-engineer",
+      "name": "Spatial Data Engineer",
+      "description": "ETL specialist who transforms messy geospatial data from any source into clean, standardized, production-ready datasets — format conversion, CRS reprojection, attribute normalization, and automated pipelines.",
+      "emoji": "📦",
+      "color": "orange",
+      "vibe": "Data comes in dirty. It leaves clean, documented, and ready to publish.",
+      "path": "gis/gis-spatial-data-engineer.ko.md"
+    },
+    {
+      "slug": "gis-spatial-data-scientist",
+      "name": "Spatial Data Scientist",
+      "description": "Advanced spatial analytics specialist who applies statistical modeling, spatial econometrics, clustering, and predictive analytics to geospatial data — finding patterns that aren't visible on a map.",
+      "emoji": "📊",
+      "color": "indigo",
+      "vibe": "Finding the patterns in space that even experienced analysts miss.",
+      "path": "gis/gis-spatial-data-scientist.ko.md"
+    },
+    {
+      "slug": "gis-technical-consultant",
+      "name": "Technical Consultant",
+      "description": "Strategic GIS advisor who translates business problems into geospatial solutions — gap analysis, technology roadmaps, RFP responses, and digital transformation strategy across Esri and open-source ecosystems.",
+      "emoji": "🧠",
+      "color": "navy",
+      "vibe": "The strategist who connects business pain points with geospatial solutions that actually deliver ROI.",
+      "path": "gis/gis-technical-consultant.ko.md"
+    },
+    {
+      "slug": "gis-web-gis-developer",
+      "name": "Web GIS Developer",
+      "description": "Full-stack web GIS engineer who builds interactive mapping applications — MapLibre GL JS, ArcGIS JS API, Leaflet, real-time dashboards, REST API integration, and geospatial web services.",
+      "emoji": "🌐",
+      "color": "blue",
+      "vibe": "Maps on the web that actually work — fast, responsive, and beautiful.",
+      "path": "gis/gis-web-gis-developer.ko.md"
+    }
+  ],
+  "divisions": [
+    {
+      "id": "engineering",
+      "name": "엔지니어링",
+      "koName": "엔지니어링",
+      "emoji": "💻",
+      "count": 33
+    },
+    {
+      "id": "design",
+      "name": "디자인",
+      "koName": "디자인",
+      "emoji": "🎨",
+      "count": 9
+    },
+    {
+      "id": "paid-media",
+      "name": "유료 미디어",
+      "koName": "유료 미디어",
+      "emoji": "💰",
+      "count": 7
+    },
+    {
+      "id": "sales",
+      "name": "세일즈",
+      "koName": "세일즈",
+      "emoji": "💼",
+      "count": 9
+    },
+    {
+      "id": "marketing",
+      "name": "마케팅",
+      "koName": "마케팅",
+      "emoji": "📢",
+      "count": 36
+    },
+    {
+      "id": "product",
+      "name": "프로덕트",
+      "koName": "프로덕트",
+      "emoji": "📊",
+      "count": 5
+    },
+    {
+      "id": "project-management",
+      "name": "프로젝트 관리",
+      "koName": "프로젝트 관리",
+      "emoji": "🎬",
+      "count": 7
+    },
+    {
+      "id": "testing",
+      "name": "테스팅",
+      "koName": "테스팅",
+      "emoji": "🧪",
+      "count": 8
+    },
+    {
+      "id": "security",
+      "name": "보안",
+      "koName": "보안",
+      "emoji": "🔒",
+      "count": 10
+    },
+    {
+      "id": "support",
+      "name": "지원",
+      "koName": "지원",
+      "emoji": "🛟",
+      "count": 6
+    },
+    {
+      "id": "spatial-computing",
+      "name": "공간 컴퓨팅",
+      "koName": "공간 컴퓨팅",
+      "emoji": "🥽",
+      "count": 6
+    },
+    {
+      "id": "specialized",
+      "name": "스페셜리스트",
+      "koName": "스페셜리스트",
+      "emoji": "🎯",
+      "count": 53
+    },
+    {
+      "id": "academic",
+      "name": "학술",
+      "koName": "학술",
+      "emoji": "📚",
+      "count": 5
+    },
+    {
+      "id": "finance",
+      "name": "재무",
+      "koName": "재무",
+      "emoji": "💰",
+      "count": 5
+    },
+    {
+      "id": "game-development",
+      "name": "게임 개발",
+      "koName": "게임 개발",
+      "emoji": "🎮",
+      "count": 20
+    },
+    {
+      "id": "gis",
+      "name": "GIS",
+      "koName": "GIS",
+      "emoji": "🗺️",
+      "count": 13
+    }
+  ]
+}

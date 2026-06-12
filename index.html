@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,6 @@
   --accent-orange: #fb923c;
   --accent-cyan: #22d3ee;
   --accent-red: #f87171;
-  --accent-yellow: #fbbf24;
   --sidebar-width: 340px;
   --header-height: 60px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
@@ -41,7 +40,6 @@ body {
 a { color: var(--accent-blue); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* Header */
 .header {
   height: var(--header-height);
   background: var(--bg-secondary);
@@ -49,7 +47,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   padding: 0 24px;
-  gap: 16px;
+  gap: 12px;
   flex-shrink: 0;
 }
 .header h1 {
@@ -69,11 +67,34 @@ a:hover { text-decoration: underline; }
   .header .subtitle { display: block; }
 }
 
-/* Search */
+.lang-toggle {
+  display: flex;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+  padding: 2px;
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+.lang-btn {
+  padding: 4px 10px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.15s;
+}
+.lang-btn.active {
+  background: var(--accent-blue);
+  color: #000;
+}
+
 .search-container {
   margin-left: auto;
   position: relative;
-  width: 240px;
+  width: 220px;
 }
 .search-container input {
   width: 100%;
@@ -97,14 +118,8 @@ a:hover { text-decoration: underline; }
   font-size: 14px;
 }
 
-/* Main layout */
-.layout {
-  display: flex;
-  flex: 1;
-  overflow: hidden;
-}
+.layout { display: flex; flex: 1; overflow: hidden; }
 
-/* Sidebar */
 .sidebar {
   width: var(--sidebar-width);
   background: var(--bg-secondary);
@@ -116,9 +131,7 @@ a:hover { text-decoration: underline; }
 .sidebar::-webkit-scrollbar-track { background: transparent; }
 .sidebar::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
 
-.sidebar-section {
-  border-bottom: 1px solid var(--border-color);
-}
+.sidebar-section { border-bottom: 1px solid var(--border-color); }
 .sidebar-header {
   padding: 14px 20px;
   cursor: pointer;
@@ -142,10 +155,7 @@ a:hover { text-decoration: underline; }
   font-size: 11px;
   color: var(--text-muted);
 }
-.sidebar-header .arrow {
-  transition: transform 0.2s;
-  font-size: 10px;
-}
+.sidebar-header .arrow { transition: transform 0.2s; font-size: 10px; }
 .sidebar-header.collapsed .arrow { transform: rotate(-90deg); }
 .sidebar-items { overflow: hidden; transition: max-height 0.3s ease; }
 .sidebar-items.hidden { max-height: 0 !important; }
@@ -160,12 +170,8 @@ a:hover { text-decoration: underline; }
   color: var(--text-secondary);
   transition: all 0.15s;
   border-left: 3px solid transparent;
-  position: relative;
 }
-.agent-item:hover {
-  background: var(--bg-tertiary);
-  color: var(--text-primary);
-}
+.agent-item:hover { background: var(--bg-tertiary); color: var(--text-primary); }
 .agent-item.active {
   background: rgba(56, 189, 248, 0.08);
   color: var(--accent-blue);
@@ -175,7 +181,6 @@ a:hover { text-decoration: underline; }
 .agent-item .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .agent-item .match-highlight { background: rgba(251, 191, 36, 0.3); border-radius: 2px; padding: 0 2px; }
 
-/* Main content */
 .content {
   flex: 1;
   overflow-y: auto;
@@ -212,174 +217,52 @@ a:hover { text-decoration: underline; }
 }
 .content blockquote p { margin: 0; }
 .content hr { border: none; border-top: 1px solid var(--border-color); margin: 2em 0; }
-.content code {
-  background: var(--bg-tertiary);
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.9em;
-  color: var(--accent-pink);
-}
-.content pre {
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 16px;
-  overflow-x: auto;
-  margin: 1em 0;
-}
-.content pre code {
-  background: none;
-  padding: 0;
-  color: inherit;
-}
-.content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1em 0;
-}
-.content th, .content td {
-  padding: 10px 14px;
-  border: 1px solid var(--border-color);
-  text-align: left;
-}
+.content code { background: var(--bg-tertiary); padding: 2px 6px; border-radius: 4px; font-size: 0.9em; color: var(--accent-pink); }
+.content pre { background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: 8px; padding: 16px; overflow-x: auto; margin: 1em 0; }
+.content pre code { background: none; padding: 0; color: inherit; }
+.content table { width: 100%; border-collapse: collapse; margin: 1em 0; }
+.content th, .content td { padding: 10px 14px; border: 1px solid var(--border-color); text-align: left; }
 .content th { background: var(--bg-tertiary); color: var(--text-primary); font-weight: 600; }
 .content td { color: var(--text-secondary); }
 .content img { max-width: 100%; border-radius: 8px; }
 
-/* Landing page */
-.landing {
-  text-align: center;
-  padding: 80px 0;
-}
-.landing .logo {
-  font-size: 72px;
-  margin-bottom: 24px;
-}
+.landing { text-align: center; padding: 60px 0; }
+.landing .logo { font-size: 72px; margin-bottom: 24px; }
 .landing h1 {
-  font-size: 42px;
-  font-weight: 800;
+  font-size: 42px; font-weight: 800;
   background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-pink));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: none;
-  margin-bottom: 16px;
+  border: none; margin-bottom: 16px;
 }
 .landing .tagline {
-  font-size: 18px;
-  color: var(--text-secondary);
-  max-width: 600px;
-  margin: 0 auto 32px;
-  line-height: 1.6;
+  font-size: 18px; color: var(--text-secondary);
+  max-width: 600px; margin: 0 auto 32px; line-height: 1.6;
 }
-.landing .stats {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-.landing .stat {
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 16px 28px;
-  text-align: center;
-}
-.landing .stat .num {
-  font-size: 32px;
-  font-weight: 700;
-  color: var(--accent-blue);
-}
-.landing .stat .label {
-  font-size: 12px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 4px;
-}
-.landing h2 {
-  font-size: 20px;
-  color: var(--text-secondary);
-  margin: 48px 0 20px;
-}
-.landing .division-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 12px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.landing .division-tile {
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 14px;
-  cursor: pointer;
-  transition: all 0.2s;
-  font-size: 13px;
-}
-.landing .division-tile:hover {
-  border-color: var(--accent-blue);
-  transform: translateY(-2px);
-}
+.landing .stats { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
+.landing .stat { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px 28px; text-align: center; }
+.landing .stat .num { font-size: 32px; font-weight: 700; color: var(--accent-blue); }
+.landing .stat .label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; }
+.landing h2 { font-size: 20px; color: var(--text-secondary); margin: 48px 0 20px; }
+.landing .division-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; max-width: 800px; margin: 0 auto; }
+.landing .division-tile { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; padding: 14px; cursor: pointer; transition: all 0.2s; font-size: 13px; }
+.landing .division-tile:hover { border-color: var(--accent-blue); transform: translateY(-2px); }
 .landing .division-tile .emoji { font-size: 24px; display: block; margin-bottom: 6px; }
 .landing .division-tile .dname { color: var(--text-primary); font-weight: 600; }
 .landing .division-tile .dcount { color: var(--text-muted); font-size: 11px; }
+.landing .bottom-hint { margin-top: 40px; color: var(--text-muted); font-size: 13px; }
 
-/* Loading */
-.loading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-  color: var(--text-muted);
-}
-.loading::after {
-  content: '';
-  width: 24px;
-  height: 24px;
-  border: 2px solid var(--border-color);
-  border-top-color: var(--accent-blue);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-  margin-left: 10px;
-}
+.loading { display: flex; align-items: center; justify-content: center; height: 200px; color: var(--text-muted); }
+.loading::after { content: ''; width: 24px; height: 24px; border: 2px solid var(--border-color); border-top-color: var(--accent-blue); border-radius: 50%; animation: spin 0.8s linear infinite; margin-left: 10px; }
 @keyframes spin { to { transform: rotate(360deg); } }
-
-/* Error */
 .error { color: var(--accent-red); text-align: center; padding: 60px 0; }
 
-/* Mobile toggle */
-.mobile-toggle {
-  display: none;
-  background: none;
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  padding: 6px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 18px;
-}
+.mobile-toggle { display: none; background: none; border: 1px solid var(--border-color); color: var(--text-secondary); padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 18px; }
 @media (max-width: 768px) {
   .mobile-toggle { display: block; }
-  .sidebar {
-    position: fixed;
-    top: var(--header-height);
-    left: 0;
-    bottom: 0;
-    z-index: 100;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease;
-    width: 300px;
-  }
+  .sidebar { position: fixed; top: var(--header-height); left: 0; bottom: 0; z-index: 100; transform: translateX(-100%); transition: transform 0.3s ease; width: 300px; }
   .sidebar.open { transform: translateX(0); }
-  .sidebar-overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.5);
-    z-index: 99;
-  }
+  .sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 99; }
   .sidebar-overlay.show { display: block; }
   .content { padding: 20px; }
 }
@@ -388,9 +271,13 @@ a:hover { text-decoration: underline; }
 <body>
 
 <div class="header">
-  <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+  <button class="mobile-toggle" id="menuToggle">☰</button>
   <h1>🎭 The Agency</h1>
-  <span class="subtitle">AI Agent Roster</span>
+  <span class="subtitle" id="headerSubtitle">AI Agent Roster</span>
+  <div class="lang-toggle">
+    <button class="lang-btn active" data-lang="en" onclick="switchLang('en')">EN</button>
+    <button class="lang-btn" data-lang="ko" onclick="switchLang('ko')">KO</button>
+  </div>
   <div class="search-container">
     <span class="search-icon">🔍</span>
     <input type="text" id="searchInput" placeholder="Search agents..." autocomplete="off">
@@ -398,46 +285,98 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
-
 <div class="layout">
   <nav class="sidebar" id="sidebar"></nav>
   <main class="content" id="content"></main>
 </div>
 
 <script>
-const dataUrl = 'agents.json';
+const i18n = {
+  en: {
+    subtitle: 'AI Agent Roster',
+    searchPlaceholder: 'Search agents...',
+    resources: 'Resources',
+    agentsLabel: 'agents',
+    statAgents: 'AI Agents',
+    statDivisions: 'Divisions',
+    statCategories: 'Categories',
+    browseBy: 'Browse by Division',
+    hint: 'Select an agent from the sidebar or search above to view details.',
+    loading: 'Loading',
+    failedLoad: 'Failed to load agent',
+    readme: 'README',
+    contributing: 'CONTRIBUTING',
+    security: 'SECURITY',
+    license: 'LICENSE',
+    landingTitle: 'The Agency',
+    landingDesc: 'A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.'
+  },
+  ko: {
+    subtitle: 'AI 에이전트 명단',
+    searchPlaceholder: '에이전트 검색...',
+    resources: '리소스',
+    agentsLabel: '에이전트',
+    statAgents: 'AI 에이전트',
+    statDivisions: '부서',
+    statCategories: '카테고리',
+    browseBy: '부서별 탐색',
+    hint: '사이드바에서 에이전트를 선택하거나 검색하여 자세한 내용을 확인하세요.',
+    loading: '로딩 중',
+    failedLoad: '에이전트를 불러오지 못했습니다',
+    readme: 'README',
+    contributing: '기여 가이드',
+    security: '보안',
+    license: '라이선스',
+    landingTitle: '디 에이전시',
+    landingDesc: '완전한 AI 에이전시를 손끝에서 — 프론트엔드 마법사부터 Reddit 커뮤니티 닌자까지, 기발함을 주입하는 자부터 현실을 점검하는 자까지.'
+  }
+};
 
+let lang = 'en';
 let agents = [];
 let divisions = [];
 let currentSlug = null;
 
-function getColorCSS(color) {
+function t(key) { return i18n[lang][key] || key; }
+
+function switchLang(newLang) {
+  lang = newLang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  localStorage.setItem('agency-lang', lang);
+  document.documentElement.lang = lang === 'ko' ? 'ko' : 'en';
+  document.getElementById('headerSubtitle').textContent = t('subtitle');
+  document.getElementById('searchInput').placeholder = t('searchPlaceholder');
+  loadData();
+}
+
+const dataUrls = { en: 'agents.json', ko: 'agents.ko.json' };
+const fileExt = { en: '.md', ko: '.ko.md' };
+
+function getDivEmoji(divId) {
   const map = {
-    cyan: '#22d3ee', blue: '#38bdf8', purple: '#a78bfa', pink: '#f472b6',
-    red: '#f87171', orange: '#fb923c', yellow: '#fbbf24', green: '#34d399',
-    gray: '#64748b', indigo: '#818cf8', teal: '#2dd4bf', white: '#f1f5f9',
-    black: '#0f172a'
+    engineering: '💻', design: '🎨', 'paid-media': '💰', sales: '💼',
+    marketing: '📢', product: '📊', 'project-management': '🎬', testing: '🧪',
+    security: '🔒', support: '🛟', 'spatial-computing': '🥽', specialized: '🎯',
+    academic: '📚', finance: '💰', 'game-development': '🎮', gis: '🗺️'
   };
-  return map[color] || map.blue;
+  return map[divId] || '📁';
 }
 
 async function loadData() {
   try {
-    const res = await fetch(dataUrl);
+    const res = await fetch(dataUrls[lang]);
     const data = await res.json();
     agents = data.agents;
     divisions = data.divisions;
     renderSidebar();
     renderLanding();
   } catch (e) {
-    document.getElementById('content').innerHTML = '<div class="error">Failed to load agent data. Make sure agents.json exists.</div>';
+    document.getElementById('content').innerHTML = '<div class="error">Failed to load agent data.</div>';
   }
 }
 
 function renderSidebar() {
   const sidebar = document.getElementById('sidebar');
-  const divMap = {};
-  divisions.forEach(d => { divMap[d.id] = d; });
   const grouped = {};
   agents.forEach(a => {
     const divId = a.path.split('/')[0];
@@ -446,25 +385,24 @@ function renderSidebar() {
   });
 
   let html = '';
-
   html += `<div class="sidebar-section">
     <div class="sidebar-header collapsed" onclick="toggleDivision(this)">
       <span>📋</span>
-      <span>Resources</span>
+      <span>${t('resources')}</span>
       <span class="arrow">▼</span>
     </div>
     <div class="sidebar-items hidden">
-      <div class="agent-item" onclick='loadRootFile("README.md")'>
-        <span class="emoji">📖</span><span class="name">README</span>
+      <div class="agent-item" onclick='loadRootFile("README' + (lang === 'ko' ? '.ko' : '') + '.md")'>
+        <span class="emoji">📖</span><span class="name">${t('readme')}</span>
       </div>
-      <div class="agent-item" onclick='loadRootFile("CONTRIBUTING.md")'>
-        <span class="emoji">🤝</span><span class="name">CONTRIBUTING</span>
+      <div class="agent-item" onclick='loadRootFile("CONTRIBUTING' + (lang === 'ko' ? '.ko' : '') + '.md")'>
+        <span class="emoji">🤝</span><span class="name">${t('contributing')}</span>
       </div>
       <div class="agent-item" onclick='loadRootFile("SECURITY.md")'>
-        <span class="emoji">🔐</span><span class="name">SECURITY</span>
+        <span class="emoji">🔐</span><span class="name">${t('security')}</span>
       </div>
       <div class="agent-item" onclick='loadRootFile("LICENSE")'>
-        <span class="emoji">⚖️</span><span class="name">LICENSE</span>
+        <span class="emoji">⚖️</span><span class="name">${t('license')}</span>
       </div>
     </div>
   </div>`;
@@ -480,9 +418,9 @@ function renderSidebar() {
       </div>
       <div class="sidebar-items hidden" id="items-${d.id}">`;
     divAgents.forEach(a => {
-      html += `<div class="agent-item" data-slug="${a.slug}" onclick="selectAgent('${a.slug}', '${a.path}')">
+      html += `<div class="agent-item" data-slug="${a.slug}" onclick="selectAgent('${a.slug}')">
         <span class="emoji">${a.emoji}</span>
-        <span class="name">${a.name}</span>
+        <span class="name">${escapeHtml(a.name)}</span>
       </div>`;
     });
     html += `</div></div>`;
@@ -490,64 +428,40 @@ function renderSidebar() {
   sidebar.innerHTML = html;
 }
 
-function getDivEmoji(divId) {
-  const map = {
-    engineering: '💻', design: '🎨', 'paid-media': '💰', sales: '💼',
-    marketing: '📢', product: '📊', 'project-management': '🎬', testing: '🧪',
-    security: '🔒', support: '🛟', 'spatial-computing': '🥽', specialized: '🎯',
-    academic: '📚', finance: '💳', 'game-development': '🎮', gis: '🗺️'
-  };
-  return map[divId] || '📁';
+function escapeHtml(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
 function toggleDivision(header) {
   header.classList.toggle('collapsed');
-  const items = header.nextElementSibling;
-  items.classList.toggle('hidden');
-}
-
-let allExpanded = false;
-function expandAllDivisions() {
-  allExpanded = !allExpanded;
-  document.querySelectorAll('.sidebar-header').forEach(h => {
-    if (allExpanded) {
-      h.classList.remove('collapsed');
-      h.nextElementSibling.classList.remove('hidden');
-    } else {
-      h.classList.add('collapsed');
-      h.nextElementSibling.classList.add('hidden');
-    }
-  });
+  header.nextElementSibling.classList.toggle('hidden');
 }
 
 function renderLanding() {
   const content = document.getElementById('content');
   currentSlug = null;
+  document.title = 'The Agency - AI Agent Roster';
   let tiles = '';
   divisions.forEach(d => {
     tiles += `<div class="division-tile" onclick="scrollToDivision('${d.id}')">
       <span class="emoji">${d.emoji || getDivEmoji(d.id) || '📁'}</span>
-      <span class="dname">${d.name}</span>
-      <span class="dcount">${d.count} agents</span>
+      <span class="dname">${escapeHtml(d.name)}</span>
+      <span class="dcount">${d.count} ${t('agentsLabel')}</span>
     </div>`;
   });
-
   content.innerHTML = `<div class="landing">
     <div class="logo">🎭</div>
-    <h1>The Agency</h1>
-    <p class="tagline">A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.</p>
+    <h1>${t('landingTitle')}</h1>
+    <p class="tagline">${t('landingDesc')}</p>
     <div class="stats">
-      <div class="stat"><div class="num">${agents.length}</div><div class="label">AI Agents</div></div>
-      <div class="stat"><div class="num">${divisions.length}</div><div class="label">Divisions</div></div>
-      <div class="stat"><div class="num">${new Set(agents.map(a => a.path.split('/')[0])).size}</div><div class="label">Categories</div></div>
+      <div class="stat"><div class="num">${agents.length}</div><div class="label">${t('statAgents')}</div></div>
+      <div class="stat"><div class="num">${divisions.length}</div><div class="label">${t('statDivisions')}</div></div>
+      <div class="stat"><div class="num">${new Set(agents.map(a => a.path.split('/')[0])).size}</div><div class="label">${t('statCategories')}</div></div>
     </div>
-    <h2>Browse by Division</h2>
+    <h2>${t('browseBy')}</h2>
     <div class="division-grid">${tiles}</div>
-    <p style="margin-top: 48px; color: var(--text-muted); font-size: 13px;">
-      Select an agent from the sidebar or search above to view details.
-    </p>
+    <p class="bottom-hint">${t('hint')}</p>
   </div>`;
-  document.title = 'The Agency - AI Agent Roster';
 }
 
 function scrollToDivision(divId) {
@@ -559,27 +473,38 @@ function scrollToDivision(divId) {
   }
 }
 
-async function selectAgent(slug, path) {
+async function selectAgent(slug) {
   currentSlug = slug;
   const content = document.getElementById('content');
-  content.innerHTML = '<div class="loading">Loading agent</div>';
+  content.innerHTML = `<div class="loading">${t('loading')}</div>`;
 
   document.querySelectorAll('.agent-item').forEach(el => el.classList.remove('active'));
   const el = document.querySelector(`[data-slug="${slug}"]`);
   if (el) el.classList.add('active');
 
+  const agent = agents.find(a => a.slug === slug);
+  if (!agent) { content.innerHTML = `<div class="error">${t('failedLoad')}</div>`; return; }
+
+  const mdPath = agent.path.replace(/\.md$/, fileExt[lang]);
   try {
-    const res = await fetch(path);
+    const res = await fetch(mdPath);
     if (!res.ok) throw new Error('Not found');
     const md = await res.text();
-    const html = marked.parse(md);
-    content.innerHTML = html;
-    document.querySelectorAll('pre code').forEach(block => {
-      hljs.highlightElement(block);
-    });
-    document.title = `${getAgentName(slug)} - The Agency`;
+    content.innerHTML = marked.parse(md);
+    document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
+    document.title = `${agent.name} - The Agency`;
   } catch (e) {
-    content.innerHTML = `<div class="error">Failed to load agent: ${path}<br>${e.message}</div>`;
+    // Fallback to English
+    try {
+      const enPath = agent.path;
+      const res = await fetch(enPath);
+      if (!res.ok) throw new Error('Not found');
+      const md = await res.text();
+      content.innerHTML = marked.parse(md);
+      document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
+    } catch (e2) {
+      content.innerHTML = `<div class="error">${t('failedLoad')}: ${mdPath}</div>`;
+    }
   }
 
   if (window.innerWidth <= 768) {
@@ -590,7 +515,7 @@ async function selectAgent(slug, path) {
 
 function loadRootFile(path) {
   const content = document.getElementById('content');
-  content.innerHTML = '<div class="loading">Loading...</div>';
+  content.innerHTML = `<div class="loading">${t('loading')}</div>`;
   currentSlug = null;
   document.querySelectorAll('.agent-item').forEach(el => el.classList.remove('active'));
 
@@ -598,12 +523,11 @@ function loadRootFile(path) {
     if (!r.ok) throw new Error('Not found');
     return r.text();
   }).then(md => {
-    const html = marked.parse(md);
-    content.innerHTML = html;
+    content.innerHTML = marked.parse(md);
     document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
-    document.title = path.replace('.md','') + ' - The Agency';
-  }).catch(e => {
-    content.innerHTML = `<div class="error">Failed to load ${path}</div>`;
+    document.title = path.replace('.md','').replace('.ko','') + ' - The Agency';
+  }).catch(() => {
+    content.innerHTML = `<div class="error">${t('failedLoad')}: ${path}</div>`;
   });
 
   if (window.innerWidth <= 768) {
@@ -612,30 +536,22 @@ function loadRootFile(path) {
   }
 }
 
-function getAgentName(slug) {
-  const a = agents.find(x => x.slug === slug);
-  return a ? a.name : slug;
-}
-
-// Search
 document.getElementById('searchInput').addEventListener('input', function() {
   const q = this.value.toLowerCase().trim();
   document.querySelectorAll('.agent-item').forEach(el => {
-    const name = el.querySelector('.name');
-    const text = name.textContent.toLowerCase();
+    const nameEl = el.querySelector('.name');
+    const text = nameEl.textContent.toLowerCase();
     const slug = el.dataset.slug;
     const desc = (agents.find(a => a.slug === slug) || {}).description || '';
     const match = text.includes(q) || desc.toLowerCase().includes(q);
     el.style.display = match || !q ? 'flex' : 'none';
     if (q && match) {
-      const idx = name.textContent.toLowerCase().indexOf(q);
+      const idx = text.indexOf(q);
       if (idx >= 0) {
-        name.innerHTML = name.textContent.slice(0, idx) +
-          '<span class="match-highlight">' + name.textContent.slice(idx, idx + q.length) + '</span>' +
-          name.textContent.slice(idx + q.length);
+        nameEl.innerHTML = text.slice(0, idx) + '<span class="match-highlight">' + text.slice(idx, idx + q.length) + '</span>' + text.slice(idx + q.length);
       }
     } else {
-      name.innerHTML = name.textContent;
+      nameEl.innerHTML = text;
     }
   });
 
@@ -650,7 +566,6 @@ document.getElementById('searchInput').addEventListener('input', function() {
   });
 });
 
-// Mobile menu
 document.getElementById('menuToggle').addEventListener('click', () => {
   document.getElementById('sidebar').classList.toggle('open');
   document.getElementById('sidebarOverlay').classList.toggle('show');
@@ -660,7 +575,6 @@ document.getElementById('sidebarOverlay').addEventListener('click', () => {
   document.getElementById('sidebarOverlay').classList.remove('show');
 });
 
-// Keyboard shortcut
 document.addEventListener('keydown', e => {
   if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
     e.preventDefault();
@@ -668,6 +582,14 @@ document.addEventListener('keydown', e => {
   }
 });
 
+const savedLang = localStorage.getItem('agency-lang');
+if (savedLang === 'ko' || savedLang === 'en') {
+  lang = savedLang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  document.documentElement.lang = lang === 'ko' ? 'ko' : 'en';
+}
+document.getElementById('headerSubtitle').textContent = i18n[lang].subtitle;
+document.getElementById('searchInput').placeholder = i18n[lang].searchPlaceholder;
 loadData();
 </script>
 </body>

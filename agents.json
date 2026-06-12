@@ -2093,96 +2093,112 @@
     {
       "id": "engineering",
       "name": "Engineering",
+      "koName": "엔지니어링",
       "emoji": "💻",
       "count": 33
     },
     {
       "id": "design",
       "name": "Design",
+      "koName": "디자인",
       "emoji": "🎨",
       "count": 9
     },
     {
       "id": "paid-media",
       "name": "Paid Media",
+      "koName": "유료 미디어",
       "emoji": "💰",
       "count": 7
     },
     {
       "id": "sales",
       "name": "Sales",
+      "koName": "세일즈",
       "emoji": "💼",
       "count": 9
     },
     {
       "id": "marketing",
       "name": "Marketing",
+      "koName": "마케팅",
       "emoji": "📢",
       "count": 36
     },
     {
       "id": "product",
       "name": "Product",
+      "koName": "프로덕트",
       "emoji": "📊",
       "count": 5
     },
     {
       "id": "project-management",
       "name": "Project Management",
+      "koName": "프로젝트 관리",
       "emoji": "🎬",
       "count": 7
     },
     {
       "id": "testing",
       "name": "Testing",
+      "koName": "테스팅",
       "emoji": "🧪",
       "count": 8
     },
     {
       "id": "security",
       "name": "Security",
+      "koName": "보안",
       "emoji": "🔒",
       "count": 10
     },
     {
       "id": "support",
       "name": "Support",
+      "koName": "지원",
       "emoji": "🛟",
       "count": 6
     },
     {
       "id": "spatial-computing",
       "name": "Spatial Computing",
+      "koName": "공간 컴퓨팅",
       "emoji": "🥽",
       "count": 6
     },
     {
       "id": "specialized",
       "name": "Specialized",
+      "koName": "스페셜리스트",
       "emoji": "🎯",
       "count": 53
     },
     {
       "id": "academic",
       "name": "Academic",
+      "koName": "학술",
       "emoji": "📚",
       "count": 5
     },
     {
       "id": "finance",
       "name": "Finance",
+      "koName": "재무",
       "emoji": "💰",
       "count": 5
     },
     {
       "id": "game-development",
       "name": "Game Development",
+      "koName": "게임 개발",
       "emoji": "🎮",
       "count": 20
     },
     {
       "id": "gis",
       "name": "GIS",
+      "koName": "GIS",
       "emoji": "🗺️",
       "count": 13
     }
