@@ -340,14 +340,17 @@ let currentSlug = null;
 
 function t(key) { return i18n[lang][key] || key; }
 
-function switchLang(newLang) {
+async function switchLang(newLang) {
+  const prevSlug = currentSlug;
   lang = newLang;
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
   localStorage.setItem('agency-lang', lang);
   document.documentElement.lang = lang === 'ko' ? 'ko' : 'en';
   document.getElementById('headerSubtitle').textContent = t('subtitle');
   document.getElementById('searchInput').placeholder = t('searchPlaceholder');
-  loadData();
+  await loadData();
+  if (prevSlug) selectAgent(prevSlug);
+  document.getElementById('searchInput').dispatchEvent(new Event('input'));
 }
 
 const dataUrls = { en: 'agents.json', ko: 'agents.ko.json' };
