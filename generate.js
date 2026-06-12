@@ -115,10 +115,11 @@ for (const div of order) {
     allEnAgents.push(en);
     const ko = koAgents.find(k => k.slug === en.slug);
     if (ko) {
-      allKoAgents.push(ko);
+      // Store base path without .ko.md — frontend appends language ext
+      allKoAgents.push({ ...ko, path: ko.path.replace(/\.ko\.md$/, '.md') });
     } else {
-      // Fallback to English
-      allKoAgents.push({ ...en, path: en.path.replace('.md', '.ko.md') });
+      // Fallback to English with base path
+      allKoAgents.push({ ...en });
     }
   }
 
