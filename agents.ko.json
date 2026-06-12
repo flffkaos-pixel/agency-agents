@@ -3,7 +3,7 @@
     {
       "slug": "engineering-ai-data-remediation-engineer",
       "name": "AI 데이터 교정 엔지니어",
-      "description": "\"자가 치유 데이터 파이프라인 전문가 — 에어갭 로컬 SLM과 시맨틱 클러스터링을 활용해 대규모 데이터 이상을 자동으로 감지·분류·수정합니다. 교정 계층에만 집중합니다: 불량 데이터를 가로채고, Ollama를 통해 결정론적 수정 로직을 생성하며, 데이터 무손실을 보장합니다. 범용 데이터 엔지니어가 아닌, 파이프라인을 멈출 수 없는 상황에서 데이터가 손상됐을 때 투입되는 정밀 전문가입니다.\"",
+      "description": "자가 치유 데이터 파이프라인 전문가 — 에어갭 로컬 SLM과 시맨틱 클러스터링을 활용해 대규모 데이터 이상을 자동으로 감지·분류·수정합니다. 교정 계층에만 집중합니다: 불량 데이터를 가로채고, Ollama를 통해 결정론적 수정 로직을 생성하며, 데이터 무손실을 보장합니다. 범용 데이터 엔지니어가 아닌, 파이프라인을 멈출 수 없는 상황에서 데이터가 손상됐을 때 투입되는 정밀 전문가입니다.",
       "emoji": "🧬",
       "color": "green",
       "vibe": "외과적 AI 정밀도로 손상된 데이터를 수정합니다 — 단 한 행도 놓치지 않습니다.",
@@ -23,7 +23,7 @@
       "name": "자율 최적화 아키텍트",
       "description": "API 성능을 지속적으로 섀도우 테스트하면서 비용 폭주를 막는 엄격한 재정·보안 가드레일을 집행하는 지능형 시스템 거버너.",
       "emoji": "⚡",
-      "color": "\"#673AB7\"",
+      "color": "#673AB7",
       "vibe": "시스템을 더 빠르게 만들되 재정을 파탄 내지 않는 거버너.",
       "path": "engineering/engineering-autonomous-optimization-architect.ko.md"
     },
@@ -158,7 +158,7 @@
       "name": "인시던트 대응 지휘관",
       "description": "프로덕션 인시던트 관리, 구조적 대응 조율, 무결점 사후 분석 진행, SLO/SLI 추적, 신뢰성 높은 엔지니어링 조직을 위한 온콜 프로세스 설계를 전문으로 하는 인시던트 지휘 전문가.",
       "emoji": "🚨",
-      "color": "\"#e63946\"",
+      "color": "#e63946",
       "vibe": "프로덕션 혼돈을 구조적 해결로 전환한다.",
       "path": "engineering/engineering-incident-response-commander.ko.md"
     },
@@ -257,7 +257,7 @@
       "name": "SRE (사이트 신뢰성 엔지니어)",
       "description": "SLO, 에러 버짓, 옵저버빌리티, 카오스 엔지니어링, 토일 감소에 특화된 전문 사이트 신뢰성 엔지니어. 대규모 프로덕션 시스템 운영에 정통합니다.",
       "emoji": "🛡️",
-      "color": "\"#e63946\"",
+      "color": "#e63946",
       "vibe": "신뢰성은 기능이다. 에러 버짓은 개발 속도를 위한 투자금이다 — 현명하게 집행하라.",
       "path": "engineering/engineering-sre.ko.md"
     },
@@ -320,7 +320,7 @@
       "name": "포용적 비주얼 전문가",
       "description": "AI에 내재된 구조적 편향을 극복하여 문화적으로 정확하고 긍정적이며 고정관념 없는 이미지와 영상을 생성하는 표현 전문가.",
       "emoji": "🌈",
-      "color": "\"#4DB6AC\"",
+      "color": "#4DB6AC",
       "vibe": "AI의 구조적 편향을 극복하여 문화적으로 정확하고 긍정적인 이미지를 생성합니다.",
       "path": "design/design-inclusive-visuals-specialist.ko.md"
     },
@@ -329,7 +329,7 @@
       "name": "Persona Walkthrough Specialist",
       "description": "Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then delivers structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks",
       "emoji": "🎭",
-      "color": "\"#10B981\"",
+      "color": "#10B981",
       "vibe": "I become your user so you can see what your analytics can't show you.",
       "path": "design/design-persona-walkthrough.ko.md"
     },
@@ -446,7 +446,7 @@
       "name": "어카운트 전략가",
       "description": "계약 체결 후 전문 전략가로서 랜드-앤-익스팬드 실행, 이해관계자 매핑, QBR 진행, 순수익 유지(NRR)를 전문으로 합니다. 체계적인 확장 계획과 다층적 계정 개발을 통해 계약 체결 고객을 장기적인 플랫폼 파트너십으로 전환합니다.",
       "emoji": "🗺️",
-      "color": "\"#2E7D32\"",
+      "color": "#2E7D32",
       "vibe": "조직을 매핑하고, 화이트스페이스를 찾아내어, 고객을 플랫폼으로 전환합니다.",
       "path": "sales/sales-account-strategist.ko.md"
     },
@@ -455,7 +455,7 @@
       "name": "영업 코치",
       "description": "담당자 역량 개발, 파이프라인 리뷰 퍼실리테이션, 콜 코칭, 딜 전략, 예측 정확도에 특화된 전문 영업 코칭 전문가. 체계적인 코칭 방법론과 행동 기반 피드백을 통해 모든 담당자와 모든 딜의 수준을 끌어올립니다.",
       "emoji": "🏋️",
-      "color": "\"#E65100\"",
+      "color": "#E65100",
       "vibe": "담당자가 딜 전체를 처음부터 다시 생각하게 만드는 질문을 던진다.",
       "path": "sales/sales-coach.ko.md"
     },
@@ -464,7 +464,7 @@
       "name": "딜 전략가",
       "description": "MEDDPICC 자격심사, 경쟁 포지셔닝, 복잡한 B2B 영업 사이클의 수주 전략 수립을 전문으로 하는 시니어 딜 전략가. 기회를 점수화하고 파이프라인 리스크를 드러내며, 예측 검토를 견뎌낼 딜 전략을 구축합니다.",
       "emoji": "♟️",
-      "color": "\"#1B4D3E\"",
+      "color": "#1B4D3E",
       "vibe": "외과의사처럼 딜을 심사하고, 근거 없는 낙관론은 접촉 즉시 제거합니다.",
       "path": "sales/sales-deal-strategist.ko.md"
     },
@@ -473,7 +473,7 @@
       "name": "디스커버리 코치",
       "description": "영업팀에게 엘리트 디스커버리 방법론을 코칭합니다 — 질문 설계, 현재 상태 매핑, 갭 정량화, 그리고 진정한 구매 동기를 이끌어내는 콜 구조.",
       "emoji": "🔍",
-      "color": "\"#5C7CFA\"",
+      "color": "#5C7CFA",
       "vibe": "누구보다 한 가지 질문을 더 던집니다 — 그리고 바로 그 질문이 딜을 성사시킵니다.",
       "path": "sales/sales-discovery-coach.ko.md"
     },
@@ -482,7 +482,7 @@
       "name": "세일즈 엔지니어",
       "description": "기술 디스커버리, 데모 엔지니어링, POC 범위 정의, 경쟁사 배틀카드, 제품 역량을 비즈니스 성과로 연결하는 데 특화된 시니어 프리세일즈 엔지니어. 기술적 의사결정을 선점하여 딜 클로징을 이끈다.",
       "emoji": "🛠️",
-      "color": "\"#2E5090\"",
+      "color": "#2E5090",
       "vibe": "딜이 구매 부서에 도달하기도 전에 기술적 의사결정을 장악한다.",
       "path": "sales/sales-engineer.ko.md"
     },
@@ -491,7 +491,7 @@
       "name": "Offer & Lead Gen Strategist",
       "description": "Top-of-funnel architect who designs irresistible offers and lead magnets that attract qualified buyers at scale. Specializes in value-equation offer construction, lead magnet typology, multi-channel lead generation, and compounding reach through customers, employees, agencies, and affiliates.",
       "emoji": "🧲",
-      "color": "\"#F59E0B\"",
+      "color": "#F59E0B",
       "vibe": "Builds the thing buyers can't ignore — then multiplies the channels that deliver it.",
       "path": "sales/sales-offer-lead-gen-strategist.ko.md"
     },
@@ -500,7 +500,7 @@
       "name": "아웃바운드 전략가",
       "description": "신호 기반 아웃바운드 전문가로서 멀티채널 프로스펙팅 시퀀스를 설계하고, ICP를 정의하며, 대량 발송이 아닌 리서치 기반 개인화를 통해 파이프라인을 구축합니다.",
       "emoji": "🎯",
-      "color": "\"#E8590C\"",
+      "color": "#E8590C",
       "vibe": "경쟁사가 눈치채기도 전에 구매 신호를 미팅 예약으로 전환합니다.",
       "path": "sales/sales-outbound-strategist.ko.md"
     },
@@ -509,7 +509,7 @@
       "name": "파이프라인 애널리스트",
       "description": "파이프라인 건전성 진단, 딜 속도 분석, 예측 정확도, 데이터 기반 영업 코칭을 전문으로 하는 매출 운영 애널리스트. CRM 데이터를 실행 가능한 파이프라인 인텔리전스로 전환해 분기 실적 미달이 현실화되기 전에 리스크를 사전에 포착합니다.",
       "emoji": "📊",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "당신이 깨닫기도 전에 예측이 틀렸다고 알려줍니다.",
       "path": "sales/sales-pipeline-analyst.ko.md"
     },
@@ -518,7 +518,7 @@
       "name": "제안서 전략가",
       "description": "RFP와 영업 기회를 설득력 있는 수주 서사로 탈바꿈시키는 전략적 제안서 설계 전문가. 수주 테마 개발, 경쟁 포지셔닝, 임원 요약 작성, 그리고 단순 요건 충족을 넘어 의사결정자를 설득하는 제안서 구축에 특화되어 있습니다.",
       "emoji": "🏹",
-      "color": "\"#2563EB\"",
+      "color": "#2563EB",
       "vibe": "RFP 응답을 구매자가 손에서 놓지 못하는 이야기로 만든다.",
       "path": "sales/sales-proposal-strategist.ko.md"
     },
@@ -527,7 +527,7 @@
       "name": "AEO Foundations Architect",
       "description": "Expert in AI Engine Optimization infrastructure — implements llms.txt, AI-aware robots.txt, token-budgeted content, structured Markdown availability, and agent discovery files so AI crawlers, citation engines, and browsing agents can find, parse, and act on your site",
       "emoji": "🏗️",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "The foundation layer everyone skips — making sure AI systems can actually discover, read, and use your content before you worry about rankings, citations, or task completion",
       "path": "marketing/marketing-aeo-foundations.ko.md"
     },
@@ -536,7 +536,7 @@
       "name": "에이전틱 검색 최적화 전문가",
       "description": "WebMCP 준비 상태 및 에이전틱 작업 완료 전문가 — AI 에이전트가 사이트에서 실제로 작업(예약, 구매, 가입, 구독)을 완료할 수 있는지 감사하고, WebMCP 선언적·명령형 패턴을 구현하며, AI 브라우저 에이전트의 작업 완료율을 측정합니다",
       "emoji": "🤖",
-      "color": "\"#0891B2\"",
+      "color": "#0891B2",
       "vibe": "다른 모두가 AI에 인용되기 위해 최적화하는 동안, 이 에이전트는 AI가 사이트에서 실제로 원하는 일을 완료할 수 있도록 보장합니다",
       "path": "marketing/marketing-agentic-search-optimizer.ko.md"
     },
@@ -545,7 +545,7 @@
       "name": "AI 인용 전략가",
       "description": "AI 추천 엔진 최적화(AEO/GEO) 전문가 — ChatGPT, Claude, Gemini, Perplexity 전반에 걸쳐 브랜드 노출도를 감사하고, 경쟁사가 인용되는 원인을 규명하며, AI 인용률을 높이는 콘텐츠 개선안을 제시합니다",
       "emoji": "🔮",
-      "color": "\"#6D28D9\"",
+      "color": "#6D28D9",
       "vibe": "AI가 경쟁사를 추천하는 이유를 파악하고, 당신의 브랜드가 추천받도록 신호 체계를 재설계합니다",
       "path": "marketing/marketing-ai-citation-strategist.ko.md"
     },
@@ -580,8 +580,8 @@
       "slug": "marketing-book-co-author",
       "name": "책 공동 저자",
       "description": "창업자, 전문가, 실무자가 음성 메모, 단편적 아이디어, 포지셔닝 전략을 구조화된 1인칭 챕터로 전환할 수 있도록 돕는 전략적 사고 리더십 도서 협업자.",
-      "emoji": "\"📘\"",
-      "color": "\"#8B5E3C\"",
+      "emoji": "📘",
+      "color": "#8B5E3C",
       "vibe": "날것의 전문성을 사람들이 인용하고, 기억하고, 공감할 수 있는 책으로 완성한다.",
       "path": "marketing/marketing-book-co-author.ko.md"
     },
@@ -590,7 +590,7 @@
       "name": "캐러셀 성장 엔진",
       "description": "TikTok·Instagram 캐러셀 자율 생성 전문 에이전트. Playwright로 웹사이트 URL을 분석하고, Gemini 이미지 생성으로 바이럴 6슬라이드 캐러셀을 제작하며, Upload-Post API로 트렌딩 음악과 함께 피드에 직접 게시합니다. 애널리틱스를 수집하고 데이터 기반 학습 루프로 지속적인 성능 개선을 수행합니다.",
       "emoji": "🎠",
-      "color": "\"#FF0050\"",
+      "color": "#FF0050",
       "vibe": "어떤 URL이든 바이럴 캐러셀로 변환해 피드에 자율 게시합니다.",
       "path": "marketing/marketing-carousel-growth-engine.ko.md"
     },
@@ -608,7 +608,7 @@
       "name": "중국 시장 현지화 전략가",
       "description": "실시간 트렌드 신호를 Douyin, Xiaohongshu, WeChat, Bilibili 등 전 채널에서 실행 가능한 시장 진출 전략으로 전환하는 풀스택 중국 시장 현지화 전문가",
       "emoji": "🇨🇳",
-      "color": "\"#E60012\"",
+      "color": "#E60012",
       "vibe": "중국의 혼돈스러운 트렌드 지형을 정밀 유도 마케팅 머신으로 전환한다 — 데이터를 넣으면 매출이 나온다.",
       "path": "marketing/marketing-china-market-localization-strategist.ko.md"
     },
@@ -635,7 +635,7 @@
       "name": "더우인 전략가",
       "description": "더우인 플랫폼 전문 숏폼 마케팅 전문가로, 추천 알고리즘 메커니즘, 바이럴 영상 기획, 라이브커머스 운영 워크플로우, 콘텐츠 매트릭스 전략을 통한 풀퍼널 브랜드 성장에 깊은 전문성을 보유합니다.",
       "emoji": "🎵",
-      "color": "\"#000000\"",
+      "color": "#000000",
       "vibe": "더우인 알고리즘을 완전히 장악해 당신의 숏폼이 실제로 노출되게 만듭니다.",
       "path": "marketing/marketing-douyin-strategist.ko.md"
     },
@@ -671,7 +671,7 @@
       "name": "인스타그램 큐레이터",
       "description": "비주얼 스토리텔링, 커뮤니티 구축, 멀티 포맷 콘텐츠 최적화에 특화된 인스타그램 마케팅 전문가. 브랜드 미학을 완성하고 진정성 있는 팔로워 참여를 이끌어냅니다.",
       "emoji": "📸",
-      "color": "\"#E4405F\"",
+      "color": "#E4405F",
       "vibe": "그리드 미학을 완성하고 스크롤러를 열성 커뮤니티로 전환하는 전문가.",
       "path": "marketing/marketing-instagram-curator.ko.md"
     },
@@ -689,7 +689,7 @@
       "name": "LinkedIn 콘텐츠 크리에이터",
       "description": "소트 리더십, 개인 브랜드 구축, 고참여도 전문 콘텐츠에 특화된 LinkedIn 콘텐츠 전략가. LinkedIn의 알고리즘과 문화를 완전히 숙지하고 창업자, 구직자, 개발자, 전문적 존재감을 키우고자 하는 모든 이에게 인바운드 기회를 창출합니다.",
       "emoji": "💼",
-      "color": "\"#0A66C2\"",
+      "color": "#0A66C2",
       "vibe": "전문적 역량을 스크롤을 멈추게 하는 콘텐츠로 전환하여 적합한 사람들이 당신을 찾아오게 만듭니다.",
       "path": "marketing/marketing-linkedin-content-creator.ko.md"
     },
@@ -698,7 +698,7 @@
       "name": "라이브커머스 코치",
       "description": "Douyin, Kuaishou, Taobao Live, Channels를 아우르는 라이브커머스 전문 코치. 호스트 육성과 라이브룸 운영 전반을 커버하며, 스크립트 설계, 상품 순서 배치, 유료·자연 트래픽 균형 조정, 전환 클로징 기법, 실시간 데이터 기반 최적화를 전문으로 합니다.",
       "emoji": "🎙️",
-      "color": "\"#E63946\"",
+      "color": "#E63946",
       "vibe": "어색한 초보자 호스트를 억대 매출 셀러로 성장시킵니다.",
       "path": "marketing/marketing-livestream-commerce-coach.ko.md"
     },
@@ -707,7 +707,7 @@
       "name": "Multi-Platform Publisher",
       "description": "Expert orchestrator for one-click Chinese blog publishing. Routes a single article to 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金 via Wechatsync (main channel) with xhs-mcp and biliup as specialized fallbacks. Handles per-platform content adaptation, draft-first publishing, rate control, and risk-avoidance. Does NOT auto-publish — always stops at draft for human review.",
       "emoji": "📡",
-      "color": "\"#FF6B35\"",
+      "color": "#FF6B35",
       "vibe": "One article, all platforms, safely — the traffic conductor for Chinese content creators.",
       "path": "marketing/marketing-multi-platform-publisher.ko.md"
     },
@@ -734,7 +734,7 @@
       "name": "프라이빗 도메인 운영 전문가",
       "description": "기업 위챗(WeCom) 프라이빗 도메인 생태계 구축 전문가. SCRM 시스템, 세분화된 커뮤니티 운영, 미니 프로그램 커머스 연동, 사용자 라이프사이클 관리, 풀퍼널 전환 최적화에 깊은 전문성을 보유.",
       "emoji": "🔒",
-      "color": "\"#1A73E8\"",
+      "color": "#1A73E8",
       "vibe": "첫 접점부터 평생 가치까지, 위챗 프라이빗 트래픽 제국을 구축합니다.",
       "path": "marketing/marketing-private-domain-operator.ko.md"
     },
@@ -743,7 +743,7 @@
       "name": "Reddit 커뮤니티 빌더",
       "description": "진정성 있는 커뮤니티 참여, 가치 중심 콘텐츠 창작, 장기적 관계 구축에 특화된 Reddit 마케팅 전문가. Reddit 문화 탐색에 정통합니다.",
       "emoji": "💬",
-      "color": "\"#FF4500\"",
+      "color": "#FF4500",
       "vibe": "Reddit 언어를 구사하며 진정성 있는 방식으로 커뮤니티 신뢰를 쌓습니다.",
       "path": "marketing/marketing-reddit-community-builder.ko.md"
     },
@@ -752,7 +752,7 @@
       "name": "SEO 전문가",
       "description": "기술 SEO, 콘텐츠 최적화, 링크 권위 구축, 자연 검색 성장을 전문으로 하는 검색 엔진 최적화 전략가. 데이터 기반 검색 전략으로 지속 가능한 트래픽을 창출합니다.",
       "emoji": "🔍",
-      "color": "\"#4285F4\"",
+      "color": "#4285F4",
       "vibe": "기술 SEO와 콘텐츠 전략을 통해 지속 가능한 자연 트래픽을 구현합니다.",
       "path": "marketing/marketing-seo-specialist.ko.md"
     },
@@ -761,7 +761,7 @@
       "name": "숏폼 영상 편집 코치",
       "description": "CapCut Pro, Premiere Pro, DaVinci Resolve, Final Cut Pro를 자유자재로 다루며 후반 작업 파이프라인 전반을 실전으로 지도하는 숏폼 영상 편집 코치. 구도와 카메라 언어, 컬러 그레이딩, 오디오 엔지니어링, 모션 그래픽과 VFX, 자막 디자인, 멀티플랫폼 내보내기 최적화, 편집 워크플로 효율화, AI 보조 편집까지 아우른다.",
       "emoji": "🎬",
-      "color": "\"#7B2D8E\"",
+      "color": "#7B2D8E",
       "vibe": "평범한 원본 소스를 손 멈추게 만드는 숏폼 영상으로, 그것도 전문가급 완성도로 빚어낸다.",
       "path": "marketing/marketing-short-video-editing-coach.ko.md"
     },
@@ -779,7 +779,7 @@
       "name": "TikTok 전략가",
       "description": "바이럴 콘텐츠 제작, 알고리즘 최적화, 커뮤니티 구축에 특화된 TikTok 마케팅 전문가. TikTok 고유의 문화와 기능을 마스터하여 브랜드 성장을 이끕니다.",
       "emoji": "🎵",
-      "color": "\"#000000\"",
+      "color": "#000000",
       "vibe": "알고리즘을 타고 진정성 있는 TikTok 문화로 커뮤니티를 구축합니다.",
       "path": "marketing/marketing-tiktok-strategist.ko.md"
     },
@@ -788,7 +788,7 @@
       "name": "트위터 인게이저",
       "description": "실시간 인게이지먼트, 사고 리더십 구축, 커뮤니티 중심 성장에 특화된 트위터 마케팅 전문가. 진정성 있는 대화 참여와 바이럴 스레드 생성을 통해 브랜드 권위를 확립합니다.",
       "emoji": "🐦",
-      "color": "\"#1DA1F2\"",
+      "color": "#1DA1F2",
       "vibe": "280자 한 줄 한 줄로 사고 리더십과 브랜드 권위를 쌓아갑니다.",
       "path": "marketing/marketing-twitter-engager.ko.md"
     },
@@ -806,7 +806,7 @@
       "name": "위챗 공식 계정 매니저",
       "description": "콘텐츠 마케팅, 구독자 인게이지먼트, 전환 최적화를 전문으로 하는 위챗 공식 계정(OA) 전략 전문가. 다양한 콘텐츠 형식을 마스터하고 일관된 가치 제공을 통해 충성도 높은 커뮤니티를 구축합니다.",
       "emoji": "📱",
-      "color": "\"#09B83E\"",
+      "color": "#09B83E",
       "vibe": "일관된 가치 제공을 통해 충성도 높은 위챗 구독자 커뮤니티를 성장시킵니다.",
       "path": "marketing/marketing-wechat-official-account.ko.md"
     },
@@ -815,7 +815,7 @@
       "name": "웨이보 전략가",
       "description": "시나 웨이보 전 영역을 아우르는 운영 전문가로, 실시간 트렌드 메커니즘, 슈퍼토픽 커뮤니티 관리, 여론 모니터링, 팬 이코노미 전략, 웨이보 광고에 대한 심층 전문성을 갖추고 있으며, 중국 최대 공론장 플랫폼에서 브랜드의 바이럴 도달과 지속적 성장을 실현합니다.",
       "emoji": "🔥",
-      "color": "\"#FF8200\"",
+      "color": "#FF8200",
       "vibe": "브랜드를 웨이보 트렌드에 올리고 대화가 끊이지 않게 합니다.",
       "path": "marketing/marketing-weibo-strategist.ko.md"
     },
@@ -824,7 +824,7 @@
       "name": "X/Twitter Intelligence Analyst",
       "description": "Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows.",
       "emoji": "🛰️",
-      "color": "\"#111111\"",
+      "color": "#111111",
       "vibe": "Turns noisy X conversations into sourced market, audience, and risk intelligence.",
       "path": "marketing/marketing-x-twitter-intelligence-analyst.ko.md"
     },
@@ -833,7 +833,7 @@
       "name": "샤오홍슈 전문가",
       "description": "라이프스타일 콘텐츠, 트렌드 주도 전략, 진정성 있는 커뮤니티 참여에 특화된 샤오홍슈 마케팅 전문가. 마이크로 콘텐츠 제작을 완벽히 구사하며 감성적 스토리텔링으로 바이럴 성장을 이끈다.",
       "emoji": "🌸",
-      "color": "\"#FF1B6D\"",
+      "color": "#FF1B6D",
       "vibe": "小红书에서 라이프스타일 콘텐츠와 감성 스토리텔링을 완벽히 구사한다.",
       "path": "marketing/marketing-xiaohongshu-specialist.ko.md"
     },
@@ -842,7 +842,7 @@
       "name": "知乎 전략가",
       "description": "사고 리더십, 커뮤니티 신뢰도, 지식 기반 참여에 특화된 知乎 마케팅 전문가. 질문·답변 전략을 통해 진정성 있는 전문 지식을 공유하며 브랜드 권위를 구축합니다.",
       "emoji": "🧠",
-      "color": "\"#0084FF\"",
+      "color": "#0084FF",
       "vibe": "知乎에서 전문 지식 공유를 통해 브랜드 권위를 구축합니다.",
       "path": "marketing/marketing-zhihu-strategist.ko.md"
     },
@@ -851,7 +851,7 @@
       "name": "행동 넛지 엔진",
       "description": "사용자 동기 부여와 성공을 극대화하기 위해 소프트웨어 상호작용 패턴과 방식을 조정하는 행동 심리학 전문 에이전트.",
       "emoji": "🧠",
-      "color": "\"#FF8A65\"",
+      "color": "#FF8A65",
       "vibe": "행동 심리학을 통해 사용자 동기를 극대화하도록 소프트웨어 상호작용을 최적화합니다.",
       "path": "product/product-behavioral-nudge-engine.ko.md"
     },
@@ -959,7 +959,7 @@
       "name": "접근성 감사관",
       "description": "WCAG 표준에 따라 인터페이스를 감사하고, 보조 기술로 테스트하며, 포용적 설계를 보장하는 접근성 전문가. 기본적으로 장벽을 찾는 것이 우선입니다 — 스크린 리더로 테스트하지 않았다면, 접근 가능한 것이 아닙니다.",
       "emoji": "♿",
-      "color": "\"#0077B6\"",
+      "color": "#0077B6",
       "vibe": "스크린 리더로 테스트하지 않았다면, 접근 가능한 것이 아닙니다.",
       "path": "testing/testing-accessibility-auditor.ko.md"
     },
@@ -1031,7 +1031,7 @@
       "name": "Application Security Engineer",
       "description": "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default.",
       "emoji": "🔐",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "Makes developers write secure code without even realizing it.",
       "path": "security/security-appsec-engineer.ko.md"
     },
@@ -1058,7 +1058,7 @@
       "name": "Cloud Security Architect",
       "description": "Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one.",
       "emoji": "☁️",
-      "color": "\"#3b82f6\"",
+      "color": "#3b82f6",
       "vibe": "Builds cloud infrastructure where \"secure by default\" isn't just a slide title.",
       "path": "security/security-cloud-security-architect.ko.md"
     },
@@ -1076,7 +1076,7 @@
       "name": "Incident Responder",
       "description": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
       "emoji": "🚨",
-      "color": "\"#f59e0b\"",
+      "color": "#f59e0b",
       "vibe": "Runs toward the breach while everyone else runs away.",
       "path": "security/security-incident-responder.ko.md"
     },
@@ -1085,7 +1085,7 @@
       "name": "Penetration Tester",
       "description": "Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure.",
       "emoji": "🗡️",
-      "color": "\"#dc2626\"",
+      "color": "#dc2626",
       "vibe": "Breaks into your systems so the real attackers can't.",
       "path": "security/security-penetration-tester.ko.md"
     },
@@ -1094,7 +1094,7 @@
       "name": "Senior SecOps Engineer",
       "description": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard — covering authentication, authorization, tokens, cookies, HTTP headers, CORS, rate limiting, CSP, secrets management, input validation, and secure logging.",
       "emoji": "🛡️",
-      "color": "\"#E67E22\"",
+      "color": "#E67E22",
       "vibe": "Before I read your request, I've already scanned your code for secrets. Security isn't a phase — it's line zero.",
       "path": "security/security-senior-secops.ko.md"
     },
@@ -1103,7 +1103,7 @@
       "name": "Threat Detection Engineer",
       "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
       "emoji": "🎯",
-      "color": "\"#7b2d8e\"",
+      "color": "#7b2d8e",
       "vibe": "Builds the detection layer that catches attackers after they bypass prevention.",
       "path": "security/security-threat-detection-engineer.ko.md"
     },
@@ -1112,7 +1112,7 @@
       "name": "Threat Intelligence Analyst",
       "description": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
       "emoji": "🔍",
-      "color": "\"#7c3aed\"",
+      "color": "#7c3aed",
       "vibe": "Knows what the adversary will do before the adversary does.",
       "path": "security/security-threat-intelligence-analyst.ko.md"
     },
@@ -1238,7 +1238,7 @@
       "name": "에이전트 신원 및 신뢰 아키텍트",
       "description": "다중 에이전트 환경에서 자율 AI 에이전트의 신원, 인증, 신뢰 검증 시스템을 설계합니다. 에이전트가 자신이 누구인지, 무엇을 할 권한이 있는지, 실제로 무엇을 했는지 증명할 수 있도록 보장합니다.",
       "emoji": "🔐",
-      "color": "\"#2d5a27\"",
+      "color": "#2d5a27",
       "vibe": "모든 AI 에이전트가 자신이 누구인지, 무엇을 할 수 있는지, 실제로 무엇을 했는지 증명할 수 있도록 보장합니다.",
       "path": "specialized/agentic-identity-trust.ko.md"
     },
@@ -1319,7 +1319,7 @@
       "name": "데이터 통합 에이전트",
       "description": "추출된 영업 데이터를 지역, 담당자, 파이프라인 요약이 포함된 실시간 리포팅 대시보드로 통합하는 AI 에이전트",
       "emoji": "🗄️",
-      "color": "\"#38a169\"",
+      "color": "#38a169",
       "vibe": "분산된 영업 데이터를 실시간 리포팅 대시보드로 통합합니다.",
       "path": "specialized/data-consolidation-agent.ko.md"
     },
@@ -1346,7 +1346,7 @@
       "name": "정부 디지털 프리세일즈 컨설턴트",
       "description": "중국 정부 디지털 전환 시장(ToG) 전문 프리세일즈 컨설턴트. 정책 해석, 솔루션 설계, 입찰 문서 작성, POC 검증, 컴플라이언스 요건(등급보호/암호평가/신창 국산화)에 정통하며, 이해관계자 관리를 아우르는 전문성으로 기술 팀의 정부 IT 프로젝트 수주를 지원합니다.",
       "emoji": "🏛️",
-      "color": "\"#8B0000\"",
+      "color": "#8B0000",
       "vibe": "정책 신호부터 낙찰까지—중국 정부 IT 조달의 복잡한 미로를 헤쳐 나가 디지털 전환 프로젝트를 수주할 수 있도록 지원합니다.",
       "path": "specialized/government-digital-presales-consultant.ko.md"
     },
@@ -1373,7 +1373,7 @@
       "name": "헬스케어 마케팅 컴플라이언스 전문가",
       "description": "중국 헬스케어 마케팅 컴플라이언스 전문가로, 광고법·의료광고 관리 방법·약품 관리법 및 관련 법규에 정통합니다. 의약품·의료기기·의료미용·건강기능식품·인터넷 의료 전 분야에 걸쳐 콘텐츠 심사, 리스크 관리, 플랫폼 정책 해석, 환자 개인정보 보호를 포괄하며, 기업이 법적 범위 내에서 효과적인 헬스케어 마케팅을 수행할 수 있도록 지원합니다.",
       "emoji": "⚕️",
-      "color": "\"#2E8B57\"",
+      "color": "#2E8B57",
       "vibe": "중국의 엄격한 규제 환경에서 헬스케어 마케팅의 법적 적합성을 유지합니다. 콘텐츠를 검토하고, 위반 사항을 식별하며, 컴플라이언스 범위 안에서 창의적 공간을 발굴합니다.",
       "path": "specialized/healthcare-marketing-compliance.ko.md"
     },
@@ -1400,7 +1400,7 @@
       "name": "아이덴티티 그래프 오퍼레이터",
       "description": "여러 AI 에이전트가 참조하는 공유 아이덴티티 그래프를 운영합니다. 멀티 에이전트 시스템의 모든 에이전트가 \"이 엔티티는 누구인가?\"라는 질문에 동일한 정식 답변을 결정론적으로, 동시 쓰기 환경에서도 일관되게 얻을 수 있도록 보장합니다.",
       "emoji": "🕸️",
-      "color": "\"#C5A572\"",
+      "color": "#C5A572",
       "vibe": "멀티 에이전트 시스템의 모든 에이전트가 \"이 사람은 누구인가?\"라는 질문에 동일한 정식 답변을 얻도록 보장합니다.",
       "path": "specialized/identity-graph-operator.ko.md"
     },
@@ -1526,7 +1526,7 @@
       "name": "보고서 배포 에이전트",
       "description": "영역 파라미터를 기반으로 담당자에게 통합 영업 보고서를 자동 배포하는 AI 에이전트",
       "emoji": "📤",
-      "color": "\"#d69e2e\"",
+      "color": "#d69e2e",
       "vibe": "통합 영업 보고서를 적합한 담당자에게 자동으로 전달합니다.",
       "path": "specialized/report-distribution-agent.ko.md"
     },
@@ -1544,7 +1544,7 @@
       "name": "영업 데이터 추출 에이전트",
       "description": "Excel 파일을 모니터링하고 내부 실시간 보고를 위한 핵심 영업 지표(MTD, YTD, 연말)를 추출하는 AI 에이전트",
       "emoji": "📊",
-      "color": "\"#2b6cb0\"",
+      "color": "#2b6cb0",
       "vibe": "Excel 파일을 감시하며 중요한 지표를 추출합니다.",
       "path": "specialized/sales-data-extraction-agent.ko.md"
     },
@@ -1562,8 +1562,8 @@
       "name": "비서실장",
       "description": "창업자와 임원을 위한 마스터 코디네이터 — 노이즈를 걸러내고, 프로세스를 주도하며, 일관성을 강제하고, 의사결정을 적재적소에 연결하며, 결과물을 임팩트 있게 포지셔닝하여 리더가 명료하게 사고할 수 있게 합니다.",
       "emoji": "🧭",
-      "color": "\"#6B7280\"",
-      "vibe": "\"나는 어떤 기능도 소유하지 않는다. 나는 모든 기능 사이의 공간을 소유한다.\"",
+      "color": "#6B7280",
+      "vibe": "나는 어떤 기능도 소유하지 않는다. 나는 모든 기능 사이의 공간을 소유한다.",
       "path": "specialized/specialized-chief-of-staff.ko.md"
     },
     {
@@ -1580,7 +1580,7 @@
       "name": "문화 지능 전략가",
       "description": "보이지 않는 배제를 감지하고, 글로벌 맥락을 조사하며, 소프트웨어가 교차적 정체성 전반에 걸쳐 진정성 있게 공명하도록 보장하는 CQ 전문가.",
       "emoji": "🌍",
-      "color": "\"#FFA000\"",
+      "color": "#FFA000",
       "vibe": "보이지 않는 배제를 감지하고, 소프트웨어가 다양한 문화 전반에서 진정성 있게 공명하도록 합니다.",
       "path": "specialized/specialized-cultural-intelligence-strategist.ko.md"
     },
@@ -1607,7 +1607,7 @@
       "name": "프랑스 컨설팅 시장 내비게이터",
       "description": "프랑스 ESN/SI 프리랜서 생태계 탐색 — 마진 구조, 플랫폼 메커니즘(Malt, collective.work), portage salarial, 요율 포지셔닝, 결제 주기의 현실",
       "emoji": "🇫🇷",
-      "color": "\"#002395\"",
+      "color": "#002395",
       "vibe": "불투명한 프랑스 컨설팅 먹이사슬을 해독해 프리랜서가 더 이상 손해 보지 않도록 돕는 내부자",
       "path": "specialized/specialized-french-consulting-market.ko.md"
     },
@@ -1616,7 +1616,7 @@
       "name": "한국 비즈니스 내비게이터",
       "description": "외국인 전문가를 위한 한국 비즈니스 문화 가이드 — 품의 의사결정 프로세스, 눈치 읽기, 카카오톡 비즈니스 에티켓, 위계질서 탐색, 관계 중심 딜 메커니즘",
       "emoji": "🇰🇷",
-      "color": "\"#003478\"",
+      "color": "#003478",
       "vibe": "서양식 직접화법과 한국적 관계 역학의 가교 — 상황을 읽어 딜을 날리지 않도록 한다",
       "path": "specialized/specialized-korean-business-navigator.ko.md"
     },
@@ -1634,7 +1634,7 @@
       "name": "모델 QA 전문가",
       "description": "ML 및 통계 모델을 전 생애주기에 걸쳐 독립적으로 감사하는 모델 QA 전문가 — 문서 검토와 데이터 재구성부터 복제 검증, 캘리브레이션 테스트, 해석 가능성 분석, 성능 모니터링, 감사 등급 보고서 작성까지 전 과정을 수행합니다.",
       "emoji": "🔬",
-      "color": "\"#B22222\"",
+      "color": "#B22222",
       "vibe": "데이터 재구성부터 캘리브레이션 테스트까지 ML 모델 전 생애주기를 감사합니다.",
       "path": "specialized/specialized-model-qa.ko.md"
     },
@@ -1652,7 +1652,7 @@
       "name": "Salesforce 아키텍트",
       "description": "Salesforce 플랫폼을 위한 솔루션 아키텍처 — 멀티 클라우드 설계, 통합 패턴, 거버너 제한, 배포 전략, 엔터프라이즈 규모 조직을 위한 데이터 모델 거버넌스",
       "emoji": "☁️",
-      "color": "\"#00A1E0\"",
+      "color": "#00A1E0",
       "vibe": "뒤엉킨 Salesforce 조직을 확장 가능한 아키텍처로 바꾸는 침착한 손 — 거버너 제한 하나하나를 돌파하며",
       "path": "specialized/specialized-salesforce-architect.ko.md"
     },
@@ -1661,7 +1661,7 @@
       "name": "Strategy Duel Agent",
       "description": "Conducts live strategy duels using game theory and the 36 Chinese stratagems",
       "emoji": "⚔️",
-      "color": "\"#1e90ff\"",
+      "color": "#1e90ff",
       "vibe": "Orchestrates high-stakes, turn-based strategy battles with sharp analysis and memorable commentary",
       "path": "specialized/specialized-strategy-duel-agent.ko.md"
     },
@@ -1669,7 +1669,7 @@
       "slug": "specialized-workflow-architect",
       "name": "워크플로 아키텍트",
       "description": "모든 시스템, 사용자 여정, 에이전트 상호작용에 대한 완전한 워크플로 트리를 설계하는 전문가. 정상 경로, 모든 분기 조건, 장애 모드, 복구 경로, 핸드오프 계약, 관찰 가능한 상태를 망라하여 에이전트가 구현하고 QA가 테스트할 수 있는 구현 준비 완료 스펙을 산출합니다.",
-      "emoji": "\"\\U0001F5FA\\uFE0F\"",
+      "emoji": "\\U0001F5FA\\uFE0F",
       "color": "orange",
       "vibe": "시스템이 취할 수 있는 모든 경로 — 한 줄의 코드도 작성되기 전에 이름 붙이고 정의하고 명세화한다.",
       "path": "specialized/specialized-workflow-architect.ko.md"
@@ -1679,7 +1679,7 @@
       "name": "유학 어드바이저",
       "description": "미국, 영국, 캐나다, 호주, 유럽, 홍콩, 싱가포르를 아우르는 전방위 유학 플래닝 전문가 — 학부·석사·박사 지원 전략, 학교 선정, 에세이 코칭, 스펙 강화, 표준화 시험 계획, 비자 준비, 현지 적응까지, 중국인 학생 맞춤형 엔드투엔드 유학 플랜을 설계합니다.",
       "emoji": "🎓",
-      "color": "\"#1B4D3E\"",
+      "color": "#1B4D3E",
       "vibe": "학교 선정부터 에세이, 비자까지 — 데이터 기반 조언과 불안 마케팅 없는 솔직함으로 중국인 학생의 유학 여정 전체를 함께합니다.",
       "path": "specialized/study-abroad-advisor.ko.md"
     },
@@ -1706,7 +1706,7 @@
       "name": "문화인류학자",
       "description": "문화 체계, 의례, 친족 관계, 신념 체계, 민족지적 방법론의 전문가 — 단순히 설계된 것이 아닌, 실제로 살아 숨쉬는 듯한 문화적으로 일관된 사회를 구축합니다",
       "emoji": "🌍",
-      "color": "\"#D97706\"",
+      "color": "#D97706",
       "vibe": "어떤 문화도 임의적이지 않습니다 — 모든 관습은 당신이 미처 보지 못한 어떤 문제에 대한 해결책입니다",
       "path": "academic/academic-anthropologist.ko.md"
     },
@@ -1715,7 +1715,7 @@
       "name": "지리학자",
       "description": "자연지리·인문지리, 기후 시스템, 지도학, 공간 분석 전문가 — 지형·기후·자원·정주 패턴이 과학적으로 맞아떨어지는 지리적으로 일관된 세계를 구축합니다",
       "emoji": "🗺️",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "지리가 운명을 결정한다 — 어디에 있느냐가 어떤 존재가 되느냐를 만든다",
       "path": "academic/academic-geographer.ko.md"
     },
@@ -1724,7 +1724,7 @@
       "name": "역사학자",
       "description": "역사적 분석, 시대 구분, 물질문화, 사학사에 정통한 전문가 — 역사적 일관성을 검증하고 1차·2차 사료에 근거한 정확한 시대 고증으로 세계관을 풍부하게 만든다",
       "emoji": "📚",
-      "color": "\"#B45309\"",
+      "color": "#B45309",
       "vibe": "역사는 반복되지 않지만 운율을 맞춘다 — 나는 그 모든 절을 암송하고 있다",
       "path": "academic/academic-historian.ko.md"
     },
@@ -1733,7 +1733,7 @@
       "name": "내러톨로지스트",
       "description": "서사 이론, 이야기 구조, 인물 호, 문학 분석 전문가 — 프로프부터 캠벨, 현대 서사학까지 정립된 프레임워크를 기반으로 조언을 제공합니다",
       "emoji": "📜",
-      "color": "\"#8B5CF6\"",
+      "color": "#8B5CF6",
       "vibe": "모든 이야기는 하나의 주장입니다 — 당신의 이야기가 진정으로 무엇을 말하는지 찾아드립니다",
       "path": "academic/academic-narratologist.ko.md"
     },
@@ -1742,7 +1742,7 @@
       "name": "심리학자",
       "description": "인간 행동, 성격 이론, 동기 부여, 인지 패턴 전문가 — 임상 및 연구 프레임워크를 기반으로 심리적으로 설득력 있는 캐릭터와 상호작용을 구축합니다",
       "emoji": "🧠",
-      "color": "\"#EC4899\"",
+      "color": "#EC4899",
       "vibe": "사람들은 이유 없이 행동하지 않는다 — 나는 그 이유를 찾아낸다",
       "path": "academic/academic-psychologist.ko.md"
     },

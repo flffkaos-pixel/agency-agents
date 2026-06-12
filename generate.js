@@ -40,7 +40,7 @@ function parseFrontmatter(content) {
     const match = trimmed.match(/^([a-zA-Z_]+):\s*(.*)/);
     if (match) {
       currentKey = match[1];
-      result[currentKey] = match[2].trim();
+      result[currentKey] = match[2].trim().replace(/^"(.*)"$/, '$1').replace(/^'(.*)'$/, '$1');
     } else if (currentKey && trimmed.startsWith(' ')) {
       result[currentKey] += '\n' + trimmed.trim();
     }

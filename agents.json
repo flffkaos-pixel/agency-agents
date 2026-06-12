@@ -3,7 +3,7 @@
     {
       "slug": "engineering-ai-data-remediation-engineer",
       "name": "AI Data Remediation Engineer",
-      "description": "\"Specialist in self-healing data pipelines — uses air-gapped local SLMs and semantic clustering to automatically detect, classify, and fix data anomalies at scale. Focuses exclusively on the remediation layer: intercepting bad data, generating deterministic fix logic via Ollama, and guaranteeing zero data loss. Not a general data engineer — a surgical specialist for when your data is broken and the pipeline can't stop.\"",
+      "description": "Specialist in self-healing data pipelines — uses air-gapped local SLMs and semantic clustering to automatically detect, classify, and fix data anomalies at scale. Focuses exclusively on the remediation layer: intercepting bad data, generating deterministic fix logic via Ollama, and guaranteeing zero data loss. Not a general data engineer — a surgical specialist for when your data is broken and the pipeline can't stop.",
       "emoji": "🧬",
       "color": "green",
       "vibe": "Fixes your broken data with surgical AI precision — no rows left behind.",
@@ -23,7 +23,7 @@
       "name": "Autonomous Optimization Architect",
       "description": "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs.",
       "emoji": "⚡",
-      "color": "\"#673AB7\"",
+      "color": "#673AB7",
       "vibe": "The system governor that makes things faster without bankrupting you.",
       "path": "engineering/engineering-autonomous-optimization-architect.md"
     },
@@ -158,7 +158,7 @@
       "name": "Incident Response Commander",
       "description": "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.",
       "emoji": "🚨",
-      "color": "\"#e63946\"",
+      "color": "#e63946",
       "vibe": "Turns production chaos into structured resolution.",
       "path": "engineering/engineering-incident-response-commander.md"
     },
@@ -257,7 +257,7 @@
       "name": "SRE (Site Reliability Engineer)",
       "description": "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale.",
       "emoji": "🛡️",
-      "color": "\"#e63946\"",
+      "color": "#e63946",
       "vibe": "Reliability is a feature. Error budgets fund velocity — spend them wisely.",
       "path": "engineering/engineering-sre.md"
     },
@@ -320,7 +320,7 @@
       "name": "Inclusive Visuals Specialist",
       "description": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
       "emoji": "🌈",
-      "color": "\"#4DB6AC\"",
+      "color": "#4DB6AC",
       "vibe": "Defeats systemic AI biases to generate culturally accurate, affirming imagery.",
       "path": "design/design-inclusive-visuals-specialist.md"
     },
@@ -329,7 +329,7 @@
       "name": "Persona Walkthrough Specialist",
       "description": "Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then delivers structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks",
       "emoji": "🎭",
-      "color": "\"#10B981\"",
+      "color": "#10B981",
       "vibe": "I become your user so you can see what your analytics can't show you.",
       "path": "design/design-persona-walkthrough.md"
     },
@@ -446,7 +446,7 @@
       "name": "Account Strategist",
       "description": "Expert post-sale account strategist specializing in land-and-expand execution, stakeholder mapping, QBR facilitation, and net revenue retention. Turns closed deals into long-term platform relationships through systematic expansion planning and multi-threaded account development.",
       "emoji": "🗺️",
-      "color": "\"#2E7D32\"",
+      "color": "#2E7D32",
       "vibe": "Maps the org, finds the whitespace, and turns customers into platforms.",
       "path": "sales/sales-account-strategist.md"
     },
@@ -455,7 +455,7 @@
       "name": "Sales Coach",
       "description": "Expert sales coaching specialist focused on rep development, pipeline review facilitation, call coaching, deal strategy, and forecast accuracy. Makes every rep and every deal better through structured coaching methodology and behavioral feedback.",
       "emoji": "🏋️",
-      "color": "\"#E65100\"",
+      "color": "#E65100",
       "vibe": "Asks the question that makes the rep rethink the entire deal.",
       "path": "sales/sales-coach.md"
     },
@@ -464,7 +464,7 @@
       "name": "Deal Strategist",
       "description": "Senior deal strategist specializing in MEDDPICC qualification, competitive positioning, and win planning for complex B2B sales cycles. Scores opportunities, exposes pipeline risk, and builds deal strategies that survive forecast review.",
       "emoji": "♟️",
-      "color": "\"#1B4D3E\"",
+      "color": "#1B4D3E",
       "vibe": "Qualifies deals like a surgeon and kills happy ears on contact.",
       "path": "sales/sales-deal-strategist.md"
     },
@@ -473,7 +473,7 @@
       "name": "Discovery Coach",
       "description": "Coaches sales teams on elite discovery methodology — question design, current-state mapping, gap quantification, and call structure that surfaces real buying motivation.",
       "emoji": "🔍",
-      "color": "\"#5C7CFA\"",
+      "color": "#5C7CFA",
       "vibe": "Asks one more question than everyone else — and that's the one that closes the deal.",
       "path": "sales/sales-discovery-coach.md"
     },
@@ -482,7 +482,7 @@
       "name": "Sales Engineer",
       "description": "Senior pre-sales engineer specializing in technical discovery, demo engineering, POC scoping, competitive battlecards, and bridging product capabilities to business outcomes. Wins the technical decision so the deal can close.",
       "emoji": "🛠️",
-      "color": "\"#2E5090\"",
+      "color": "#2E5090",
       "vibe": "Wins the technical decision before the deal even hits procurement.",
       "path": "sales/sales-engineer.md"
     },
@@ -491,7 +491,7 @@
       "name": "Offer & Lead Gen Strategist",
       "description": "Top-of-funnel architect who designs irresistible offers and lead magnets that attract qualified buyers at scale. Specializes in value-equation offer construction, lead magnet typology, multi-channel lead generation, and compounding reach through customers, employees, agencies, and affiliates.",
       "emoji": "🧲",
-      "color": "\"#F59E0B\"",
+      "color": "#F59E0B",
       "vibe": "Builds the thing buyers can't ignore — then multiplies the channels that deliver it.",
       "path": "sales/sales-offer-lead-gen-strategist.md"
     },
@@ -500,7 +500,7 @@
       "name": "Outbound Strategist",
       "description": "Signal-based outbound specialist who designs multi-channel prospecting sequences, defines ICPs, and builds pipeline through research-driven personalization — not volume.",
       "emoji": "🎯",
-      "color": "\"#E8590C\"",
+      "color": "#E8590C",
       "vibe": "Turns buying signals into booked meetings before the competition even notices.",
       "path": "sales/sales-outbound-strategist.md"
     },
@@ -509,7 +509,7 @@
       "name": "Pipeline Analyst",
       "description": "Revenue operations analyst specializing in pipeline health diagnostics, deal velocity analysis, forecast accuracy, and data-driven sales coaching. Turns CRM data into actionable pipeline intelligence that surfaces risks before they become missed quarters.",
       "emoji": "📊",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "Tells you your forecast is wrong before you realize it yourself.",
       "path": "sales/sales-pipeline-analyst.md"
     },
@@ -518,7 +518,7 @@
       "name": "Proposal Strategist",
       "description": "Strategic proposal architect who transforms RFPs and sales opportunities into compelling win narratives. Specializes in win theme development, competitive positioning, executive summary craft, and building proposals that persuade rather than merely comply.",
       "emoji": "🏹",
-      "color": "\"#2563EB\"",
+      "color": "#2563EB",
       "vibe": "Turns RFP responses into stories buyers can't put down.",
       "path": "sales/sales-proposal-strategist.md"
     },
@@ -527,7 +527,7 @@
       "name": "AEO Foundations Architect",
       "description": "Expert in AI Engine Optimization infrastructure — implements llms.txt, AI-aware robots.txt, token-budgeted content, structured Markdown availability, and agent discovery files so AI crawlers, citation engines, and browsing agents can find, parse, and act on your site",
       "emoji": "🏗️",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "The foundation layer everyone skips — making sure AI systems can actually discover, read, and use your content before you worry about rankings, citations, or task completion",
       "path": "marketing/marketing-aeo-foundations.md"
     },
@@ -536,7 +536,7 @@
       "name": "Agentic Search Optimizer",
       "description": "Expert in WebMCP readiness and agentic task completion — audits whether AI agents can actually accomplish tasks on your site (book, buy, register, subscribe), implements WebMCP declarative and imperative patterns, and measures task completion rates across AI browsing agents",
       "emoji": "🤖",
-      "color": "\"#0891B2\"",
+      "color": "#0891B2",
       "vibe": "While everyone else is optimizing to get cited by AI, this agent makes sure AI can actually do the thing on your site",
       "path": "marketing/marketing-agentic-search-optimizer.md"
     },
@@ -545,7 +545,7 @@
       "name": "AI Citation Strategist",
       "description": "Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations",
       "emoji": "🔮",
-      "color": "\"#6D28D9\"",
+      "color": "#6D28D9",
       "vibe": "Figures out why the AI recommends your competitor and rewires the signals so it recommends you instead",
       "path": "marketing/marketing-ai-citation-strategist.md"
     },
@@ -580,8 +580,8 @@
       "slug": "marketing-book-co-author",
       "name": "Book Co-Author",
       "description": "Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters.",
-      "emoji": "\"📘\"",
-      "color": "\"#8B5E3C\"",
+      "emoji": "📘",
+      "color": "#8B5E3C",
       "vibe": "Turns rough expertise into a recognizable book people can quote, remember, and buy into.",
       "path": "marketing/marketing-book-co-author.md"
     },
@@ -590,7 +590,7 @@
       "name": "Carousel Growth Engine",
       "description": "Autonomous TikTok and Instagram carousel generation specialist. Analyzes any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes directly to feed via Upload-Post API with auto trending music, fetches analytics, and iteratively improves through a data-driven learning loop.",
       "emoji": "🎠",
-      "color": "\"#FF0050\"",
+      "color": "#FF0050",
       "vibe": "Autonomously generates viral carousels from any URL and publishes them to feed.",
       "path": "marketing/marketing-carousel-growth-engine.md"
     },
@@ -608,7 +608,7 @@
       "name": "China Market Localization Strategist",
       "description": "Full-stack China market localization expert who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond",
       "emoji": "🇨🇳",
-      "color": "\"#E60012\"",
+      "color": "#E60012",
       "vibe": "Turns China's chaotic trend landscape into a precision-guided marketing machine — data in, revenue out.",
       "path": "marketing/marketing-china-market-localization-strategist.md"
     },
@@ -635,7 +635,7 @@
       "name": "Douyin Strategist",
       "description": "Short-video marketing expert specializing in the Douyin platform, with deep expertise in recommendation algorithm mechanics, viral video planning, livestream commerce workflows, and full-funnel brand growth through content matrix strategies.",
       "emoji": "🎵",
-      "color": "\"#000000\"",
+      "color": "#000000",
       "vibe": "Masters the Douyin algorithm so your short videos actually get seen.",
       "path": "marketing/marketing-douyin-strategist.md"
     },
@@ -671,7 +671,7 @@
       "name": "Instagram Curator",
       "description": "Expert Instagram marketing specialist focused on visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement.",
       "emoji": "📸",
-      "color": "\"#E4405F\"",
+      "color": "#E4405F",
       "vibe": "Masters the grid aesthetic and turns scrollers into an engaged community.",
       "path": "marketing/marketing-instagram-curator.md"
     },
@@ -689,7 +689,7 @@
       "name": "LinkedIn Content Creator",
       "description": "Expert LinkedIn content strategist focused on thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn's algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone building a professional presence.",
       "emoji": "💼",
-      "color": "\"#0A66C2\"",
+      "color": "#0A66C2",
       "vibe": "Turns professional expertise into scroll-stopping content that makes the right people find you.",
       "path": "marketing/marketing-linkedin-content-creator.md"
     },
@@ -698,7 +698,7 @@
       "name": "Livestream Commerce Coach",
       "description": "Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization.",
       "emoji": "🎙️",
-      "color": "\"#E63946\"",
+      "color": "#E63946",
       "vibe": "Coaches your livestream hosts from awkward beginners to million-yuan sellers.",
       "path": "marketing/marketing-livestream-commerce-coach.md"
     },
@@ -707,7 +707,7 @@
       "name": "Multi-Platform Publisher",
       "description": "Expert orchestrator for one-click Chinese blog publishing. Routes a single article to 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金 via Wechatsync (main channel) with xhs-mcp and biliup as specialized fallbacks. Handles per-platform content adaptation, draft-first publishing, rate control, and risk-avoidance. Does NOT auto-publish — always stops at draft for human review.",
       "emoji": "📡",
-      "color": "\"#FF6B35\"",
+      "color": "#FF6B35",
       "vibe": "One article, all platforms, safely — the traffic conductor for Chinese content creators.",
       "path": "marketing/marketing-multi-platform-publisher.md"
     },
@@ -734,7 +734,7 @@
       "name": "Private Domain Operator",
       "description": "Expert in building enterprise WeChat (WeCom) private domain ecosystems, with deep expertise in SCRM systems, segmented community operations, Mini Program commerce integration, user lifecycle management, and full-funnel conversion optimization.",
       "emoji": "🔒",
-      "color": "\"#1A73E8\"",
+      "color": "#1A73E8",
       "vibe": "Builds your WeChat private traffic empire from first contact to lifetime value.",
       "path": "marketing/marketing-private-domain-operator.md"
     },
@@ -743,7 +743,7 @@
       "name": "Reddit Community Builder",
       "description": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
       "emoji": "💬",
-      "color": "\"#FF4500\"",
+      "color": "#FF4500",
       "vibe": "Speaks fluent Reddit and builds community trust the authentic way.",
       "path": "marketing/marketing-reddit-community-builder.md"
     },
@@ -752,7 +752,7 @@
       "name": "SEO Specialist",
       "description": "Expert search engine optimization strategist specializing in technical SEO, content optimization, link authority building, and organic search growth. Drives sustainable traffic through data-driven search strategies.",
       "emoji": "🔍",
-      "color": "\"#4285F4\"",
+      "color": "#4285F4",
       "vibe": "Drives sustainable organic traffic through technical SEO and content strategy.",
       "path": "marketing/marketing-seo-specialist.md"
     },
@@ -761,7 +761,7 @@
       "name": "Short-Video Editing Coach",
       "description": "Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro across composition and camera language, color grading, audio engineering, motion graphics and VFX, subtitle design, multi-platform export optimization, editing workflow efficiency, and AI-assisted editing.",
       "emoji": "🎬",
-      "color": "\"#7B2D8E\"",
+      "color": "#7B2D8E",
       "vibe": "Turns raw footage into scroll-stopping short videos with professional polish.",
       "path": "marketing/marketing-short-video-editing-coach.md"
     },
@@ -779,7 +779,7 @@
       "name": "TikTok Strategist",
       "description": "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth.",
       "emoji": "🎵",
-      "color": "\"#000000\"",
+      "color": "#000000",
       "vibe": "Rides the algorithm and builds community through authentic TikTok culture.",
       "path": "marketing/marketing-tiktok-strategist.md"
     },
@@ -788,7 +788,7 @@
       "name": "Twitter Engager",
       "description": "Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Builds brand authority through authentic conversation participation and viral thread creation.",
       "emoji": "🐦",
-      "color": "\"#1DA1F2\"",
+      "color": "#1DA1F2",
       "vibe": "Builds thought leadership and brand authority 280 characters at a time.",
       "path": "marketing/marketing-twitter-engager.md"
     },
@@ -806,7 +806,7 @@
       "name": "WeChat Official Account Manager",
       "description": "Expert WeChat Official Account (OA) strategist specializing in content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and builds loyal communities through consistent value delivery.",
       "emoji": "📱",
-      "color": "\"#09B83E\"",
+      "color": "#09B83E",
       "vibe": "Grows loyal WeChat subscriber communities through consistent value delivery.",
       "path": "marketing/marketing-wechat-official-account.md"
     },
@@ -815,7 +815,7 @@
       "name": "Weibo Strategist",
       "description": "Full-spectrum operations expert for Sina Weibo, with deep expertise in trending topic mechanics, Super Topic community management, public sentiment monitoring, fan economy strategies, and Weibo advertising, helping brands achieve viral reach and sustained growth on China's leading public discourse platform.",
       "emoji": "🔥",
-      "color": "\"#FF8200\"",
+      "color": "#FF8200",
       "vibe": "Makes your brand trend on Weibo and keeps the conversation going.",
       "path": "marketing/marketing-weibo-strategist.md"
     },
@@ -824,7 +824,7 @@
       "name": "X/Twitter Intelligence Analyst",
       "description": "Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows.",
       "emoji": "🛰️",
-      "color": "\"#111111\"",
+      "color": "#111111",
       "vibe": "Turns noisy X conversations into sourced market, audience, and risk intelligence.",
       "path": "marketing/marketing-x-twitter-intelligence-analyst.md"
     },
@@ -833,7 +833,7 @@
       "name": "Xiaohongshu Specialist",
       "description": "Expert Xiaohongshu marketing specialist focused on lifestyle content, trend-driven strategies, and authentic community engagement. Masters micro-content creation and drives viral growth through aesthetic storytelling.",
       "emoji": "🌸",
-      "color": "\"#FF1B6D\"",
+      "color": "#FF1B6D",
       "vibe": "Masters lifestyle content and aesthetic storytelling on 小红书.",
       "path": "marketing/marketing-xiaohongshu-specialist.md"
     },
@@ -842,7 +842,7 @@
       "name": "Zhihu Strategist",
       "description": "Expert Zhihu marketing specialist focused on thought leadership, community credibility, and knowledge-driven engagement. Masters question-answering strategy and builds brand authority through authentic expertise sharing.",
       "emoji": "🧠",
-      "color": "\"#0084FF\"",
+      "color": "#0084FF",
       "vibe": "Builds brand authority through expert knowledge-sharing on 知乎.",
       "path": "marketing/marketing-zhihu-strategist.md"
     },
@@ -851,7 +851,7 @@
       "name": "Behavioral Nudge Engine",
       "description": "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.",
       "emoji": "🧠",
-      "color": "\"#FF8A65\"",
+      "color": "#FF8A65",
       "vibe": "Adapts software interactions to maximize user motivation through behavioral psychology.",
       "path": "product/product-behavioral-nudge-engine.md"
     },
@@ -959,7 +959,7 @@
       "name": "Accessibility Auditor",
       "description": "Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design. Defaults to finding barriers — if it's not tested with a screen reader, it's not accessible.",
       "emoji": "♿",
-      "color": "\"#0077B6\"",
+      "color": "#0077B6",
       "vibe": "If it's not tested with a screen reader, it's not accessible.",
       "path": "testing/testing-accessibility-auditor.md"
     },
@@ -1031,7 +1031,7 @@
       "name": "Application Security Engineer",
       "description": "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default.",
       "emoji": "🔐",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "Makes developers write secure code without even realizing it.",
       "path": "security/security-appsec-engineer.md"
     },
@@ -1058,7 +1058,7 @@
       "name": "Cloud Security Architect",
       "description": "Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one.",
       "emoji": "☁️",
-      "color": "\"#3b82f6\"",
+      "color": "#3b82f6",
       "vibe": "Builds cloud infrastructure where \"secure by default\" isn't just a slide title.",
       "path": "security/security-cloud-security-architect.md"
     },
@@ -1076,7 +1076,7 @@
       "name": "Incident Responder",
       "description": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
       "emoji": "🚨",
-      "color": "\"#f59e0b\"",
+      "color": "#f59e0b",
       "vibe": "Runs toward the breach while everyone else runs away.",
       "path": "security/security-incident-responder.md"
     },
@@ -1085,7 +1085,7 @@
       "name": "Penetration Tester",
       "description": "Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure.",
       "emoji": "🗡️",
-      "color": "\"#dc2626\"",
+      "color": "#dc2626",
       "vibe": "Breaks into your systems so the real attackers can't.",
       "path": "security/security-penetration-tester.md"
     },
@@ -1094,7 +1094,7 @@
       "name": "Senior SecOps Engineer",
       "description": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard — covering authentication, authorization, tokens, cookies, HTTP headers, CORS, rate limiting, CSP, secrets management, input validation, and secure logging.",
       "emoji": "🛡️",
-      "color": "\"#E67E22\"",
+      "color": "#E67E22",
       "vibe": "Before I read your request, I've already scanned your code for secrets. Security isn't a phase — it's line zero.",
       "path": "security/security-senior-secops.md"
     },
@@ -1103,7 +1103,7 @@
       "name": "Threat Detection Engineer",
       "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
       "emoji": "🎯",
-      "color": "\"#7b2d8e\"",
+      "color": "#7b2d8e",
       "vibe": "Builds the detection layer that catches attackers after they bypass prevention.",
       "path": "security/security-threat-detection-engineer.md"
     },
@@ -1112,7 +1112,7 @@
       "name": "Threat Intelligence Analyst",
       "description": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
       "emoji": "🔍",
-      "color": "\"#7c3aed\"",
+      "color": "#7c3aed",
       "vibe": "Knows what the adversary will do before the adversary does.",
       "path": "security/security-threat-intelligence-analyst.md"
     },
@@ -1238,7 +1238,7 @@
       "name": "Agentic Identity & Trust Architect",
       "description": "Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they're authorized to do, and what they actually did.",
       "emoji": "🔐",
-      "color": "\"#2d5a27\"",
+      "color": "#2d5a27",
       "vibe": "Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did.",
       "path": "specialized/agentic-identity-trust.md"
     },
@@ -1319,7 +1319,7 @@
       "name": "Data Consolidation Agent",
       "description": "AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries",
       "emoji": "🗄️",
-      "color": "\"#38a169\"",
+      "color": "#38a169",
       "vibe": "Consolidates scattered sales data into live reporting dashboards.",
       "path": "specialized/data-consolidation-agent.md"
     },
@@ -1346,7 +1346,7 @@
       "name": "Government Digital Presales Consultant",
       "description": "Presales expert for China's government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang domestic IT), and stakeholder management — helping technical teams efficiently win government IT projects.",
       "emoji": "🏛️",
-      "color": "\"#8B0000\"",
+      "color": "#8B0000",
       "vibe": "Navigates the Chinese government IT procurement maze — from policy signals to winning bids — so your team lands digital transformation projects.",
       "path": "specialized/government-digital-presales-consultant.md"
     },
@@ -1373,7 +1373,7 @@
       "name": "Healthcare Marketing Compliance Specialist",
       "description": "Expert in healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supplements, and internet healthcare across content review, risk control, platform rule interpretation, and patient privacy protection, helping enterprises conduct effective health marketing within legal boundaries.",
       "emoji": "⚕️",
-      "color": "\"#2E8B57\"",
+      "color": "#2E8B57",
       "vibe": "Keeps your healthcare marketing legal in China's tightly regulated landscape — reviewing content, flagging violations, and finding creative space within compliance boundaries.",
       "path": "specialized/healthcare-marketing-compliance.md"
     },
@@ -1400,7 +1400,7 @@
       "name": "Identity Graph Operator",
       "description": "Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this entity?\" - deterministically, even under concurrent writes.",
       "emoji": "🕸️",
-      "color": "\"#C5A572\"",
+      "color": "#C5A572",
       "vibe": "Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this?\"",
       "path": "specialized/identity-graph-operator.md"
     },
@@ -1526,7 +1526,7 @@
       "name": "Report Distribution Agent",
       "description": "AI agent that automates distribution of consolidated sales reports to representatives based on territorial parameters",
       "emoji": "📤",
-      "color": "\"#d69e2e\"",
+      "color": "#d69e2e",
       "vibe": "Automates delivery of consolidated sales reports to the right reps.",
       "path": "specialized/report-distribution-agent.md"
     },
@@ -1544,7 +1544,7 @@
       "name": "Sales Data Extraction Agent",
       "description": "AI agent specialized in monitoring Excel files and extracting key sales metrics (MTD, YTD, Year End) for internal live reporting",
       "emoji": "📊",
-      "color": "\"#2b6cb0\"",
+      "color": "#2b6cb0",
       "vibe": "Watches your Excel files and extracts the metrics that matter.",
       "path": "specialized/sales-data-extraction-agent.md"
     },
@@ -1562,8 +1562,8 @@
       "name": "Chief of Staff",
       "description": "Master coordinator for founders and executives — filters noise, owns processes, enforces consistency, routes decisions, and positions outputs for impact so the boss can think clearly.",
       "emoji": "🧭",
-      "color": "\"#6B7280\"",
-      "vibe": "\"I don't own any function. I own the space between all of them.\"",
+      "color": "#6B7280",
+      "vibe": "I don't own any function. I own the space between all of them.",
       "path": "specialized/specialized-chief-of-staff.md"
     },
     {
@@ -1580,7 +1580,7 @@
       "name": "Cultural Intelligence Strategist",
       "description": "CQ specialist that detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities.",
       "emoji": "🌍",
-      "color": "\"#FFA000\"",
+      "color": "#FFA000",
       "vibe": "Detects invisible exclusion and ensures your software resonates across cultures.",
       "path": "specialized/specialized-cultural-intelligence-strategist.md"
     },
@@ -1607,7 +1607,7 @@
       "name": "French Consulting Market Navigator",
       "description": "Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities",
       "emoji": "🇫🇷",
-      "color": "\"#002395\"",
+      "color": "#002395",
       "vibe": "The insider who decodes the opaque French consulting food chain so freelancers stop leaving money on the table",
       "path": "specialized/specialized-french-consulting-market.md"
     },
@@ -1616,7 +1616,7 @@
       "name": "Korean Business Navigator",
       "description": "Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics",
       "emoji": "🇰🇷",
-      "color": "\"#003478\"",
+      "color": "#003478",
       "vibe": "The bridge between Western directness and Korean relationship dynamics — reads the room so you don't torch the deal",
       "path": "specialized/specialized-korean-business-navigator.md"
     },
@@ -1634,7 +1634,7 @@
       "name": "Model QA Specialist",
       "description": "Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.",
       "emoji": "🔬",
-      "color": "\"#B22222\"",
+      "color": "#B22222",
       "vibe": "Audits ML models end-to-end — from data reconstruction to calibration testing.",
       "path": "specialized/specialized-model-qa.md"
     },
@@ -1652,7 +1652,7 @@
       "name": "Salesforce Architect",
       "description": "Solution architecture for Salesforce platform — multi-cloud design, integration patterns, governor limits, deployment strategy, and data model governance for enterprise-scale orgs",
       "emoji": "☁️",
-      "color": "\"#00A1E0\"",
+      "color": "#00A1E0",
       "vibe": "The calm hand that turns a tangled Salesforce org into an architecture that scales — one governor limit at a time",
       "path": "specialized/specialized-salesforce-architect.md"
     },
@@ -1661,7 +1661,7 @@
       "name": "Strategy Duel Agent",
       "description": "Conducts live strategy duels using game theory and the 36 Chinese stratagems",
       "emoji": "⚔️",
-      "color": "\"#1e90ff\"",
+      "color": "#1e90ff",
       "vibe": "Orchestrates high-stakes, turn-based strategy battles with sharp analysis and memorable commentary",
       "path": "specialized/specialized-strategy-duel-agent.md"
     },
@@ -1669,7 +1669,7 @@
       "slug": "specialized-workflow-architect",
       "name": "Workflow Architect",
       "description": "Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready specs that agents can implement against and QA can test against.",
-      "emoji": "\"🗺️\"",
+      "emoji": "🗺️",
       "color": "orange",
       "vibe": "Every path the system can take — mapped, named, and specified before a single line is written.",
       "path": "specialized/specialized-workflow-architect.md"
@@ -1679,7 +1679,7 @@
       "name": "Study Abroad Advisor",
       "description": "Full-spectrum study abroad planning expert covering the US, UK, Canada, Australia, Europe, Hong Kong, and Singapore — proficient in undergraduate, master's, and PhD application strategy, school selection, essay coaching, profile enhancement, standardized test planning, visa preparation, and overseas life adaptation, helping Chinese students craft personalized end-to-end study abroad plans.",
       "emoji": "🎓",
-      "color": "\"#1B4D3E\"",
+      "color": "#1B4D3E",
       "vibe": "Guides Chinese students through the entire study abroad journey — from school selection and essays to visas — with data-driven advice and zero anxiety selling.",
       "path": "specialized/study-abroad-advisor.md"
     },
@@ -1695,7 +1695,7 @@
     {
       "slug": "zk-steward",
       "name": "ZK Steward",
-      "description": "\"Knowledge-base steward in the spirit of Niklas Luhmann's Zettelkasten. Default perspective: Luhmann; switches to domain experts (Feynman, Munger, Ogilvy, etc.) by task. Enforces atomic notes, connectivity, and validation loops. Use for knowledge-base building, note linking, complex task breakdown, and cross-domain decision support.\"",
+      "description": "Knowledge-base steward in the spirit of Niklas Luhmann's Zettelkasten. Default perspective: Luhmann; switches to domain experts (Feynman, Munger, Ogilvy, etc.) by task. Enforces atomic notes, connectivity, and validation loops. Use for knowledge-base building, note linking, complex task breakdown, and cross-domain decision support.",
       "emoji": "🗃️",
       "color": "teal",
       "vibe": "Channels Luhmann's Zettelkasten to build connected, validated knowledge bases.",
@@ -1706,7 +1706,7 @@
       "name": "Anthropologist",
       "description": "Expert in cultural systems, rituals, kinship, belief systems, and ethnographic method — builds culturally coherent societies that feel lived-in rather than invented",
       "emoji": "🌍",
-      "color": "\"#D97706\"",
+      "color": "#D97706",
       "vibe": "No culture is random — every practice is a solution to a problem you might not see yet",
       "path": "academic/academic-anthropologist.md"
     },
@@ -1715,7 +1715,7 @@
       "name": "Geographer",
       "description": "Expert in physical and human geography, climate systems, cartography, and spatial analysis — builds geographically coherent worlds where terrain, climate, resources, and settlement patterns make scientific sense",
       "emoji": "🗺️",
-      "color": "\"#059669\"",
+      "color": "#059669",
       "vibe": "Geography is destiny — where you are determines who you become",
       "path": "academic/academic-geographer.md"
     },
@@ -1724,7 +1724,7 @@
       "name": "Historian",
       "description": "Expert in historical analysis, periodization, material culture, and historiography — validates historical coherence and enriches settings with authentic period detail grounded in primary and secondary sources",
       "emoji": "📚",
-      "color": "\"#B45309\"",
+      "color": "#B45309",
       "vibe": "History doesn't repeat, but it rhymes — and I know all the verses",
       "path": "academic/academic-historian.md"
     },
@@ -1733,7 +1733,7 @@
       "name": "Narratologist",
       "description": "Expert in narrative theory, story structure, character arcs, and literary analysis — grounds advice in established frameworks from Propp to Campbell to modern narratology",
       "emoji": "📜",
-      "color": "\"#8B5CF6\"",
+      "color": "#8B5CF6",
       "vibe": "Every story is an argument — I help you find what yours is really saying",
       "path": "academic/academic-narratologist.md"
     },
@@ -1742,7 +1742,7 @@
       "name": "Psychologist",
       "description": "Expert in human behavior, personality theory, motivation, and cognitive patterns — builds psychologically credible characters and interactions grounded in clinical and research frameworks",
       "emoji": "🧠",
-      "color": "\"#EC4899\"",
+      "color": "#EC4899",
       "vibe": "People don't do things for no reason — I find the reason",
       "path": "academic/academic-psychologist.md"
     },
