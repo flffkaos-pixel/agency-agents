@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Agency - AI Agent Roster</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg-primary: #0b0e14;
+  --bg-secondary: #111820;
+  --bg-tertiary: #1a2330;
+  --bg-card: #1e293b;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border-color: #2d3a50;
+  --accent-blue: #38bdf8;
+  --accent-purple: #a78bfa;
+  --accent-green: #34d399;
+  --accent-pink: #f472b6;
+  --accent-orange: #fb923c;
+  --accent-cyan: #22d3ee;
+  --accent-red: #f87171;
+  --accent-yellow: #fbbf24;
+  --sidebar-width: 340px;
+  --header-height: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+a { color: var(--accent-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header {
+  height: var(--header-height);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+.header .subtitle {
+  color: var(--text-muted);
+  font-size: 13px;
+  display: none;
+}
+@media (min-width: 768px) {
+  .header .subtitle { display: block; }
+}
+
+/* Search */
+.search-container {
+  margin-left: auto;
+  position: relative;
+  width: 240px;
+}
+.search-container input {
+  width: 100%;
+  padding: 8px 12px 8px 36px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-container input:focus { border-color: var(--accent-blue); }
+.search-container input::placeholder { color: var(--text-muted); }
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* Main layout */
+.layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+  width: var(--sidebar-width);
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border-color);
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+.sidebar::-webkit-scrollbar { width: 6px; }
+.sidebar::-webkit-scrollbar-track { background: transparent; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
+
+.sidebar-section {
+  border-bottom: 1px solid var(--border-color);
+}
+.sidebar-header {
+  padding: 14px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  user-select: none;
+  transition: background 0.15s;
+}
+.sidebar-header:hover { background: var(--bg-tertiary); }
+.sidebar-header .count {
+  margin-left: auto;
+  background: var(--bg-tertiary);
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.sidebar-header .arrow {
+  transition: transform 0.2s;
+  font-size: 10px;
+}
+.sidebar-header.collapsed .arrow { transform: rotate(-90deg); }
+.sidebar-items { overflow: hidden; transition: max-height 0.3s ease; }
+.sidebar-items.hidden { max-height: 0 !important; }
+
+.agent-item {
+  padding: 8px 20px 8px 48px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: all 0.15s;
+  border-left: 3px solid transparent;
+  position: relative;
+}
+.agent-item:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+.agent-item.active {
+  background: rgba(56, 189, 248, 0.08);
+  color: var(--accent-blue);
+  border-left-color: var(--accent-blue);
+}
+.agent-item .emoji { font-size: 16px; width: 22px; text-align: center; flex-shrink: 0; }
+.agent-item .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.agent-item .match-highlight { background: rgba(251, 191, 36, 0.3); border-radius: 2px; padding: 0 2px; }
+
+/* Main content */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 32px 48px;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+.content::-webkit-scrollbar { width: 8px; }
+.content::-webkit-scrollbar-track { background: transparent; }
+.content::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
+
+.content h1, .content h2, .content h3, .content h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+.content h1 { font-size: 28px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; }
+.content h2 { font-size: 22px; }
+.content h3 { font-size: 18px; color: var(--accent-cyan); }
+.content h4 { font-size: 16px; color: var(--text-secondary); }
+.content p { margin: 1em 0; line-height: 1.7; color: var(--text-secondary); }
+.content ul, .content ol { margin: 0.8em 0; padding-left: 24px; }
+.content li { margin: 0.4em 0; line-height: 1.6; color: var(--text-secondary); }
+.content strong { color: var(--text-primary); }
+.content em { color: var(--accent-yellow); }
+.content blockquote {
+  border-left: 3px solid var(--accent-blue);
+  padding: 12px 20px;
+  margin: 1em 0;
+  background: rgba(56, 189, 248, 0.06);
+  border-radius: 0 8px 8px 0;
+}
+.content blockquote p { margin: 0; }
+.content hr { border: none; border-top: 1px solid var(--border-color); margin: 2em 0; }
+.content code {
+  background: var(--bg-tertiary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--accent-pink);
+}
+.content pre {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+.content pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+.content th, .content td {
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  text-align: left;
+}
+.content th { background: var(--bg-tertiary); color: var(--text-primary); font-weight: 600; }
+.content td { color: var(--text-secondary); }
+.content img { max-width: 100%; border-radius: 8px; }
+
+/* Landing page */
+.landing {
+  text-align: center;
+  padding: 80px 0;
+}
+.landing .logo {
+  font-size: 72px;
+  margin-bottom: 24px;
+}
+.landing h1 {
+  font-size: 42px;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple), var(--accent-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+  margin-bottom: 16px;
+}
+.landing .tagline {
+  font-size: 18px;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+.landing .stats {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.landing .stat {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px 28px;
+  text-align: center;
+}
+.landing .stat .num {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--accent-blue);
+}
+.landing .stat .label {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+.landing h2 {
+  font-size: 20px;
+  color: var(--text-secondary);
+  margin: 48px 0 20px;
+}
+.landing .division-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.landing .division-tile {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 13px;
+}
+.landing .division-tile:hover {
+  border-color: var(--accent-blue);
+  transform: translateY(-2px);
+}
+.landing .division-tile .emoji { font-size: 24px; display: block; margin-bottom: 6px; }
+.landing .division-tile .dname { color: var(--text-primary); font-weight: 600; }
+.landing .division-tile .dcount { color: var(--text-muted); font-size: 11px; }
+
+/* Loading */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: var(--text-muted);
+}
+.loading::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--accent-blue);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-left: 10px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Error */
+.error { color: var(--accent-red); text-align: center; padding: 60px 0; }
+
+/* Mobile toggle */
+.mobile-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .mobile-toggle { display: block; }
+  .sidebar {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    width: 300px;
+  }
+  .sidebar.open { transform: translateX(0); }
+  .sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+  }
+  .sidebar-overlay.show { display: block; }
+  .content { padding: 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+  <h1>🎭 The Agency</h1>
+  <span class="subtitle">AI Agent Roster</span>
+  <div class="search-container">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Search agents..." autocomplete="off">
+  </div>
+</div>
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main class="content" id="content"></main>
+</div>
+
+<script>
+const dataUrl = 'agents.json';
+
+let agents = [];
+let divisions = [];
+let currentSlug = null;
+
+function getColorCSS(color) {
+  const map = {
+    cyan: '#22d3ee', blue: '#38bdf8', purple: '#a78bfa', pink: '#f472b6',
+    red: '#f87171', orange: '#fb923c', yellow: '#fbbf24', green: '#34d399',
+    gray: '#64748b', indigo: '#818cf8', teal: '#2dd4bf', white: '#f1f5f9',
+    black: '#0f172a'
+  };
+  return map[color] || map.blue;
+}
+
+async function loadData() {
+  try {
+    const res = await fetch(dataUrl);
+    const data = await res.json();
+    agents = data.agents;
+    divisions = data.divisions;
+    renderSidebar();
+    renderLanding();
+  } catch (e) {
+    document.getElementById('content').innerHTML = '<div class="error">Failed to load agent data. Make sure agents.json exists.</div>';
+  }
+}
+
+function renderSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const divMap = {};
+  divisions.forEach(d => { divMap[d.id] = d; });
+  const grouped = {};
+  agents.forEach(a => {
+    const divId = a.path.split('/')[0];
+    if (!grouped[divId]) grouped[divId] = [];
+    grouped[divId].push(a);
+  });
+
+  let html = '';
+
+  // Resources section
+  html += `<div class="sidebar-section">
+    <div class="sidebar-header" onclick="toggleDivision(this)">
+      <span>📋</span>
+      <span>Resources</span>
+      <span class="arrow">▼</span>
+    </div>
+    <div class="sidebar-items">
+      <div class="agent-item" onclick='loadRootFile("README.md", "📖")'>
+        <span class="emoji">📖</span><span class="name">README</span>
+      </div>
+      <div class="agent-item" onclick='loadRootFile("CONTRIBUTING.md", "🤝")'>
+        <span class="emoji">🤝</span><span class="name">CONTRIBUTING</span>
+      </div>
+      <div class="agent-item" onclick='loadRootFile("SECURITY.md", "🔐")'>
+        <span class="emoji">🔐</span><span class="name">SECURITY</span>
+      </div>
+      <div class="agent-item" onclick='loadRootFile("LICENSE", "⚖️")'>
+        <span class="emoji">⚖️</span><span class="name">LICENSE</span>
+      </div>
+    </div>
+  </div>`;
+
+  divisions.forEach(d => {
+    const divAgents = grouped[d.id] || [];
+    const divEmoji = getDivEmoji(d.id);
+    html += `<div class="sidebar-section">
+      <div class="sidebar-header" data-div="${d.id}" onclick="toggleDivision(this)">
+        <span>${divEmoji}</span>
+        <span>${d.name}</span>
+        <span class="count">${d.count}</span>
+        <span class="arrow">▼</span>
+      </div>
+      <div class="sidebar-items" id="items-${d.id}">`;
+    divAgents.forEach(a => {
+      html += `<div class="agent-item" data-slug="${a.slug}" onclick="selectAgent('${a.slug}', '${a.path}')">
+        <span class="emoji">${a.emoji}</span>
+        <span class="name">${a.name}</span>
+      </div>`;
+    });
+    html += `</div></div>`;
+  });
+  sidebar.innerHTML = html;
+}
+
+function getDivEmoji(divId) {
+  const map = {
+    engineering: '💻', design: '🎨', 'paid-media': '💰', sales: '💼',
+    marketing: '📢', product: '📊', 'project-management': '🎬', testing: '🧪',
+    security: '🔒', support: '🛟', 'spatial-computing': '🥽', specialized: '🎯',
+    academic: '📚', finance: '💳', 'game-development': '🎮', gis: '🗺️'
+  };
+  return map[divId] || '📁';
+}
+
+function toggleDivision(header) {
+  header.classList.toggle('collapsed');
+  const items = header.nextElementSibling;
+  items.classList.toggle('hidden');
+}
+
+let allExpanded = false;
+function expandAllDivisions() {
+  allExpanded = !allExpanded;
+  document.querySelectorAll('.sidebar-header').forEach(h => {
+    if (allExpanded) {
+      h.classList.remove('collapsed');
+      h.nextElementSibling.classList.remove('hidden');
+    } else {
+      h.classList.add('collapsed');
+      h.nextElementSibling.classList.add('hidden');
+    }
+  });
+}
+
+function renderLanding() {
+  const content = document.getElementById('content');
+  currentSlug = null;
+  const divEmojis = ['engineering','design','paid-media','sales','marketing','product','project-management','testing','security','support','spatial-computing','specialized','academic','finance','game-development','gis'];
+  const divEmojiMap = {};
+  divEmojis.forEach(d => { divEmojiMap[d] = getDivEmoji(d); });
+
+  let tiles = '';
+  divisions.forEach(d => {
+    tiles += `<div class="division-tile" onclick="scrollToDivision('${d.id}')">
+      <span class="emoji">${divEmojiMap[d.id] || '📁'}</span>
+      <span class="dname">${d.name}</span>
+      <span class="dcount">${d.count} agents</span>
+    </div>`;
+  });
+
+  content.innerHTML = `<div class="landing">
+    <div class="logo">🎭</div>
+    <h1>The Agency</h1>
+    <p class="tagline">A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.</p>
+    <div class="stats">
+      <div class="stat"><div class="num">${agents.length}</div><div class="label">AI Agents</div></div>
+      <div class="stat"><div class="num">${divisions.length}</div><div class="label">Divisions</div></div>
+      <div class="stat"><div class="num">${new Set(agents.map(a => a.path.split('/')[0])).size}</div><div class="label">Categories</div></div>
+    </div>
+    <h2>Browse by Division</h2>
+    <div class="division-grid">${tiles}</div>
+    <p style="margin-top: 48px; color: var(--text-muted); font-size: 13px;">
+      Select an agent from the sidebar or search above to view details.
+    </p>
+  </div>`;
+  document.title = 'The Agency - AI Agent Roster';
+}
+
+function scrollToDivision(divId) {
+  const el = document.querySelector(`[data-div="${divId}"]`);
+  if (el) {
+    el.classList.remove('collapsed');
+    el.nextElementSibling.classList.remove('hidden');
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+async function selectAgent(slug, path) {
+  currentSlug = slug;
+  const content = document.getElementById('content');
+  content.innerHTML = '<div class="loading">Loading agent</div>';
+
+  document.querySelectorAll('.agent-item').forEach(el => el.classList.remove('active'));
+  const el = document.querySelector(`[data-slug="${slug}"]`);
+  if (el) el.classList.add('active');
+
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error('Not found');
+    const md = await res.text();
+    const html = marked.parse(md);
+    content.innerHTML = html;
+    document.querySelectorAll('pre code').forEach(block => {
+      hljs.highlightElement(block);
+    });
+    document.title = `${getAgentName(slug)} - The Agency`;
+  } catch (e) {
+    content.innerHTML = `<div class="error">Failed to load agent: ${path}<br>${e.message}</div>`;
+  }
+
+  if (window.innerWidth <= 768) {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebarOverlay').classList.remove('show');
+  }
+}
+
+function loadRootFile(path, emoji) {
+  const content = document.getElementById('content');
+  content.innerHTML = '<div class="loading">Loading...</div>';
+  currentSlug = null;
+  document.querySelectorAll('.agent-item').forEach(el => el.classList.remove('active'));
+
+  fetch(path).then(r => {
+    if (!r.ok) throw new Error('Not found');
+    return r.text();
+  }).then(md => {
+    const html = marked.parse(md);
+    content.innerHTML = html;
+    document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
+    document.title = path.replace('.md','') + ' - The Agency';
+  }).catch(e => {
+    content.innerHTML = `<div class="error">Failed to load ${path}</div>`;
+  });
+
+  if (window.innerWidth <= 768) {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebarOverlay').classList.remove('show');
+  }
+}
+
+function getAgentName(slug) {
+  const a = agents.find(x => x.slug === slug);
+  return a ? a.name : slug;
+}
+
+// Search
+document.getElementById('searchInput').addEventListener('input', function() {
+  const q = this.value.toLowerCase().trim();
+  document.querySelectorAll('.agent-item').forEach(el => {
+    const name = el.querySelector('.name');
+    const text = name.textContent.toLowerCase();
+    const slug = el.dataset.slug;
+    const desc = (agents.find(a => a.slug === slug) || {}).description || '';
+    const match = text.includes(q) || desc.toLowerCase().includes(q);
+    el.style.display = match || !q ? 'flex' : 'none';
+    if (q && match) {
+      const idx = name.textContent.toLowerCase().indexOf(q);
+      if (idx >= 0) {
+        name.innerHTML = name.textContent.slice(0, idx) +
+          '<span class="match-highlight">' + name.textContent.slice(idx, idx + q.length) + '</span>' +
+          name.textContent.slice(idx + q.length);
+      }
+    } else {
+      name.innerHTML = name.textContent;
+    }
+  });
+
+  document.querySelectorAll('.sidebar-section').forEach(section => {
+    const items = section.querySelector('.sidebar-items');
+    const visible = items.querySelectorAll('.agent-item[style*="display: flex"], .agent-item:not([style*="display"])');
+    section.style.display = q ? (visible.length > 0 ? '' : 'none') : '';
+    if (q) {
+      items.classList.remove('hidden');
+      section.querySelector('.sidebar-header').classList.remove('collapsed');
+    }
+  });
+});
+
+// Mobile menu
+document.getElementById('menuToggle').addEventListener('click', () => {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebarOverlay').classList.toggle('show');
+});
+document.getElementById('sidebarOverlay').addEventListener('click', () => {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebarOverlay').classList.remove('show');
+});
+
+// Keyboard shortcut
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+    e.preventDefault();
+    document.getElementById('searchInput').focus();
+  }
+});
+
+loadData();
+</script>
+</body>
+</html>
