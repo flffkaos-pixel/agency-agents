@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://autoagency.pages.dev/sitemap.xml
