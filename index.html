@@ -504,6 +504,11 @@ function renderLanding() {
 }
 
 function scrollToDivision(divId) {
+  // On mobile, open sidebar first
+  if (window.innerWidth <= 768) {
+    document.getElementById('sidebar').classList.add('open');
+    document.getElementById('sidebarOverlay').classList.add('show');
+  }
   const el = document.querySelector(`[data-div="${divId}"]`);
   if (el) {
     el.classList.remove('collapsed');
