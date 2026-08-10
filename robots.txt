@@ -1,4 +1,6 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
+Allow: /research/
 Sitemap: https://autoagency.pages.dev/sitemap.xml
+
